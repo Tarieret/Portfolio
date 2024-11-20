@@ -1,5 +1,5 @@
 # Data Science Portfolio - Tariere Timitimi
-This Portfolio is a compilation of all the Data Science and Data Analysis projects I have done for academic, self-learning and hobby purposes. This portfolio also contains my Achievements, skills, and certificates. It is updated on the regular basis.
+This portfolio presents a comprehensive overview of my data science and data analysis capabilities. It includes a range of projects, from academic assignments to personal projects, as well as my relevant skills, certifications, and accomplishments. This portfolio is maintained to reflect my continuous professional development.
 
 - **Email**: [tarieretimitimi@gmail.com](tarieretimitimi@gmail.com)
 - **LinkedIn**: [https://www.linkedin.com/in/tariere-timitimi/]
