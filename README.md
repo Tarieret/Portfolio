@@ -6,11 +6,11 @@ This portfolio presents a comprehensive overview of my data science and data ana
   
 
 ## Achievements
-- Recipient of TAMU Scholarship and Fee Waiver for excellent academic performance (4.0 GPA).
+- 
 
 ## Projects
+-
 
-<br />
  
 ## Core Competencies
 
