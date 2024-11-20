@@ -11,6 +11,8 @@ This portfolio presents a comprehensive overview of my data science and data ana
 ## Projects
 -
 
+## Mini Projects
+-
  
 ## Core Competencies
 
