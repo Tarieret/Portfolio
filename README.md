@@ -15,6 +15,7 @@ This portfolio presents a comprehensive overview of my data science and data ana
 -Loan Payment Prediction with SVM
 
 This project demonstrates the use of a Support Vector Machine (SVM) for predicting loan repayment status. It utilizes Python libraries like pandas, scikit-learn to build the model and analyze its performance.
+
 **Key Skills:** Machine Learning (SVM),Python Libraries (pandas, scikit-learn),Data Preprocessing & Analysis
 **View Project:** [Link to your SVM project repository](https://github.com/TariereT/SVM-Loan-Prediction)
  
