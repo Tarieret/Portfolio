@@ -16,7 +16,7 @@ This portfolio presents a comprehensive overview of my data science and data ana
 
 - **Methodologies**: Machine Learning, Deep Learning, Time Series Analysis, Big Data Analytics
 - **Languages**: Python (Pandas, Numpy, Scikit-Learn,Matplotlib), R (Dplyr, Tidyr, Caret, Ggplot2), SQL
-- **Tools**: MySQL, Tableau, Gi, MS Excel
+- **Tools**: MySQL, Tableau, Power BI, MS Excel
 
 ## Certificates
 - Google Data Analytics Certification [https://coursera.org/share/cde3e0e1cdecc961273a2ebe754e0e31]
