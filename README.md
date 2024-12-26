@@ -16,6 +16,19 @@ This project analyzes NYC air quality data (PM2.5 & NO2) using K-means & hierarc
 
 **View Project:** https://github.com/Tarieret/Spatial-Clustering-of-Air-Pollution-in-NYC/tree/main 
 
+Sure, here's a title and description for your portfolio based on your project:
+
+**Student Information System Database Design**
+
+This project designed and implemented a relational database schema for a student information system. The schema efficiently manages data related to students, courses, instructors, sections, and enrollments. It incorporates normalization principles, data integrity constraints, and best practices for data handling. The design ensures efficient data storage, retrieval, and minimizes redundancy.
+
+**Key Technologies:**
+MySQL (Database Management System)
+Entity-Relationship Modeling
+SQL
+
+**View Project:** [Link to your GitHub repository]
+
 ## Mini Projects
 **Loan Payment Prediction with SVM**
 
