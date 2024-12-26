@@ -29,7 +29,7 @@ MySQL (Database Management System)
 Entity-Relationship Modeling
 SQL
 
-**View Project:** [Link to your GitHub repository]
+**View Project:** https://github.com/Tarieret/Student-Information-System-Database-Design 
 
 ## Mini Projects
 **Loan Payment Prediction with SVM**
