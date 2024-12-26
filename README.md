@@ -3,11 +3,8 @@ A comprehensive overview of my data science and data analysis capabilities. In t
 
 - **Email**: [tarieretimitimi@gmail.com](tarieretimitimi@gmail.com)
 - **LinkedIn**: [https://www.linkedin.com/in/tariere-timitimi/]
+
   
-
-## Achievements
-- 
-
 ## Projects
  **Spatial Clustering of Air Pollution in NYC**
  
@@ -16,9 +13,7 @@ This project analyzes NYC air quality data (PM2.5 & NO2) using K-means & hierarc
 **Key Skills:** Python, Clustering, K-means, Heirarchichal clustering
 
 **View Project:** [https://github.com/Tarieret/Spatial-Clustering-of-Air-Pollution-in-NYC/]
-
-
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
  **Student Information System Database Design**
 
