@@ -14,7 +14,7 @@ This project analyzes NYC air quality data (PM2.5 & NO2) using K-means & hierarc
 
 **Key Skills:** Python, Clustering, K-means, Heirarchichal clustering
 
-**View Project:** [GitHub repo link]
+**View Project:** https://github.com/Tarieret/Spatial-Clustering-of-Air-Pollution-in-NYC/tree/main 
 
 ## Mini Projects
 **Loan Payment Prediction with SVM**
