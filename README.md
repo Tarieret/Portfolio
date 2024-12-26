@@ -9,7 +9,8 @@ A comprehensive overview of my data science and data analysis capabilities. In t
 - 
 
 ## Projects
-- **Spatial Clustering of Air Pollution in NYC**
+ **Spatial Clustering of Air Pollution in NYC**
+ 
 This project analyzes NYC air quality data (PM2.5 & NO2) using K-means & hierarchical clustering to identify pollution patterns. It reveals areas with high concentrations and highlights the strengths of each clustering method for environmental data analysis.
 
 **Key Skills:** Python, Clustering, K-means, Heirarchichal clustering
@@ -18,7 +19,8 @@ This project analyzes NYC air quality data (PM2.5 & NO2) using K-means & hierarc
 
 
 
-- **Student Information System Database Design**
+
+ **Student Information System Database Design**
 
 This project designed and implemented a relational database schema for a student information system. The schema efficiently manages data related to students, courses, instructors, sections, and enrollments. It incorporates normalization principles, data integrity constraints, and best practices for data handling. The design ensures efficient data storage, retrieval, and minimizes redundancy.
 
@@ -30,7 +32,7 @@ SQL
 **View Project:** [Link to your GitHub repository]
 
 ## Mini Projects
-- **Loan Payment Prediction with SVM**
+**Loan Payment Prediction with SVM**
 
 This project demonstrates the use of a Support Vector Machine (SVM) for predicting loan repayment status. It utilizes Python libraries like pandas, scikit-learn to build the model and analyze its performance.
 
@@ -38,7 +40,8 @@ This project demonstrates the use of a Support Vector Machine (SVM) for predicti
 **View Project:** [https://github.com/TariereT/-Loan-Payment-Prediction-with-SVM]
 
 
-- **Sales Prediction with Logistic Regression**
+
+**Sales Prediction with Logistic Regression**
 This project explores the power of Logistic Regression in predicting the probability of exceeding a sales target based on advertising spending across TV, radio, and newspaper channels. Python libraries like pandas and statsmodels are employed to build and analyze the model's performance.
 
 **Key Skills:** Machine Learning (Logistic Regression), Python Libraries (pandas, statsmodels), Data Analysis & Visualization
