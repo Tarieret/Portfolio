@@ -9,7 +9,12 @@ A comprehensive overview of my data science and data analysis capabilities. In t
 - 
 
 ## Projects
--
+**Spatial Clustering of Air Pollution in NYC**
+This project analyzes NYC air quality data (PM2.5 & NO2) using K-means & hierarchical clustering to identify pollution patterns. It reveals areas with high concentrations and highlights the strengths of each clustering method for environmental data analysis.
+
+**Key Skills:** Python, Clustering, K-means, Heirarchichal clustering
+
+**View Project:** [GitHub repo link]
 
 ## Mini Projects
 **Loan Payment Prediction with SVM**
