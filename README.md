@@ -52,5 +52,6 @@ This project explores the power of Logistic Regression in predicting the probabi
 - **Tools**: MySQL, Tableau, Power BI, MS Excel
 
 ## Certificates
+-Amazon Web Services Certified Cloud Practitioner [https://www.credly.com/badges/962e072f-313a-45e9-a902-1e232b7f529a/linked_in_profile]
 - Google Data Analytics Certification [https://coursera.org/share/cde3e0e1cdecc961273a2ebe754e0e31]
 - Python Basics Certification [https://coursera.org/share/02488ba5feb58729930cbc8c6c05b0e8]
