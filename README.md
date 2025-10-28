@@ -11,7 +11,7 @@ This project establishes a time series forecasting baseline for NVIDIA (NVDA) st
 
 **Key Skills:** Python, Time Series Analysis, ARIMA Modeling, MACD, MAE/RMSE, Root Cause Analysis.
 
-**View Phase 1 project:** [https://github.com/Tarieret/ARIMA-Baseline-Failure-Analysis-of-NVDA-Stock]
+**View Phase 1 project:** [https://github.com/Tarieret/Financial-Time-Series-Forecasting-Model-Comparison]
 
 
 
