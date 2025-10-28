@@ -13,6 +13,8 @@ This project establishes a time series forecasting baseline for NVIDIA (NVDA) st
 
 **View Phase 1 project:** [https://github.com/Tarieret/ARIMA-Baseline-Failure-Analysis-of-NVDA-Stock]
 
+
+
  **Spatial Clustering of Air Pollution in NYC**
  
 This project analyzes NYC air quality data (PM2.5 & NO2) using K-means & hierarchical clustering to identify pollution patterns. It reveals areas with high concentrations and highlights the strengths of each clustering method for environmental data analysis.
@@ -33,6 +35,8 @@ Entity-Relationship Modeling
 SQL
 
 **View Project:** [https://github.com/Tarieret/Student-Information-System-Database-Design] 
+
+
 
 ## Mini Projects
 **Loan Payment Prediction with SVM**
