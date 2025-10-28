@@ -6,6 +6,13 @@ A comprehensive overview of my data science capabilities. In this portfolio you'
 
   
 ## Projects
+**ARIMA Baseline & Failure Analysis of NVDA Stock**
+This project establishes a time series forecasting baseline for NVIDIA (NVDA) stock using the classical ARIMA model and MACD technical indicator. The analysis highlights a critical model failure to capture the sudden, non-linear price acceleration driven by the Generative AI boom and record earnings, demonstrating the inadequacy of linear models for modern, event-driven financial markets.
+
+**Key Skills:** Python, Time Series Analysis, ARIMA Modeling, MACD, MAE/RMSE, Root Cause Analysis.
+
+**View Phase 1 project:** 
+
  **Spatial Clustering of Air Pollution in NYC**
  
 This project analyzes NYC air quality data (PM2.5 & NO2) using K-means & hierarchical clustering to identify pollution patterns. It reveals areas with high concentrations and highlights the strengths of each clustering method for environmental data analysis.
