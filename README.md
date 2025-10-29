@@ -26,12 +26,9 @@ This portfolio highlights my **data science and AI/ML projects**, showcasing clo
 
 ---
 
-## 📂 Archived / Past Projects
-These projects are older work and not actively maintained but remain available for reference:  
-- Loan Payment Prediction with SVM  
-- Sales Prediction with Logistic Regression  
-- Student Information System (SQL)  
-- Spatial Clustering of Air Pollution in NYC  
+## 📂 Archived / Past Work 
+Older projects and exploratory work are available in [Archived_Projects](https://github.com/Tarieret/Archived_Projects/tree/main) for reference.
+
 
 ---
 
