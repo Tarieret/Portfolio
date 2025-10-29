@@ -19,7 +19,7 @@ This portfolio highlights my **data science and AI/ML projects**, showcasing clo
 - **Key Skills/Tech:** Python, TensorFlow/Keras, LSTM, ARIMA, Prophet, SageMaker AI, Cloud Deployment  
 - **Repo:** *Coming Soon*
 
-### 3️⃣ Geo-Market Mapper *(Coming Soon)*
+### 3️⃣ Geo-Market Mapper 3000 (Global News Trend Analyzer) *(Coming Soon)*
 - **Objective:** NLP-driven clustering of global news with interactive map visualization; cloud-deployed using SageMaker & S3.  
 - **Key Skills/Tech:** Python, NLP, Sentence-BERT, Clustering, SageMaker AI, Streamlit  
 - **Repo:** *Coming Soon*
