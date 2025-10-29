@@ -15,47 +15,15 @@ This project establishes a time series forecasting baseline for NVIDIA (NVDA) st
 **View Phase 1 project:** [https://github.com/Tarieret/Financial-Time-Series-Forecasting--NVIDIA-Case-Study]
 
 
+## Archived / Past Projects
+These projects are older work and not actively maintained, but are available for reference:
 
- **Spatial Clustering of Air Pollution in NYC**
- 
-This project analyzes NYC air quality data (PM2.5 & NO2) using K-means & hierarchical clustering to identify pollution patterns. It reveals areas with high concentrations and highlights the strengths of each clustering method for environmental data analysis.
-
-**Key Skills:** Python, Clustering, K-means, Heirarchichal clustering
-
-**View Project:** [https://github.com/Tarieret/Spatial-Clustering-of-Air-Pollution-in-NYC/]
-
+- Loan Payment Prediction with SVM
+- Sales Prediction with Logistic Regression
+- Student Information System (SQL)
+- Spatial Clustering of Air Pollution in NYC
 
 
- **Student Information System Database Design**
-
-This project designed and implemented a relational database schema for a student information system. The schema efficiently manages data related to students, courses, instructors, sections, and enrollments. It incorporates normalization principles, data integrity constraints, and best practices for data handling. The design ensures efficient data storage, retrieval, and minimizes redundancy.
-
-**Key Technologies:**
-MySQL (Database Management System)
-Entity-Relationship Modeling
-SQL
-
-**View Project:** [https://github.com/Tarieret/Student-Information-System-Database-Design] 
-
-
-
-## Mini Projects
-**Loan Payment Prediction with SVM**
-
-This project demonstrates the use of a Support Vector Machine (SVM) for predicting loan repayment status. It utilizes Python libraries like pandas, scikit-learn to build the model and analyze its performance.
-
-**Key Skills:** Machine Learning (SVM),Python Libraries (pandas, scikit-learn),Data Preprocessing & Analysis
-**View Project:** [https://github.com/TariereT/-Loan-Payment-Prediction-with-SVM]
-
-
-
-**Sales Prediction with Logistic Regression**
-
-This project explores the power of Logistic Regression in predicting the probability of exceeding a sales target based on advertising spending across TV, radio, and newspaper channels. Python libraries like pandas and statsmodels are employed to build and analyze the model's performance.
-
-**Key Skills:** Machine Learning (Logistic Regression), Python Libraries (pandas, statsmodels), Data Analysis & Visualization
-
-**View Project:** [https://github.com/Tarieret/Sales-Prediction-with-Logical-Regression]
  
 ## Core Competencies
 
