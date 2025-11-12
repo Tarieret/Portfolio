@@ -38,12 +38,5 @@ Older projects and exploratory work are available in [Archived_Projects](https:/
 - **Languages:** Python (Pandas, NumPy, Scikit-Learn, Matplotlib), R (Dplyr, Tidyr, Caret, Ggplot2), SQL  
 - **Tools & Platforms:** AWS SageMaker AI, S3, Lambda, MySQL, Tableau, Power BI, MS Excel  
 
----
-
-## 🏆 Certifications
-
-- ![AWS Badge](https://img.shields.io/badge/AWS-Cloud%20Practitioner-orange) **Amazon Web Services Certified Cloud Practitioner** [View Badge](https://www.credly.com/badges/962e072f-313a-45e9-a902-1e232b7f529a/linked_in_profile)  
-- ![Google Badge](https://img.shields.io/badge/Google-Data%20Analytics-blue) **Google Data Analytics Certification** [View Certificate](https://coursera.org/share/cde3e0e1cdecc961273a2ebe754e0e31)  
-- ![Python Badge](https://img.shields.io/badge/Python-Basics-lightgrey) **Python Basics Certification (Coursera)** [View Certificate](https://coursera.org/share/02488ba5feb58729930cbc8c6c05b0e8)
 
 
