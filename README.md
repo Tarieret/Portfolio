@@ -14,15 +14,15 @@ This portfolio highlights my **data science and AI/ML projects**, showcasing clo
 - **Key Skills/Tech:** Python, Time Series Analysis, ARIMA, MACD, RMSE/MAE, Root Cause Analysis  
 - **Repo:** [View Project](https://github.com/Tarieret/Financial-Time-Series-Forecasting-NVIDIA-Case-Study)
 
-### 2️⃣ Economic Forecasting with AI *(Coming Soon)*
+### 2️⃣ Economic Forecasting with AI 
 - **Objective:** Forecast U.S. macroeconomic indicators using ARIMA, Prophet, and LSTM; deployed on AWS SageMaker.  
 - **Key Skills/Tech:** Python, TensorFlow/Keras, LSTM, ARIMA, Prophet, SageMaker AI, Cloud Deployment  
-- **Repo:** *Coming Soon*
+- **Repo:** *In Progress*
 
-### 3️⃣ Geo-Market Mapper 3000 (Global News Trend Analyzer) *(Coming Soon)*
+### 3️⃣ Geo-Market Mapper 3000 (Global News Trend Analyzer) 
 - **Objective:** NLP-driven clustering of global news with interactive map visualization; cloud-deployed using SageMaker & S3.  
 - **Key Skills/Tech:** Python, NLP, Sentence-BERT, Clustering, SageMaker AI, Streamlit  
-- **Repo:** *Coming Soon*
+- **Repo:** *In Progress*
 
 ---
 
