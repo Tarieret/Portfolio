@@ -19,11 +19,10 @@ This portfolio highlights my **data science and AI/ML projects**, showcasing clo
 - **Key Skills/Tech:** Python, TensorFlow/Keras, LSTM, ARIMA, Prophet, SageMaker AI, Cloud Deployment  
 - **Repo:** *In Progress*
 
-### 3️⃣ Geo-Market Mapper 3000 (Global News Trend Analyzer) 
-- **Objective:** NLP-driven clustering of global news with interactive map visualization; cloud-deployed using SageMaker & S3.  
-- **Key Skills/Tech:** Python, NLP, Sentence-BERT, Clustering, SageMaker AI, Streamlit  
+### 3️⃣ Cloud-Deployed Food Image Classification
+- **Objective:** Build and deploy a food image classification workflow using Amazon Rekognition to identify food categories from images, with a production-style pipeline for ingestion, inference, and results storage.
+- **Key Skills/Tech:** Python, Computer Vision, Amazon Rekognition (Labels / Custom Labels), S3, AWS Lambda, IAM, JSON parsing, Evaluation (Precision/Recall), Cloud Deployment
 - **Repo:** *In Progress*
-
 ---
 
 ## 📂 Archived / Past Work 
