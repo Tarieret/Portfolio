@@ -35,7 +35,7 @@ Older projects and exploratory work are available in [Archived_Projects](https:/
 
 - **Methodologies:** Machine Learning, Deep Learning, Time Series Analysis, NLP, Big Data Analytics  
 - **Languages:** Python (Pandas, NumPy, Scikit-Learn, Matplotlib), R (Dplyr, Tidyr, Caret, Ggplot2), SQL  
-- **Tools & Platforms:** AWS SageMaker AI, S3, Lambda, MySQL, Tableau, Power BI, MS Excel  
+- **Tools & Platforms:** AWS SageMaker AI, S3, Lambda, Rekognition, MySQL, Tableau, Power BI, MS Excel  
 
 
 
