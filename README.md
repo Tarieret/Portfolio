@@ -24,8 +24,7 @@ This portfolio highlights my **data science and AI/ML projects**, showcasing clo
 Build and deploy a houseplant health image classification workflow using Amazon Rekognition to detect plant health conditions (e.g., healthy vs. unhealthy, disease or stress indicators) from images, using a production-style pipeline for image ingestion, inference, and results storage.
 - **Key Skills / Tech:**
 Python, Computer Vision, Amazon Rekognition (Labels and Custom Labels), Amazon S3, AWS Lambda, IAM, JSON parsing, Model Evaluation (Precision / Recall), Cloud Deployment
-**Repo:**
-*In Progress*
+**Repo:** *In Progress*
 ---
 
 ## 📂 Archived / Past Work 
