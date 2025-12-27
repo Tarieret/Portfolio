@@ -10,8 +10,9 @@ This portfolio highlights my **data science and AI/ML projects**, showcasing clo
 ## 🚀 Featured Projects
 
 ### 1️⃣ Financial Time-Series Forecasting: NVIDIA Case Study
-- **Objective:** Establish a baseline ARIMA & MACD model and analyze limitations in modern financial markets.  
-- **Key Skills/Tech:** Python, Time Series Analysis, ARIMA, MACD, RMSE/MAE, Root Cause Analysis  
+
+- **Objective:** Diagnose the failure of classical ARIMA-based forecasting on a high-volatility equity and demonstrate improved error control using a nonlinear LSTM model.
+- **Key Skills/Tech:** Python, Time Series Analysis, ARIMA, MACD, LSTM (PyTorch), Deep Learning, RMSE / MAE, Model Evaluation, Failure Diagnosis
 - **Repo:** [View Project](https://github.com/Tarieret/Financial-Time-Series-Forecasting-NVIDIA-Case-Study)
 
 ### 2️⃣Economic Time-Series Forecasting on AWS SageMaker
