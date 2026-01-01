@@ -18,7 +18,7 @@ This portfolio highlights my **data science and AI/ML projects**, showcasing clo
 ### 2️⃣Economic Time-Series Forecasting on AWS SageMaker
 - **Objective:** Forecast U.S. macroeconomic indicators using ARIMA, Prophet, and LSTM; deployed on AWS SageMaker.  
 - **Key Skills/Tech:** Python, TensorFlow/Keras, LSTM, ARIMA, Prophet, SageMaker AI, Cloud Deployment  
-- **Repo:** *In Progress*
+- **Repo:** [View Project](https://github.com/Tarieret/Economic-Time-Series-Forecasting-on-AWS-SageMaker)
 
 ### 3️⃣ House Plant Health Classification Using Amazon Rekognition
 - **Objective:**
