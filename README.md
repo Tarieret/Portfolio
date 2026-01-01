@@ -15,7 +15,7 @@ This portfolio highlights my **data science and AI/ML projects**, showcasing clo
 - **Key Skills/Tech:** Python, Time Series Analysis, ARIMA, MACD, LSTM (PyTorch), Deep Learning, RMSE / MAE, Model Evaluation, Failure Diagnosis
 - **Repo:** [View Project](https://github.com/Tarieret/Financial-Time-Series-Forecasting-NVIDIA-Case-Study)
 
-### 2️⃣Economic Time-Series Forecasting on AWS SageMaker
+### 2️⃣ Economic Time-Series Forecasting on AWS SageMaker
 - **Objective:** Forecast U.S. macroeconomic indicators using ARIMA, Prophet, and LSTM; deployed on AWS SageMaker.  
 - **Key Skills/Tech:** Python, LSTM, ARIMA, Prophet, SageMaker AI, Cloud Deployment, MLOps
 - **Repo:** [View Project](https://github.com/Tarieret/Economic-Time-Series-Forecasting-on-AWS-SageMaker)
@@ -23,7 +23,7 @@ This portfolio highlights my **data science and AI/ML projects**, showcasing clo
 ### 3️⃣  RAG-Based Research Assistant
 - **Objective:** Build a Retrieval-Augmented Generation (RAG) system that enables question answering over custom PDF and text documents by combining embedding-based retrieval with grounded LLM responses.
 - **Key Skills / Tech:** Python, LangChain, OpenAI API, Embeddings, Vector Databases, Document Chunking, Prompt Engineering, GenAI Systems
-- **Repo:** In Progress
+- **Repo:** *In Progress*
 
 ### 4️⃣ House Plant Health Classification Using Amazon Rekognition
 - **Objective:** Build and deploy a houseplant health image classification workflow using Amazon Rekognition to detect plant health conditions (e.g., healthy vs. unhealthy, disease or stress indicators) from images, using a production-style pipeline for image ingestion, inference, and results storage.
