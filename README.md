@@ -3,7 +3,7 @@
 📧 Email: tarieretimitimi@gmail.com  
 🔗 LinkedIn: [https://www.linkedin.com/in/tariere-timitimi/](https://www.linkedin.com/in/tariere-timitimi/)
 
-This portfolio highlights my **data science and AI/ML projects**, showcasing cloud deployment, machine learning, deep learning, and NLP applications. Projects are selected to demonstrate my progression from classical ML to advanced AI solutions.  
+This portfolio highlights my **data science and ML/AI projects**, showcasing cloud deployment, machine learning, deep learning, and NLP applications. Projects are selected to demonstrate my progression from classical ML to advanced AI solutions.  
 
 ---
 
