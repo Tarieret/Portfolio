@@ -1,7 +1,7 @@
 # Tariere A. Timitimi
 ## Data Science & ML Portfolio
 
-Hi, I’m Tariere! 
+Hi, my name is Tariere! 
 I am a ML Practitioner passionate about the end-to-end lifecycle of machine learning. My focus is on creating intelligent systems and deploying them efficiently in the cloud. I am constantly experimenting with new architectures and refining my approach to building impactful AI.
 
 ✨ Interests: Artist, lifelong learner, and fan of great books and better company.
