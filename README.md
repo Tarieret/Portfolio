@@ -1,3 +1,4 @@
+# Tariere A. Timitimi
 ## Data Science & ML/AI Portfolio
 
 This portfolio highlights my **data science and ML/AI projects**, showcasing cloud deployment, machine learning, deep learning, and NLP applications. Projects are selected to demonstrate my progression from classical ML to advanced AI solutions.  
@@ -45,4 +46,4 @@ Older projects and exploratory work are available in [Archived_Projects](https:/
 <p align="center">
   <a href="mailto:tarieretimitimi@gmail.com" class="btn btn-primary">Email Me</a>
   <a href="https://www.linkedin.com" class="btn btn-info" style="background-color: #0a66c2; border-color: #0a66c2; color: white;">LinkedIn</a>
-  <a href="
+  
