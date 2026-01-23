@@ -1,5 +1,5 @@
 # Tariere A. Timitimi
-<img src="assets/img/profile.jpg" width="150" style="border-radius: 50%;
+<img src="assets/img/profile.jpg" width="150" align="right" style="border-radius: 50%; margin-left: 20px;">
 
 ## Data Science & ML Portfolio
 
