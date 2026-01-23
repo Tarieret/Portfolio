@@ -1,7 +1,9 @@
 # Tariere A. Timitimi
 ## Data Science & ML Portfolio
 
-This portfolio highlights my **data science and ML/AI projects**, showcasing cloud deployment, machine learning, deep learning, and NLP applications. Projects are selected to demonstrate my progression from classical ML to advanced AI solutions.  
+Hi there! I'm Tariere 👋
+I'm a ML enthusiast who loves turning data into insights and building solutions that make a difference. I enjoy exploring how data can solve real-world problems, while constantly learning and experimenting along the way.
+When I'm not coding or analyzing data, you'll find me reading, creating art, or spending quality time with friends. ✨
 
 **Technical Skills:**  Python, R, SQL, Machine Learning, AWS 
 
@@ -38,7 +40,25 @@ Older projects and exploratory work are available in [Archived_Projects](https:/
 
 
 ---
+## Certifications
 
+* **AWS Certified Machine Learning Engineer – Associate** (2026)  
+[![Verify](https://img.shields.io)](https://www.credly.com)
+
+* **NVIDIA Fundamentals of Deep Learning** (2025)  
+[![Verify](https://img.shields.io)](https://learn.nvidia.com/certificates?id)
+
+* **Databricks Fundamentals Accreditation** (2025)  
+[![Verify](https://img.shields.io)](https://credentials.databricks.com/c6b25acf-076b-494f-a959-740542fa0033#acc.yNLH7nr3)
+
+* **Databricks Intro to Apache Spark** (2025)  
+[![Verify](https://img.shields.io)](https://drive.google.com/file/d/1LnDWoYYBcAIY72g8Dj0FVGfU1gluaUSr/view)
+
+* **AWS Certified Cloud Practitioner** (2025)  
+[![Verify](https://img.shields.io)](https://www.credly.com)
+
+
+---
 ## Core Competencies
 
 - **Methodologies:** Machine Learning, Deep Learning, Time Series Analysis, NLP, Big Data Analytics  
