@@ -1,11 +1,11 @@
 # Tariere A. Timitimi
 ## Data Science & ML Portfolio
 
-Hi there! I'm Tariere 👋
-I'm a ML enthusiast who loves turning data into insights and building solutions that make a difference. I enjoy exploring how data can solve real-world problems, while constantly learning and experimenting along the way.
-When I'm not coding or analyzing data, you'll find me reading, creating art, or spending quality time with friends. ✨
+Hi, I’m Tariere! 
+I am a ML Practitioner passionate about the end-to-end lifecycle of machine learning. My focus is on creating intelligent systems and deploying them efficiently in the cloud. I am constantly experimenting with new architectures and refining my approach to building impactful AI.
+✨ Interests: Artist, lifelong learner, and fan of great books and better company.
 
-**Technical Skills:**  Python, R, SQL, Machine Learning, AWS 
+**Technical Skills:**  Python, R, SQL, Machine Learning, Deep Learning, AWS 
 
 ---
 
@@ -42,20 +42,12 @@ Older projects and exploratory work are available in [Archived_Projects](https:/
 ---
 ## Certifications
 
-* **AWS Certified Machine Learning Engineer – Associate** (2026)  
-<a href="https://www.credly.com" class="btn">Verify Credential</a>
+<a href="https://www.credly.com" class="btn">AWS ML Engineer – Associate</a>
+<a href="https://learn.nvidia.com" class="btn">NVIDIA Deep Learning</a>
+<a href="https://credentials.databricks.com" class="btn">Databricks Fundamentals</a>
+<a href="https://drive.google.com" class="btn">Databricks Apache Spark</a>
+<a href="https://www.credly.com" class="btn">AWS Cloud Practitioner</a>
 
-* **NVIDIA Fundamentals of Deep Learning** (2025)  
-<a href="https://learn.nvidia.com" class="btn">Verify Credential</a>
-
-* **Databricks Fundamentals Accreditation** (2025)  
-<a href="https://credentials.databricks.com" class="btn">Verify Credential</a>
-
-* **Databricks Intro to Apache Spark** (2025)  
-<a href="https://drive.google.com" class="btn">Verify Credential</a>
-
-* **AWS Certified Cloud Practitioner** (2025)  
-<a href="https://www.credly.com" class="btn">Verify Credential</a>
 
 
 ---
