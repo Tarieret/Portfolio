@@ -43,19 +43,19 @@ Older projects and exploratory work are available in [Archived_Projects](https:/
 ## Certifications
 
 * **AWS Certified Machine Learning Engineer – Associate** (2026)  
-[![Verify](https://img.shields.io)](https://www.credly.com)
+<a href="https://www.credly.com" class="btn">Verify Credential</a>
 
 * **NVIDIA Fundamentals of Deep Learning** (2025)  
-[![Verify](https://img.shields.io)](https://learn.nvidia.com/certificates?id)
+<a href="https://learn.nvidia.com" class="btn">Verify Credential</a>
 
 * **Databricks Fundamentals Accreditation** (2025)  
-[![Verify](https://img.shields.io)](https://credentials.databricks.com/c6b25acf-076b-494f-a959-740542fa0033#acc.yNLH7nr3)
+<a href="https://credentials.databricks.com" class="btn">Verify Credential</a>
 
 * **Databricks Intro to Apache Spark** (2025)  
-[![Verify](https://img.shields.io)](https://drive.google.com/file/d/1LnDWoYYBcAIY72g8Dj0FVGfU1gluaUSr/view)
+<a href="https://drive.google.com" class="btn">Verify Credential</a>
 
 * **AWS Certified Cloud Practitioner** (2025)  
-[![Verify](https://img.shields.io)](https://www.credly.com)
+<a href="https://www.credly.com" class="btn">Verify Credential</a>
 
 
 ---
