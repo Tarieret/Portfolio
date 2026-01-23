@@ -1,8 +1,11 @@
 # Tariere A. Timitimi
+<img src="assets/img/profile.jpg" width="150" style="border-radius: 50%;
+
 ## Data Science & ML Portfolio
 
 This portfolio highlights my **data science and ML/AI projects**, showcasing cloud deployment, machine learning, deep learning, and NLP applications. Projects are selected to demonstrate my progression from classical ML to advanced AI solutions.  
 
+**Technical Skills:**  `Machine Learning` • `AWS SageMaker` • `Python/R/SQL` • `NLP` • `Big Data`
 ---
 
 ## 🚀 Featured Projects
