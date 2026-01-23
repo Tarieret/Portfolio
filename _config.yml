@@ -5,7 +5,7 @@ plugins:
 title: "Tariere A. Timitimi"
 description: "Data Science & ML/AI Portfolio"
 
-# To creates  professional icons at the bottom
+# Required for version 6.x
 footer-social-links:
   email: "tarieretimitimi@gmail.com"
   linkedin: "tariere-timitimi"
