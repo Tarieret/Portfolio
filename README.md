@@ -43,10 +43,10 @@ Older projects and exploratory work are available in [Archived_Projects](https:/
 ---
 ## Certifications
 
-<a href="https://www.credly.com" class="btn">AWS ML Engineer – Associate</a>
-<a href="https://learn.nvidia.com" class="btn">NVIDIA Deep Learning</a>
-<a href="https://credentials.databricks.com" class="btn">Databricks Fundamentals</a>
-<a href="https://drive.google.com" class="btn">Databricks Apache Spark</a>
+<a href="https://www.credly.com" class="btn">AWS ML Engineer – Associate</a>, 
+<a href="https://learn.nvidia.com" class="btn">NVIDIA Deep Learning</a>, 
+<a href="https://credentials.databricks.com" class="btn">Databricks Fundamentals</a>, 
+<a href="https://drive.google.com" class="btn">Databricks Apache Spark</a>, 
 <a href="https://www.credly.com" class="btn">AWS Cloud Practitioner</a>
 
 
