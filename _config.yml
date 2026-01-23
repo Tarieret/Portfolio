@@ -1,5 +1,9 @@
 remote_theme: daattali/beautiful-jekyll@6.0.1
 plugins:
   - jekyll-remote-theme
-title: "Tariere A. Timitimi Portfolio"
+title: "Tariere A. Timitimi"
 description: "Data Science & ML/AI Portfolio"
+footer-show-email-icon: true
+footer-email: tarieretimitimi@gmail.com
+footer-show-linkedin-icon: true
+footer-linkedin-url: https://www.linkedin.com
