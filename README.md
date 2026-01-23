@@ -1,3 +1,5 @@
+# Tariere A. Timitimi
+## Data Science & ML/AI Portfolio
 
 This portfolio highlights my **data science and ML/AI projects**, showcasing cloud deployment, machine learning, deep learning, and NLP applications. Projects are selected to demonstrate my progression from classical ML to advanced AI solutions.  
 
