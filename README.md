@@ -13,7 +13,7 @@ I'm a ML Practitioner passionate about the end-to-end lifecycle of machine learn
 ## Featured Projects
 
 ### Economic Time-Series Forecasting on AWS SageMaker
-![XGBoost CPI Forecast](/assets/img/XGBoost_CPI.png) 
+![XGBoost CPI Forecast](/assets/img/XGBoost_CPI.png)
 - **Objective:** Forecast U.S. macroeconomic indicators using ARIMA, Prophet, and XGBoost; deployed on AWS SageMaker.  
 - **Key Skills/Tech:** Python, XGboost, ARIMA, Prophet, SageMaker AI, Cloud Deployment, MLOps
 - **Repo:** [View Project](https://github.com/Tarieret/Economic-Time-Series-Forecasting-on-AWS-SageMaker)
