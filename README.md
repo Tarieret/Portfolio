@@ -16,7 +16,7 @@ I'm a ML Practitioner passionate about the end-to-end lifecycle of machine learn
 ![XGBoost CPI Forecast](/assets/img/XGBoost_CPI.png)
 I built this project to explore how different machine learning architectures handle the nuances of U.S. macroeconomic data. After benchmarking classical statistical models against modern gradient boosting, I found that XGBoost, paired with a 12-month lookback window and stationarity transformations,far outperformed traditional methods like ARIMA. A major part of the journey was the decision to pivot away from Deep Learning (LSTM) when it became clear the architecture wasn't suited for the specific scale of this dataset. To bridge the gap between development and production, I structured the final model to be compatible with AWS SageMaker, including a custom inference handler for scalable cloud hosting.
 
-**Key Skills/Tech:** Python, XGboost, ARIMA, Prophet, SageMaker AI, Cloud Deployment, MLOps
+**Key Skills/Tech:** Python, XGboost, ARIMA, Prophet, SageMaker AI, Cloud Deployment, MLOps      
 **Repo:** [View Project](https://github.com/Tarieret/Economic-Time-Series-Forecasting-on-AWS-SageMaker)
 
 ### Financial Time-Series Forecasting: NVIDIA Case Study
