@@ -14,12 +14,14 @@ I'm a ML Practitioner passionate about the end-to-end lifecycle of machine learn
 
 ### Economic Time-Series Forecasting on AWS SageMaker
 ![XGBoost CPI Forecast](/assets/img/XGBoost_CPI.png)
-- **Objective:** Forecast U.S. macroeconomic indicators using ARIMA, Prophet, and XGBoost; deployed on AWS SageMaker.  
+I built this project to explore how different machine learning architectures handle the nuances of U.S. macroeconomic data. After benchmarking classical statistical models against modern gradient boosting, I found that XGBoost, paired with a 12-month lookback window and stationarity transformations,far outperformed traditional methods like ARIMA. A major part of the journey was the decision to pivot away from Deep Learning (LSTM) when it became clear the architecture wasn't suited for the specific scale of this dataset. To bridge the gap between development and production, I structured the final model to be compatible with AWS SageMaker, including a custom inference handler for scalable cloud hosting.
+
 - **Key Skills/Tech:** Python, XGboost, ARIMA, Prophet, SageMaker AI, Cloud Deployment, MLOps
 - **Repo:** [View Project](https://github.com/Tarieret/Economic-Time-Series-Forecasting-on-AWS-SageMaker)
 
 ### Financial Time-Series Forecasting: NVIDIA Case Study
-- **Objective:** Diagnose the failure of classical ARIMA-based forecasting on a high-volatility equity and demonstrate improved error control using a nonlinear LSTM model.
+This project was born out of a desire to understand exactly where classical forecasting fails in the face of high-market volatility. Using NVIDIA as a case study, I documented the breakdown of ARIMA models when confronted with exogenous shocks like the AI boom. By diagnosing these failures, specifically the violation of linear assumptions, I implemented a PyTorch based LSTM that captured the nonlinear dependencies ARIMA missed. This resulted in a significant improvement in error control (reducing MAE from 6.76 to 2.56) and reinforced the importance of choosing model architectures that match the underlying regime of the data.
+
 - **Key Skills/Tech:** Python, Time Series Analysis, ARIMA, MACD, LSTM (PyTorch), Deep Learning, RMSE / MAE, Model Evaluation, Failure Diagnosis
 - **Repo:** [View Project](https://github.com/Tarieret/Financial-Time-Series-Forecasting-NVIDIA-Case-Study)
 
