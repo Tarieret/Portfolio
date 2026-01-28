@@ -19,16 +19,17 @@ I built this project to explore how different machine learning architectures han
 **Key Skills/Tech:** Python, XGboost, ARIMA, Prophet, SageMaker AI, Cloud Deployment, MLOps      
 **Repo:** [View Project](https://github.com/Tarieret/Economic-Time-Series-Forecasting-on-AWS-SageMaker)
 
+### RAG-Based Research Assistant
+- **Objective:** Build a Retrieval-Augmented Generation (RAG) system that enables question answering over custom PDF and text documents by combining embedding-based retrieval with grounded LLM responses.
+- **Key Skills / Tech:** Python, LangChain, OpenAI API, Embeddings, Vector Databases, Document Chunking, Prompt Engineering, GenAI Systems
+- **Repo:** [View Project](https://github.com/Tarieret/RAG-Based-Reseach-Assistant/blob/main/README.md)
+
 ### Financial Time-Series Forecasting: NVIDIA Case Study
 This project was born out of a desire to understand exactly where classical forecasting fails in the face of high-market volatility. Using NVIDIA as a case study, I documented the breakdown of ARIMA models when confronted with exogenous shocks like the AI boom. By diagnosing these failures, specifically the violation of linear assumptions, I implemented a PyTorch based LSTM that captured the nonlinear dependencies ARIMA missed. This resulted in a significant improvement in error control (reducing MAE from 6.76 to 2.56) and reinforced the importance of choosing model architectures that match the underlying regime of the data.
 
 **Key Skills/Tech:** Python, Time Series Analysis, ARIMA, MACD, LSTM (PyTorch), Deep Learning, RMSE / MAE, Model Evaluation, Failure Diagnosis
 **Repo:** [View Project](https://github.com/Tarieret/Financial-Time-Series-Forecasting-NVIDIA-Case-Study)
 
-### RAG-Based Research Assistant
-- **Objective:** Build a Retrieval-Augmented Generation (RAG) system that enables question answering over custom PDF and text documents by combining embedding-based retrieval with grounded LLM responses.
-- **Key Skills / Tech:** Python, LangChain, OpenAI API, Embeddings, Vector Databases, Document Chunking, Prompt Engineering, GenAI Systems
-- **Repo:** *In Progress*
 
 ### House Plant Health Classification Using Amazon Rekognition
 
