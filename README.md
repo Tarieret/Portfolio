@@ -20,6 +20,7 @@ I built this project to explore how different machine learning architectures han
 **Repo:** [View Project](https://github.com/Tarieret/Economic-Time-Series-Forecasting-on-AWS-SageMaker)
 
 ### RAG-Based Research Assistant
+![Streamlit](/assets/img/Streamlitdemo.png)
 - **Objective:** Build a Retrieval-Augmented Generation (RAG) system that enables question answering over custom PDF and text documents by combining embedding-based retrieval with grounded LLM responses.
 - **Key Skills / Tech:** Python, LangChain, OpenAI API, Embeddings, Vector Databases, Document Chunking, Prompt Engineering, GenAI Systems
 - **Repo:** [View Project](https://github.com/Tarieret/RAG-Based-Reseach-Assistant/blob/main/README.md)
