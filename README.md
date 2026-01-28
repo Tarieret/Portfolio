@@ -21,9 +21,10 @@ I built this project to explore how different machine learning architectures han
 
 ### RAG-Based Research Assistant
 ![Streamlit](/assets/img/Streamlitdemo.png)
-- **Objective:** Build a Retrieval-Augmented Generation (RAG) system that enables question answering over custom PDF and text documents by combining embedding-based retrieval with grounded LLM responses.
-- **Key Skills / Tech:** Python, LangChain, OpenAI API, Embeddings, Vector Databases, Document Chunking, Prompt Engineering, GenAI Systems
-- **Repo:** [View Project](https://github.com/Tarieret/RAG-Based-Reseach-Assistant/blob/main/README.md)
+This project looks at how Retrieval-Augmented Generation can make domain-specific medical research easier to work with. It ingests peer-reviewed papers on brain tumor detection, indexes them using semantic embeddings, and returns citation-backed answers through a FastAPI backend and Streamlit interface. The idea for a research assistant came out of a Spring 2025 master’s-level project on data mining and deep learning for brain tumor detection from MRI images, which pushed me to think less about individual models and more about supporting the research workflow itself. A key focus here was building a RAG pipeline that is accurate, responsive, and usable by multiple users, while still being simple enough to run locally. The original MRI classification project can also be found in my archived projects.
+
+**Key Skills/Tech:** Python, FastAPI, OpenAI API, LangChain, ChromaDB, Streamlit, Retrieval-Augmented Generation
+**Repo:** [View Project](https://github.com/Tarieret/RAG-Based-Reseach-Assistant/blob/main/README.md)
 
 ### Financial Time-Series Forecasting: NVIDIA Case Study
 This project was born out of a desire to understand exactly where classical forecasting fails in the face of high-market volatility. Using NVIDIA as a case study, I documented the breakdown of ARIMA models when confronted with exogenous shocks like the AI boom. By diagnosing these failures, specifically the violation of linear assumptions, I implemented a PyTorch based LSTM that captured the nonlinear dependencies ARIMA missed. This resulted in a significant improvement in error control (reducing MAE from 6.76 to 2.56) and reinforced the importance of choosing model architectures that match the underlying regime of the data.
