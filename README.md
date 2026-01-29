@@ -20,7 +20,7 @@ I built this project to explore how different machine learning architectures han
 **Repo:** [View Project](https://github.com/Tarieret/Economic-Time-Series-Forecasting-on-AWS-SageMaker)
 
 ### RAG-Based Research Assistant
-![Streamlit](/assets/img/Streamlitdemo.png)
+![Streamlit](/assets/img/StreamlitDemo1.png)
 This project explores how Retrieval-Augmented Generation can make domain-specific medical research easier to work with. It ingests peer-reviewed papers on brain tumor detection, indexes them using semantic embeddings, and returns citation backed answers through a FastAPI backend and a Streamlit interface. The idea for a research assistant came out of a Spring 2025 master’s-level project on data mining and deep learning for brain tumor detection from MRI images, which pushed me to think less about individual models and more about supporting the research workflow itself. A key focus here was building a RAG pipeline that is accurate, responsive, and usable by multiple users, while still being simple enough to run locally. You can try the interactive interface [here](http://localhost:8501). The original MRI classification project can also be found in my archived projects.
 
 **Key Skills/Tech:** Python, FastAPI, OpenAI API, LangChain, ChromaDB, Streamlit, Retrieval-Augmented Generation
