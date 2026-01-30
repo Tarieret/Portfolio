@@ -50,11 +50,11 @@ Older projects and exploratory work are available in [Archived_Projects](https:/
 ---
 ## Certifications
 
-<a href="https://www.credly.com" class="btn">AWS ML Engineer – Associate</a>, 
-<a href="https://learn.nvidia.com" class="btn">NVIDIA Deep Learning</a>, 
-<a href="https://credentials.databricks.com" class="btn">Databricks Fundamentals</a>, 
-<a href="https://drive.google.com" class="btn">Databricks Apache Spark</a>, 
-<a href="https://www.credly.com" class="btn">AWS Cloud Practitioner</a>
+<a href="https://www.credly.com/badges/8983ce52-d5b0-421a-b7c5-80b3e9fa676f/linked_in_profile" class="btn">AWS ML Engineer – Associate</a>, 
+<a href="https://www.nvidia.com/en-us/training/" class="btn">NVIDIA Deep Learning</a>, 
+<a href="https://credentials.databricks.com/c6b25acf-076b-494f-a959-740542fa0033#acc.PeisynNm" class="btn">Databricks Fundamentals</a>, 
+<a href="https://drive.google.com/file/d/1LnDWoYYBcAIY72g8Dj0FVGfU1gluaUSr/view" class="btn">Databricks Apache Spark</a>, 
+<a href="https://www.credly.com/badges/4881e30a-e6a7-4906-8342-364b621a6b59/linked_in_profile" class="btn">AWS Cloud Practitioner</a>
 
 
 
