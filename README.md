@@ -68,5 +68,5 @@ Older projects and exploratory work are available in [Archived_Projects](https:/
 
 <p align="center">
   <a href="mailto:tarieretimitimi@gmail.com" class="btn btn-primary">Email Me</a>
-  <a href="https://www.linkedin.com" class="btn btn-info" style="background-color: #0a66c2; border-color: #0a66c2; color: white;">LinkedIn</a>
+  <a href="https://www.linkedin.com/in/tariere-timitimi/" class="btn btn-info" style="background-color: #0a66c2; border-color: #0a66c2; color: white;">LinkedIn</a>
   
