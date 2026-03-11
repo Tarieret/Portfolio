@@ -40,6 +40,13 @@ This project was born out of a desire to understand exactly where classical fore
 - **Key Skills / Tech:** Python, Computer Vision, Amazon Rekognition (Labels and Custom Labels), Amazon S3, AWS Lambda, IAM, JSON parsing, Model Evaluation (Precision / Recall), Cloud Deployment
 - **Repo:** *In Progress*
 
+
+### Movie Industry Analysis: Box Office, Ratings & Genre Trends
+
+- **Objective:** Analyze 900,000+ TMDB movies to uncover patterns in box office performance, genre popularity, and rating distributions by loading raw data into a SQLite database, querying with SQL, and building publication-quality visualizations in R.
+- **Key Skills / Tech:** R, tidyverse, ggplot2, lubridate, ggrepel, SQLite, DBI, RSQLite, Exploratory Data Analysis, Data Wrangling, Statistical Analysis (Correlation, Hypothesis Testing), Data Visualization
+- **Repo:** *In Progress*
+
   
 ---
 
