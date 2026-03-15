@@ -19,6 +19,7 @@ I built this project to explore how different machine learning architectures han
 **Key Skills/Tech:** Python, XGboost, ARIMA, Prophet, SageMaker AI, Cloud Deployment, MLOps      
 **Repo:** [View Project](https://github.com/Tarieret/Economic-Time-Series-Forecasting-on-AWS-SageMaker)
 
+
 ### RAG-Based Research Assistant
 ![Streamlit](/assets/img/StreamlitDemo1.png)
 This project explores how Retrieval-Augmented Generation can make domain-specific medical research easier to work with. It ingests peer-reviewed papers on brain tumor detection, indexes them using semantic embeddings, and returns citation backed answers through a FastAPI backend and a Streamlit interface. The idea for a research assistant came out of a Spring 2025 master’s-level project on data mining and deep learning for brain tumor detection from MRI images, which pushed me to think less about individual models and more about supporting the research workflow itself. A key focus here was building a RAG pipeline that is accurate, responsive, and usable by multiple users, while still being simple enough to run locally. The original MRI classification project can also be found in my archived projects [here](https://github.com/Tarieret/Archived_Projects/tree/main/Brain_Tumor_Classification).
@@ -27,13 +28,22 @@ This project explores how Retrieval-Augmented Generation can make domain-specifi
 
 **Repo:** [View Project](https://github.com/Tarieret/RAG-Based-Reseach-Assistant/blob/main/README.md)
 
+
 ### Film Industry EDA (SQL & R)
 
-I built this project to analyze patterns across 60,000+ films using a production-style data pipeline — loading raw TMDB data into a SQLite database, querying it with SQL, and wrangling and visualizing the results in R. A key early decision was dropping financial analysis entirely after discovering that fewer than 17,000 of 1.38 million entries had both budget and revenue recorded — not enough to draw meaningful conclusions. Instead, the analysis focuses on genre trends, audience ratings, and popularity patterns across four decades of cinema. One interesting finding was that popularity and rating are essentially uncorrelated (r = 0.087), suggesting that commercial reach and perceived quality are largely independent of each other in how audiences engage with films on TMDB.
+I built this project to analyze patterns across 60,000+ films using a production-style data pipeline, loading raw TMDB data into a SQLite database, querying it with SQL, and wrangling and visualizing the results in R. A key early decision was dropping financial analysis entirely after discovering that fewer than 17,000 of 1.38 million entries had both budget and revenue recorded but not enough to draw meaningful conclusions. Instead, the analysis focuses on genre trends, audience ratings, and popularity patterns across four decades of cinema. Two findings stood out: popularity and rating are essentially uncorrelated (r = 0.087), suggesting commercial reach and perceived quality are largely independent, and Drama movies consistently outrate Action films (6.27 vs. 5.96), a statistically significant gap across 35,000+ films.
 
 **Key Skills / Tech:** R, tidyverse, ggplot2, lubridate, ggrepel, SQLite, DBI, RSQLite, Exploratory Data Analysis, Data Wrangling, Statistical Analysis (Correlation, Hypothesis Testing), Data Visualization
 
 **Repo:** [View Project](https://github.com/Tarieret/Film-Industry-EDA)
+
+
+### Financial Time-Series Forecasting: NVIDIA Case Study
+This project was born out of a desire to understand exactly where classical forecasting fails in the face of high-market volatility. Using NVIDIA as a case study, I documented the breakdown of ARIMA models when confronted with exogenous shocks like the AI boom. By diagnosing these failures, specifically the violation of linear assumptions, I implemented a PyTorch based LSTM that captured the nonlinear dependencies ARIMA missed. This resulted in a significant improvement in error control (reducing MAE from 6.76 to 2.56) and reinforced the importance of choosing model architectures that match the underlying regime of the data.
+
+**Key Skills/Tech:** Python, Time Series Analysis, ARIMA, MACD, LSTM (PyTorch), Deep Learning, RMSE / MAE, Model Evaluation, Failure Diagnosis
+**Repo:** [View Project](https://github.com/Tarieret/Financial-Time-Series-Forecasting-NVIDIA-Case-Study)  
+
 
 ### House Plant Health Classification Using Amazon Rekognition
 
@@ -41,14 +51,7 @@ I built this project to analyze patterns across 60,000+ films using a production
 - **Key Skills / Tech:** Python, Computer Vision, Amazon Rekognition (Labels and Custom Labels), Amazon S3, AWS Lambda, IAM, JSON parsing, Model Evaluation (Precision / Recall), Cloud Deployment
 
 - **Repo:** *In Progress*
-
-
-### Financial Time-Series Forecasting: NVIDIA Case Study
-This project was born out of a desire to understand exactly where classical forecasting fails in the face of high-market volatility. Using NVIDIA as a case study, I documented the breakdown of ARIMA models when confronted with exogenous shocks like the AI boom. By diagnosing these failures, specifically the violation of linear assumptions, I implemented a PyTorch based LSTM that captured the nonlinear dependencies ARIMA missed. This resulted in a significant improvement in error control (reducing MAE from 6.76 to 2.56) and reinforced the importance of choosing model architectures that match the underlying regime of the data.
-
-**Key Skills/Tech:** Python, Time Series Analysis, ARIMA, MACD, LSTM (PyTorch), Deep Learning, RMSE / MAE, Model Evaluation, Failure Diagnosis
-
-**Repo:** [View Project](https://github.com/Tarieret/Financial-Time-Series-Forecasting-NVIDIA-Case-Study)  
+ 
 ---
 
 ## 📂 Archived / Past Work 
