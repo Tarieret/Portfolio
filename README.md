@@ -38,18 +38,18 @@ I built this project to analyze patterns across 60,000+ films using a production
 **Repo:** [View Project](https://github.com/Tarieret/Film-Industry-EDA)
 
 
-### Financial Time-Series Forecasting: NVIDIA Case Study
-This project was born out of a desire to understand exactly where classical forecasting fails in the face of high-market volatility. Using NVIDIA as a case study, I documented the breakdown of ARIMA models when confronted with exogenous shocks like the AI boom. By diagnosing these failures, specifically the violation of linear assumptions, I implemented a PyTorch based LSTM that captured the nonlinear dependencies ARIMA missed. This resulted in a significant improvement in error control (reducing MAE from 6.76 to 2.56) and reinforced the importance of choosing model architectures that match the underlying regime of the data.
-
-**Key Skills/Tech:** Python, Time Series Analysis, ARIMA, MACD, LSTM (PyTorch), Deep Learning, RMSE / MAE, Model Evaluation, Failure Diagnosis
-**Repo:** [View Project](https://github.com/Tarieret/Financial-Time-Series-Forecasting-NVIDIA-Case-Study)  
-
-
 ### House Plant Health Classification Using Amazon Rekognition
 
 - **Objective:** Build and deploy a houseplant health image classification workflow using Amazon Rekognition to detect plant health conditions (e.g., healthy vs. unhealthy, disease or stress indicators) from images, using a production-style pipeline for image ingestion, inference, and results storage.
 - **Key Skills / Tech:** Python, Computer Vision, Amazon Rekognition (Labels and Custom Labels), Amazon S3, AWS Lambda, IAM, JSON parsing, Model Evaluation (Precision / Recall), Cloud Deployment
 
+- **Repo:** *In Progress*
+
+
+### Financial Time-Series Forecasting: NVIDIA Case Study
+
+- **Objective:** Investigate the limitations of classical time-series models under high-volatility market conditions using NVIDIA stock as a case study. The project diagnoses ARIMA failure modes — including stationarity violations and linear assumption breakdown during the AI boom — and implements a PyTorch-based LSTM as a nonlinear alternative, with full model evaluation and diagnostic analysis.
+- **Key Skills / Tech:** Python, Time Series Analysis, ARIMA, ARIMAX, MACD, Stationarity Testing (ADF/KPSS), LSTM (PyTorch), Deep Learning, RMSE / MAE / R², Model Evaluation, Failure Diagnosis
 - **Repo:** *In Progress*
  
 ---
