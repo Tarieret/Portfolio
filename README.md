@@ -43,7 +43,7 @@ This project was born out of a desire to understand exactly where classical fore
 
 ### Film Industry EDA (SQL & R)
 
-- **Objective:** Analyze 900,000+ TMDB movies to uncover patterns in box office performance, genre popularity, and rating distributions by loading raw data into a SQLite database, querying with SQL, and building publication-quality visualizations in R.
+- **Objective:** Analyze 60,000+ TMDB movies to uncover patterns in box office performance, genre popularity, and rating distributions by loading raw data into a SQLite database, querying with SQL, and building visualizations in R.
 - **Key Skills / Tech:** R, tidyverse, ggplot2, lubridate, ggrepel, SQLite, DBI, RSQLite, Exploratory Data Analysis, Data Wrangling, Statistical Analysis (Correlation, Hypothesis Testing), Data Visualization
 - **Repo:** [View Project](https://github.com/Tarieret/Film-Industry-EDA)
 
