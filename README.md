@@ -30,7 +30,7 @@ This project explores how Retrieval-Augmented Generation can make domain-specifi
 
 
 ### Film Industry EDA (SQL & R)
-
+![Top Genres](/assets/img/02_top_genres.png)
 I built this project to analyze patterns across 60,000+ films using a production-style data pipeline, loading raw TMDB data into a SQLite database, querying it with SQL, and wrangling and visualizing the results in R. A key early decision was dropping financial analysis entirely after discovering that fewer than 17,000 of 1.38 million entries had both budget and revenue recorded but not enough to draw meaningful conclusions. Instead, the analysis focuses on genre trends, audience ratings, and popularity patterns across four decades of cinema. Two findings stood out: popularity and rating are essentially uncorrelated (r = 0.087), suggesting commercial reach and perceived quality are largely independent, and Drama movies consistently outrate Action films (6.27 vs. 5.96), a statistically significant gap across 35,000+ films.
 
 **Key Skills / Tech:** R, tidyverse, ggplot2, lubridate, ggrepel, SQLite, DBI, RSQLite, Exploratory Data Analysis, Data Wrangling, Statistical Analysis (Correlation, Hypothesis Testing), Data Visualization
