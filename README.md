@@ -49,7 +49,7 @@ I built this project to analyze patterns across 60,000+ films using a production
 ### Financial Time-Series Forecasting: NVIDIA Case Study
 
 - **Objective:** Investigate the limitations of classical time-series models under high-volatility market conditions using NVIDIA stock as a case study. The project diagnoses ARIMA failure modes — including stationarity violations and linear assumption breakdown during the AI boom — and implements a PyTorch-based LSTM as a nonlinear alternative, with full model evaluation and diagnostic analysis.
-- **Key Skills / Tech:** Python, Time Series Analysis, ARIMA, ARIMAX, MACD, Stationarity Testing (ADF/KPSS), LSTM (PyTorch), Deep Learning, RMSE / MAE / R², Model Evaluation, Failure Diagnosis
+- **Key Skills / Tech:** Python, Time Series Analysis, ARIMA, ARIMAX, MACD, Stationarity Testing (ADF/KPSS), Ljung-Box Diagnostics, LSTM (PyTorch), Deep Learning, RMSE / MAE / R², Model Evaluation, Failure Diagnosis
 - **Repo:** *In Progress*
  
 ---
