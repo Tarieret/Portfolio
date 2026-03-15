@@ -27,27 +27,28 @@ This project explores how Retrieval-Augmented Generation can make domain-specifi
 
 **Repo:** [View Project](https://github.com/Tarieret/RAG-Based-Reseach-Assistant/blob/main/README.md)
 
-### Financial Time-Series Forecasting: NVIDIA Case Study
-This project was born out of a desire to understand exactly where classical forecasting fails in the face of high-market volatility. Using NVIDIA as a case study, I documented the breakdown of ARIMA models when confronted with exogenous shocks like the AI boom. By diagnosing these failures, specifically the violation of linear assumptions, I implemented a PyTorch based LSTM that captured the nonlinear dependencies ARIMA missed. This resulted in a significant improvement in error control (reducing MAE from 6.76 to 2.56) and reinforced the importance of choosing model architectures that match the underlying regime of the data.
+### Film Industry EDA (SQL & R)
 
-**Key Skills/Tech:** Python, Time Series Analysis, ARIMA, MACD, LSTM (PyTorch), Deep Learning, RMSE / MAE, Model Evaluation, Failure Diagnosis
-**Repo:** [View Project](https://github.com/Tarieret/Financial-Time-Series-Forecasting-NVIDIA-Case-Study)
+I built this project to analyze patterns across 60,000+ films using a production-style data pipeline — loading raw TMDB data into a SQLite database, querying it with SQL, and wrangling and visualizing the results in R. A key early decision was dropping financial analysis entirely after discovering that fewer than 17,000 of 1.38 million entries had both budget and revenue recorded — not enough to draw meaningful conclusions. Instead, the analysis focuses on genre trends, audience ratings, and popularity patterns across four decades of cinema. One interesting finding was that popularity and rating are essentially uncorrelated (r = 0.087), suggesting that commercial reach and perceived quality are largely independent of each other in how audiences engage with films on TMDB.
 
+**Key Skills / Tech:** R, tidyverse, ggplot2, lubridate, ggrepel, SQLite, DBI, RSQLite, Exploratory Data Analysis, Data Wrangling, Statistical Analysis (Correlation, Hypothesis Testing), Data Visualization
+
+**Repo:** [View Project](https://github.com/Tarieret/Film-Industry-EDA)
 
 ### House Plant Health Classification Using Amazon Rekognition
 
 - **Objective:** Build and deploy a houseplant health image classification workflow using Amazon Rekognition to detect plant health conditions (e.g., healthy vs. unhealthy, disease or stress indicators) from images, using a production-style pipeline for image ingestion, inference, and results storage.
 - **Key Skills / Tech:** Python, Computer Vision, Amazon Rekognition (Labels and Custom Labels), Amazon S3, AWS Lambda, IAM, JSON parsing, Model Evaluation (Precision / Recall), Cloud Deployment
+
 - **Repo:** *In Progress*
 
 
-### Film Industry EDA (SQL & R)
+### Financial Time-Series Forecasting: NVIDIA Case Study
+This project was born out of a desire to understand exactly where classical forecasting fails in the face of high-market volatility. Using NVIDIA as a case study, I documented the breakdown of ARIMA models when confronted with exogenous shocks like the AI boom. By diagnosing these failures, specifically the violation of linear assumptions, I implemented a PyTorch based LSTM that captured the nonlinear dependencies ARIMA missed. This resulted in a significant improvement in error control (reducing MAE from 6.76 to 2.56) and reinforced the importance of choosing model architectures that match the underlying regime of the data.
 
-- **Objective:** Analyze 60,000+ TMDB movies to uncover patterns in box office performance, genre popularity, and rating distributions by loading raw data into a SQLite database, querying with SQL, and building visualizations in R.
-- **Key Skills / Tech:** R, tidyverse, ggplot2, lubridate, ggrepel, SQLite, DBI, RSQLite, Exploratory Data Analysis, Data Wrangling, Statistical Analysis (Correlation, Hypothesis Testing), Data Visualization
-- **Repo:** [View Project](https://github.com/Tarieret/Film-Industry-EDA)
+**Key Skills/Tech:** Python, Time Series Analysis, ARIMA, MACD, LSTM (PyTorch), Deep Learning, RMSE / MAE, Model Evaluation, Failure Diagnosis
 
-  
+**Repo:** [View Project](https://github.com/Tarieret/Financial-Time-Series-Forecasting-NVIDIA-Case-Study)  
 ---
 
 ## 📂 Archived / Past Work 
