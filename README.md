@@ -42,7 +42,6 @@ I built this project to analyze patterns across 60,000+ films using a production
 
 - **Objective:** Build and deploy a houseplant health image classification workflow using Amazon Rekognition to detect plant health conditions (e.g., healthy vs. unhealthy, disease or stress indicators) from images, using a production-style pipeline for image ingestion, inference, and results storage.
 - **Key Skills / Tech:** Python, Computer Vision, Amazon Rekognition (Labels and Custom Labels), Amazon S3, AWS Lambda, IAM, JSON parsing, Model Evaluation (Precision / Recall), Cloud Deployment
-
 - **Repo:** *In Progress*
 
 
@@ -73,8 +72,8 @@ Older projects and exploratory work are available in [Archived_Projects](https:/
 ## Core Competencies
 
 - **Methodologies:** Machine Learning, Deep Learning, Time Series Analysis, NLP, Big Data Analytics  
-- **Languages:** Python (Pandas, NumPy, Scikit-Learn, Matplotlib), R (Dplyr, Tidyr, Caret, Ggplot2), SQL  
-- **Tools & Platforms:** AWS SageMaker AI, S3, Lambda, Rekognition, MySQL, Tableau, Power BI, MS Excel  
+- **Languages:** Python (NumPy, Pandas, Matplotlib, Scikit-Learn, PyTorch), R (Dplyr, Tidyr, Caret, Ggplot2), SQL  
+- **Tools & Platforms:** AWS SageMaker AI, S3, Lambda, Rekognition, MySQL, SQLite, Tableau, Power BI, MS Excel  
 
 
 <p align="center">
