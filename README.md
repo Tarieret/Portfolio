@@ -36,6 +36,8 @@ For this project, I built an end-to-end houseplant health classification pipelin
 
 A big thank you to the staff at Holiday Foliage Orchids and Plants (146 W 28th St, NYC) and Redwood Flower Shop (New Brunswick, NJ) for letting me walk around and photograph their plants. Couldn't have built this dataset without them!
 
+**Dataset:** Available on Kaggle — [Houseplant Health Classification Dataset](https://www.kaggle.com/datasets/tarieretimitimi/houseplant-health-classification-dataset)
+
 **Key Skills/Tech:** Python, Amazon Rekognition Custom Labels, Amazon S3, AWS Lambda, IAM, boto3, Albumentations, scikit-learn, Model Evaluation (Precision/Recall/F1)
 
 **Repo:** [View Project](https://github.com/Tarieret/Houseplant-Health-Classification)
