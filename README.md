@@ -1,4 +1,3 @@
-# Tariere A. Timitimi
 ## Data Science & ML Portfolio
 
 Hi, my name is Tariere! 
