@@ -1,4 +1,14 @@
 title: Tariere A. Timitimi
-logo: /assets/img/profile.jpeg
-description: Data Scientist
-theme: jekyll-theme-minimal
+description: Data Scientist & ML Practitioner
+author: Tariere A. Timitimi
+
+remote_theme: daattali/beautiful-jekyll
+
+avatar: /assets/img/profile.jpeg
+round-avatar: true
+
+social-networks:
+  github: Tarieret
+  linkedin: tariere-timitimi
+
+email: tarieretimitimi@gmail.com
