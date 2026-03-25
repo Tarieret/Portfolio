@@ -1,6 +1,6 @@
 ---
-title: Tariere A. Timitimi
-subtitle: Data Scientist & ML Practitioner
+## title: Tariere A. Timitimi
+## subtitle: Data Scientist & ML Practitioner
 ---
 
 Hi, my name is Tariere! 
