@@ -1,5 +1,4 @@
-## Tariere A. Timitimi
-## Data Scientist & ML Practitioner
+# Data Scientist & ML Portfolio
 
 ---
 
