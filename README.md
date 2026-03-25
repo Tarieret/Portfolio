@@ -29,6 +29,17 @@ This project explores how Retrieval-Augmented Generation can make domain-specifi
 **Repo:** [View Project](https://github.com/Tarieret/RAG-Based-Reseach-Assistant/blob/main/README.md)
 
 
+
+### House Plant Health Classification Using Amazon Rekognition
+![Plant_Store](/assets/img/plant_store.png)
+This project builds an end-to-end houseplant health classification pipeline using Amazon Rekognition Custom Labels. Starting with 91 personal houseplant photos, the pipeline handles class imbalance through targeted image augmentation, splits data with stratification, and uploads labeled training images to S3 via manifest files. A Rekognition Custom Labels model was trained on the augmented dataset and evaluated against a held-out test set, achieving 95% accuracy with a precision of 1.00 and recall of 0.80 on the minority unhealthy class. The project goes beyond model training by deploying a serverless inference pipeline using AWS Lambda, which automatically triggers on new S3 uploads, runs inference, saves results as JSON, and stops the model to avoid unnecessary charges. A key focus throughout was building production-style code in Python using boto3, including defensive coding patterns and clean notebook structure.
+
+**Key Skills/Tech:** Python, Amazon Rekognition Custom Labels, Amazon S3, AWS Lambda, IAM, boto3, Albumentations, scikit-learn, Model Evaluation (Precision/Recall/F1)
+
+**Repo:** [View Project](https://github.com/Tarieret/Houseplant-Health-Classification)
+
+
+
 ### Film Industry EDA (SQL & R)
 ![Top Genres](/assets/img/02_top_genres.png)
 I built this project to analyze patterns across 60,000+ films using a production-style data pipeline, loading raw TMDB data into a SQLite database, querying it with SQL, and wrangling and visualizing the results in R. A key early decision was dropping financial analysis entirely after discovering that fewer than 17,000 of 1.38 million entries had both budget and revenue recorded but not enough to draw meaningful conclusions. Instead, the analysis focuses on genre trends, audience ratings, and popularity patterns across four decades of cinema. Two findings stood out: popularity and rating are essentially uncorrelated (r = 0.087), suggesting commercial reach and perceived quality are largely independent, and Drama movies consistently outrate Action films (6.27 vs. 5.96), a statistically significant gap across 35,000+ films.
@@ -36,13 +47,6 @@ I built this project to analyze patterns across 60,000+ films using a production
 **Key Skills / Tech:** R, tidyverse, ggplot2, lubridate, ggrepel, SQLite, DBI, RSQLite, Exploratory Data Analysis, Data Wrangling, Statistical Analysis (Correlation, Hypothesis Testing), Data Visualization
 
 **Repo:** [View Project](https://github.com/Tarieret/Film-Industry-EDA)
-
-
-### House Plant Health Classification Using Amazon Rekognition
-
-- **Objective:** Build and deploy a houseplant health image classification workflow using Amazon Rekognition to detect plant health conditions (e.g., healthy vs. unhealthy, disease or stress indicators) from images, using a production-style pipeline for image ingestion, inference, and results storage.
-- **Key Skills / Tech:** Python, Computer Vision, Amazon Rekognition (Labels and Custom Labels), Amazon S3, AWS Lambda, IAM, JSON parsing, Model Evaluation (Precision / Recall), Cloud Deployment
-- **Repo:** *In Progress*
 
 
 ### Financial Time-Series Forecasting: NVIDIA Case Study
