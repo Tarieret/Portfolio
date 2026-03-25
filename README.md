@@ -1,3 +1,8 @@
+---
+title: Tariere A. Timitimi
+subtitle: Data Scientist & ML Practitioner
+---
+
 Hi, my name is Tariere! 
 I'm a ML Practitioner passionate about the end-to-end lifecycle of machine learning.My focus is on building end-to-end ML systems: from exploratory analysis and model selection to cloud deployment, with an emphasis on making deliberate, well-reasoned architectural decisions. I am constantly experimenting with new architectures and refining my approach to building impactful AI.
 
