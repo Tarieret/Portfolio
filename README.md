@@ -31,7 +31,7 @@ This project explores how Retrieval-Augmented Generation can make domain-specifi
 
 
 ### House Plant Health Classification Using Amazon Rekognition
-![Plant_Store](/assets/img/plant_store.png)
+![storefront](assets/img/storefront.png)
 This project builds an end-to-end houseplant health classification pipeline using Amazon Rekognition Custom Labels. Starting with 91 personal houseplant photos, the pipeline handles class imbalance through targeted image augmentation, splits data with stratification, and uploads labeled training images to S3 via manifest files. A Rekognition Custom Labels model was trained on the augmented dataset and evaluated against a held-out test set, achieving 95% accuracy with a precision of 1.00 and recall of 0.80 on the minority unhealthy class. The project goes beyond model training by deploying a serverless inference pipeline using AWS Lambda, which automatically triggers on new S3 uploads, runs inference, saves results as JSON, and stops the model to avoid unnecessary charges. A key focus throughout was building production-style code in Python using boto3, including defensive coding patterns and clean notebook structure.
 
 **Key Skills/Tech:** Python, Amazon Rekognition Custom Labels, Amazon S3, AWS Lambda, IAM, boto3, Albumentations, scikit-learn, Model Evaluation (Precision/Recall/F1)
