@@ -1,7 +1,19 @@
 ---
 ---
 
-.author-avatar {
-  width: 160px !important;
-  height: 160px !important;
+.avatar-container {
+  width: 200px !important;
+  height: 200px !important;
+}
+
+.avatar-container img {
+  width: 200px !important;
+  height: 200px !important;
+  border-radius: 50% !important;
+}
+
+img.avatar-img {
+  width: 200px !important;
+  height: 200px !important;
+  border-radius: 50% !important;
 }
