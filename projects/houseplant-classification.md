@@ -38,7 +38,7 @@ Performance evaluated on 19 holdout test images:
 | F1 Score | 0.97 | 0.89 |
 | **Overall Accuracy** | **0.95** | |
 
-![Confusion Matrix](/assets/img/confusion_matrix.png)
+![Confusion Matrix](/Portfolio/assets/img/confusion_matrix.png)
 
 ---
 
