@@ -12,8 +12,8 @@ subtitle: End-to-end computer vision pipeline using Amazon Rekognition Custom La
 
 An end-to-end computer vision pipeline that classifies houseplant health conditions (healthy vs. unhealthy) using Amazon Rekognition Custom Labels. Built with a production-style architecture including automated serverless inference via AWS Lambda. Every AWS resource was provisioned and managed entirely through Python, making the pipeline fully reproducible from a single notebook.
 
-![Storefront](assets/img/storefront.png)
-![Storefront](assets/img/Plant.png)
+![Storefront](/Portfolio/assets/img/storefront.png)
+![Storefront](/Portfolio/assets/img/Plant.png)
 
 ---
 
