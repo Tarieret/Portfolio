@@ -40,6 +40,7 @@ Drama movies rate statistically higher than Action movies (6.27 vs. 5.96 average
 | Most popular | Top 10 most popular movies by TMDB popularity score |
 
 ![Top 10 Genres](/Portfolio/assets/img/02_top_genres.png)
+![Most Popular Movies](/Portfolio/assets/img/06_most_popular.png)
 
 ---
 
