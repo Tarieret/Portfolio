@@ -14,8 +14,8 @@ An end-to-end RAG pipeline that enables natural language querying of peer-review
 
 The idea came out of a Spring 2025 master's-level project on deep learning for brain tumor detection from MRI images, which pushed me to think less about individual models and more about supporting the research workflow itself.
 
-![Streamlit Demo](Portfolio/assets/img/StreamlitDemo1.png)
-![Streamlit Demo](Portfolio/assets/img/api-docs.png)
+![Streamlit Demo](/Portfolio/assets/img/StreamlitDemo1.png)
+![Streamlit Demo](/Portfolio/assets/img/api-docs.png)
 
 ---
 
