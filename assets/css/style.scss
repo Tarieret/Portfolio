@@ -1,57 +1,47 @@
 ---
 ---
 
-/* Navbar background */
+/* Navbar */
 .navbar-custom {
   background-color: #faf8f5 !important;
   border-bottom: 1px solid #e0dbd3 !important;
 }
 
-/* Navbar brand and links */
 .navbar-custom .navbar-brand {
   color: #2a2218 !important;
-  font-size: 1.1rem !important;
 }
 
-.navbar-custom .navbar-nav li a {
-  color: #5a4e3c !important;
-}
-
-.navbar-custom .navbar-nav li a:hover {
-  color: #2a2218 !important;
-}
-
-/* Avatar size and shape */
-.avatar-container {
-  width: 120px !important;
-  height: 120px !important;
-}
-
-.avatar-img-border {
-  width: 120px !important;
-  height: 120px !important;
+/* Avatar — target every possible selector */
+img.avatar-img,
+.avatar-img,
+.avatar-container img,
+.avatar-img-border img,
+nav img,
+.navbar-custom img {
+  width: 100px !important;
+  height: 100px !important;
+  min-width: 100px !important;
+  min-height: 100px !important;
+  max-width: 100px !important;
+  max-height: 100px !important;
   border-radius: 50% !important;
   border: 3px solid #e0dbd3 !important;
+  display: block !important;
+}
+
+.avatar-container,
+.avatar-img-border {
+  width: 100px !important;
+  height: 100px !important;
+  min-width: 100px !important;
+  min-height: 100px !important;
+  border-radius: 50% !important;
   overflow: hidden !important;
 }
 
-.avatar-img {
-  width: 120px !important;
-  height: 120px !important;
-  border-radius: 50% !important;
-}
-
-/* Page header (title + subtitle area) */
+/* Page header */
 .intro-header {
   background-color: #faf8f5 !important;
-}
-
-.intro-header .page-heading h1 {
-  color: #2a2218 !important;
-}
-
-.intro-header .page-heading .page-subheading {
-  color: #7a6e60 !important;
 }
 
 /* Body */
