@@ -14,7 +14,7 @@ This project forecasts U.S. Consumer Price Index (CPI) values using a multi-mode
 
 A key decision mid-project was pivoting away from LSTM after testing showed deep learning struggled with the small monthly sample size and non-stationary trend of CPI data — a deliberate architectural choice in favor of a more robust tree-based approach.
 
-![XGBoost CPI Forecast](/assets/img/XGBoost_CPI.png)
+![XGBoost CPI Forecast](assets/img/XGBoost_CPI.png)
 
 ---
 
