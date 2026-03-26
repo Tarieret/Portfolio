@@ -6,8 +6,16 @@ remote_theme: daattali/beautiful-jekyll
 avatar: /assets/img/profile.jpeg
 round-avatar: true
 
-social-networks:
+# Built-in color customization
+navbar-col: "#faf8f5"
+navbar-text-col: "#2a2218"
+navbar-border-col: "#e0dbd3"
+page-col: "#ffffff"
+text-col: "#2a2218"
+link-col: "#5a4e3c"
+hover-col: "#2a2218"
+
+social-network-links:
   github: Tarieret
   linkedin: tariere-timitimi
-
-email: tarieretimitimi@gmail.com
+  email: tarieretimitimi@gmail.com
