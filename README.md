@@ -1,6 +1,4 @@
----
-title: Tariere A. Timitimi
-subtitle: Data Scientist & ML Practitioner
+# Data Science & ML Portfolio
 ---
 
 Hi, my name is Tariere! 
