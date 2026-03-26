@@ -1,0 +1,23 @@
+<nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom top-nav-regular">
+  <a class="navbar-brand" href="{{ '/' | absolute_url }}">{{ site.title }}</a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="main-navbar">
+    <ul class="navbar-nav ml-auto">
+    </ul>
+  </div>
+
+  {% if site.avatar %}
+  <div class="avatar-container">
+    <div class="avatar-img-border">
+      <a href="{{ '/' | absolute_url }}">
+        <img alt="Navigation bar avatar" class="avatar-img" src="{{ site.avatar | relative_url }}"
+          style="width:90px; height:90px; border-radius:50%; object-fit:cover;" />
+      </a>
+    </div>
+  </div>
+  {% endif %}
+</nav>
