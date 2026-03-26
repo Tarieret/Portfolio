@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Economic Time-Series Forecasting on AWS SageMaker
-subtitle: XGBoost vs ARIMA vs Prophet — deployed end-to-end on AWS SageMaker
+subtitle: XGBoost vs ARIMA vs Prophet- deployed end-to-end on AWS SageMaker
 ---
 
 **[← Back to Portfolio](https://tarieret.github.io/Portfolio/)**
