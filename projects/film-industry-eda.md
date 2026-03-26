@@ -14,7 +14,7 @@ This project performs an exploratory data analysis of over 60,000 films sourced 
 
 Raw data is loaded into a local SQLite database, queried with SQL, then pulled into R for wrangling and visualization using the tidyverse ecosystem.
 
-![Genre Trends by Decade](assets/img/04_genre_trends_decade.png)
+![Genre Trends by Decade](/Portfolio/assets/img/04_genre_trends_decade.png)
 
 ---
 
@@ -39,7 +39,7 @@ Drama movies rate statistically higher than Action movies (6.27 vs. 5.96 average
 | Rating by decade | Average audience rating per decade |
 | Most popular | Top 10 most popular movies by TMDB popularity score |
 
-![Top 10 Genres](assets/img/02_top_genres.png)
+![Top 10 Genres](/Portfolio/assets/img/02_top_genres.png)
 
 ---
 
