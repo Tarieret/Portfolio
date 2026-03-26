@@ -1,5 +1,7 @@
 <nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom top-nav-regular">
-  <a class="navbar-brand" href="{{ '/' | absolute_url }}">{{ site.title }}</a>
+  <div style="display:flex; align-items:center; gap:12px; padding-left:100px;">
+    <a class="navbar-brand" href="{{ '/' | absolute_url }}">{{ site.title }}</a>
+  </div>
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -11,7 +13,7 @@
   </div>
 
   {% if site.avatar %}
-  <div class="avatar-container" style="position:absolute; left:20px; top:10px;">
+  <div class="avatar-container" style="position:absolute; left:10px; top:8px;">
     <div class="avatar-img-border">
       <a href="{{ '/' | absolute_url }}">
         <img alt="Navigation bar avatar" class="avatar-img" src="{{ site.avatar | relative_url }}"
