@@ -16,8 +16,6 @@ Raw data is loaded into a local SQLite database, queried with SQL, then pulled i
 
 ![Top 10 Genres](/Portfolio/assets/img/02_top_genres.png)
 
-![Genre Trends by Decade](/Portfolio/assets/img/04_genre_trends_decade.png)
-
 ---
 
 ## Key Findings
