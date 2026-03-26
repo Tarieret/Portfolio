@@ -13,50 +13,39 @@ Hi, my name is Tariere! I'm a ML Practitioner passionate about the end-to-end li
 
 ## Featured Projects
 
-### Economic Time-Series Forecasting on AWS SageMaker
-![XGBoost CPI Forecast](/assets/img/XGBoost_CPI.png)
-I built this project to explore how different machine learning architectures handle the nuances of U.S. macroeconomic data. After benchmarking classical statistical models against modern gradient boosting, I found that XGBoost, paired with a 12-month lookback window and stationarity transformations, far outperformed traditional methods like ARIMA. A major part of the journey was the decision to pivot away from Deep Learning (LSTM) when it became clear the architecture wasn't suited for the specific scale of this dataset. To bridge the gap between development and production, I structured the final model to be compatible with AWS SageMaker, including a custom inference handler for scalable cloud hosting.
+### [Economic Time-Series Forecasting on AWS SageMaker](https://tarieret.github.io/Portfolio/projects/economic-forecasting)
+[![XGBoost CPI Forecast](/assets/img/XGBoost_CPI.png)](https://tarieret.github.io/Portfolio/projects/economic-forecasting)
+I built this project to explore how different machine learning architectures handle the nuances of U.S. macroeconomic data. After benchmarking classical statistical models against modern gradient boosting, I found that XGBoost, paired with a 12-month lookback window and stationarity transformations, far outperformed traditional methods like ARIMA. A major part of the journey was the decision to pivot away from Deep Learning (LSTM) when it became clear the architecture wasn't suited for the specific scale of this dataset.
 
 **Key Skills/Tech:** Python, XGBoost, ARIMA, Prophet, SageMaker AI, Cloud Deployment, MLOps
 
-**Repo:** [View Project](https://github.com/Tarieret/Economic-Time-Series-Forecasting-on-AWS-SageMaker)
-
 ---
 
-### RAG-Based Research Assistant
-![Streamlit](/assets/img/StreamlitDemo1.png)
-This project explores how Retrieval-Augmented Generation can make domain-specific medical research easier to work with. It ingests peer-reviewed papers on brain tumor detection, indexes them using semantic embeddings, and returns citation-backed answers through a FastAPI backend and a Streamlit interface. A key focus here was building a RAG pipeline that is accurate, responsive, and usable by multiple users, while still being simple enough to run locally.
+### [RAG-Based Research Assistant](https://tarieret.github.io/Portfolio/projects/rag-research-assistant)
+[![Streamlit](/assets/img/StreamlitDemo1.png)](https://tarieret.github.io/Portfolio/projects/rag-research-assistant)
+This project explores how Retrieval-Augmented Generation can make domain-specific medical research easier to work with. It ingests peer-reviewed papers on brain tumor detection, indexes them using semantic embeddings, and returns citation-backed answers through a FastAPI backend and a Streamlit interface.
 
 **Key Skills/Tech:** Python, FastAPI, OpenAI API, LangChain, ChromaDB, Streamlit, Retrieval-Augmented Generation
 
-**Repo:** [View Project](https://github.com/Tarieret/RAG-Based-Reseach-Assistant/blob/main/README.md)
-
 ---
 
-### House Plant Health Classification Using Amazon Rekognition
-![Storefront](/assets/img/storefront.png)
-For this project, I built an end-to-end houseplant health classification pipeline using Amazon Rekognition Custom Labels. Starting with 91 personal houseplant photos, the pipeline handles class imbalance through targeted image augmentation, splits data with stratification, and uploads labeled training images to S3 via manifest files. A Rekognition Custom Labels model achieved 95% accuracy with a precision of 1.00 and recall of 0.80 on the minority unhealthy class.
-
-**Dataset:** [Houseplant Health Classification Dataset](https://www.kaggle.com/datasets/tarieretimitimi/houseplant-health-classification-dataset)
+### [House Plant Health Classification Using Amazon Rekognition](https://tarieret.github.io/Portfolio/projects/houseplant-classification)
+[![Storefront](/assets/img/storefront.png)](https://tarieret.github.io/Portfolio/projects/houseplant-classification)
+For this project, I built an end-to-end houseplant health classification pipeline using Amazon Rekognition Custom Labels. Starting with 91 personal houseplant photos, the pipeline achieved 95% accuracy with a precision of 1.00 and recall of 0.80 on the minority unhealthy class.
 
 **Key Skills/Tech:** Python, Amazon Rekognition, Custom Labels, Amazon S3, AWS Lambda, IAM, Boto3, Albumentations, Scikit-learn
 
-**Repo:** [View Project](https://github.com/Tarieret/Houseplant-Health-Classification)
-
 ---
 
-### Film Industry EDA (SQL & R)
-![Top Genres](/assets/img/02_top_genres.png)
-I built this project to analyze patterns across 60,000+ films using a production-style data pipeline, loading raw TMDB data into a SQLite database, querying it with SQL, and wrangling and visualizing the results in R. Two findings stood out: popularity and rating are essentially uncorrelated (r = 0.087), and Drama movies consistently outrate Action films (6.27 vs. 5.96) — a statistically significant gap across 35,000+ films.
+### [Film Industry EDA (SQL & R)](https://tarieret.github.io/Portfolio/projects/film-industry-eda)
+[![Top Genres](/assets/img/02_top_genres.png)](https://tarieret.github.io/Portfolio/projects/film-industry-eda)
+I built this project to analyze patterns across 60,000+ films using a production-style data pipeline, loading raw TMDB data into a SQLite database, querying it with SQL, and wrangling and visualizing the results in R. Two findings stood out: popularity and rating are essentially uncorrelated (r = 0.087), and Drama movies consistently outrate Action films (6.27 vs. 5.96).
 
 **Key Skills/Tech:** R, tidyverse, ggplot2, lubridate, ggrepel, SQLite, DBI, RSQLite, Exploratory Data Analysis, Statistical Analysis
-
-**Repo:** [View Project](https://github.com/Tarieret/Film-Industry-EDA)
 
 ---
 
 ### Financial Time-Series Forecasting: NVIDIA Case Study *(In Progress)*
-
 - **Objective:** Investigate the limitations of classical time-series models under high-volatility market conditions using NVIDIA stock as a case study.
 - **Key Skills/Tech:** Python, ARIMA, ARIMAX, MACD, ADF/KPSS Testing, Ljung-Box Diagnostics, LSTM (PyTorch), RMSE/MAE/R²
 - **Repo:** *In Progress*
