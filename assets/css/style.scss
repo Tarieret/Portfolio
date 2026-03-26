@@ -1,78 +1,64 @@
 ---
 ---
 
-/* Header background */
-.intro-header, .page-header {
+/* Navbar background */
+.navbar-custom {
   background-color: #faf8f5 !important;
   border-bottom: 1px solid #e0dbd3 !important;
 }
 
-/* Header text colors */
-.intro-header .page-title,
-.page-header .page-title {
+/* Navbar brand and links */
+.navbar-custom .navbar-brand {
   color: #2a2218 !important;
-  font-size: 2rem !important;
-}
-
-.intro-header .page-subtitle,
-.page-header .page-subtitle {
-  color: #7a6e60 !important;
   font-size: 1.1rem !important;
 }
 
-/* Move avatar to left and make it larger */
-.intro-header {
-  display: flex !important;
-  flex-direction: row !important;
-  align-items: center !important;
-  text-align: left !important;
-  padding: 2rem 3rem !important;
-  gap: 2rem !important;
+.navbar-custom .navbar-nav li a {
+  color: #5a4e3c !important;
 }
 
-.intro-header .avatar-container {
-  order: -1 !important;
-  flex-shrink: 0 !important;
+.navbar-custom .navbar-nav li a:hover {
+  color: #2a2218 !important;
 }
 
-.intro-header .header-col-left {
-  display: flex !important;
-  flex-direction: row !important;
-  align-items: center !important;
-  gap: 2rem !important;
+/* Avatar size and shape */
+.avatar-container {
+  width: 120px !important;
+  height: 120px !important;
 }
 
-/* Larger circular avatar */
-.avatar-container img,
-.avatar-container .avatar-img {
+.avatar-img-border {
   width: 120px !important;
   height: 120px !important;
   border-radius: 50% !important;
   border: 3px solid #e0dbd3 !important;
+  overflow: hidden !important;
 }
 
-/* Navbar */
-.navbar-default {
+.avatar-img {
+  width: 120px !important;
+  height: 120px !important;
+  border-radius: 50% !important;
+}
+
+/* Page header (title + subtitle area) */
+.intro-header {
   background-color: #faf8f5 !important;
-  border-bottom: 1px solid #e0dbd3 !important;
 }
 
-.navbar-default .navbar-brand,
-.navbar-default .nav li a {
-  color: #5a4e3c !important;
-}
-
-.navbar-default .nav li a:hover {
+.intro-header .page-heading h1 {
   color: #2a2218 !important;
 }
 
-/* Body font */
+.intro-header .page-heading .page-subheading {
+  color: #7a6e60 !important;
+}
+
+/* Body */
 body {
-  font-family: 'Lato', sans-serif !important;
   color: #2a2218 !important;
 }
 
-/* Links */
 a {
   color: #5a4e3c !important;
 }
