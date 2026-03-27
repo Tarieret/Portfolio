@@ -1,16 +1,15 @@
-
 ---
 title: Tariere A. Timitimi
 subtitle: Data Scientist & ML Practitioner
 ---
 
-Hi, my name is Tariere! I'm a Data Science Master's candidate passionate about the end-to-end lifecycle of machine learning — from exploratory analysis and model selection to cloud deployment, with an emphasis on making deliberate, well-reasoned architectural decisions. I am constantly experimenting with new architectures and refining my approach to building impactful AI.
+Hi, my name is Tariere! I'm a Data Science Master's candidate passionate about the end-to-end lifecycle of machine learning- from exploratory analysis and model selection to cloud deployment, with an emphasis on making deliberate, well-reasoned architectural decisions. I am constantly experimenting with new architectures and refining my approach to building impactful AI.
 
-Outside of work, I'm a cozy gamer (I've recently started making my own mods for The Sims 4), a sci-fi and anime fan (Cowboy Bebop is untouchable), and someone who genuinely loves learning for its own sake. Geography and anthropology are two of my deepest special interests. And if you want to get me talking, ask me about food — one of my favorite things about living in New York is that good food is always close by.
+Outside of work, I'm a cozy gamer (I've recently started making my own mods for The Sims 4), a sci-fi and anime fan (Cowboy Bebop is untouchable), and someone who genuinely loves learning for its own sake. Geography and anthropology are two of my deepest special interests. And if you want to get me talking, ask me about food — one of my favorite things about living in New York is that good food is always close by!
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 <div style="display:flex;flex-direction:column;gap:12px;margin-top:8px;margin-bottom:8px;">
 
