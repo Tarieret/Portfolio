@@ -5,7 +5,7 @@ subtitle: Data Scientist & ML Practitioner
 
 Hi, my name is Tariere! I'm a Data Science Master's candidate passionate about the end-to-end lifecycle of machine learning — from exploratory analysis and model selection to cloud deployment, with an emphasis on making deliberate, well-reasoned architectural decisions. I am constantly experimenting with new architectures and refining my approach to building impactful AI.
 
-Outside of work, I'm a cozy gamer (The Sims 4 is a lifestyle — I've recently started making my own mods), a sci-fi and anime fan (Cowboy Bebop is untouchable), and someone who genuinely loves learning for its own sake. Geography and anthropology are two of my deepest special interests. And if you want to get me talking, ask me about food — one of my favorite things about living in New York is that good food is always close by.
+Outside of work, I'm a cozy gamer (I've recently started making my own mods for the sims)), a sci-fi and anime fan (Cowboy Bebop is untouchable), and someone who genuinely loves learning for its own sake. Geography and anthropology are two of my deepest special interests. And if you want to get me talking, ask me about food — one of my favorite things about living in New York is that good food is always close by.
 
 ✨ Artist · Lifelong learner · Fan of great books and better company
 
@@ -21,7 +21,7 @@ I built this project to explore how different machine learning architectures han
 
 **Key Skills/Tech:** Python, XGBoost, ARIMA, Prophet, SageMaker AI, Cloud Deployment, MLOps
 
-<a href="https://tarieret.github.io/Portfolio/projects/economic-forecasting" style="display:inline-block;padding:7px 16px;background-color:#7c3aed;color:white;border-radius:5px;text-decoration:none;font-size:0.88em;font-weight:600;">View Project →</a>
+<a href="https://tarieret.github.io/Portfolio/projects/economic-forecasting" style="display:inline-block;padding:7px 16px;background-color:#2c6fad;color:white;border-radius:5px;text-decoration:none;font-size:0.88em;font-weight:600;">View Project →</a>
 
 ---
 
@@ -51,7 +51,7 @@ I built this project to analyze patterns across 60,000+ films using a production
 
 **Key Skills/Tech:** R, tidyverse, ggplot2, lubridate, ggrepel, SQLite, DBI, RSQLite, Exploratory Data Analysis, Statistical Analysis
 
-<a href="https://tarieret.github.io/Portfolio/projects/film-industry-eda" style="display:inline-block;padding:7px 16px;background-color:#7c3aed;color:white;border-radius:5px;text-decoration:none;font-size:0.88em;font-weight:600;">View Project →</a>
+<a href="https://tarieret.github.io/Portfolio/projects/film-industry-eda" style="display:inline-block;padding:7px 16px;background-color:#2c6fad;color:white;border-radius:5px;text-decoration:none;font-size:0.88em;font-weight:600;">View Project →</a>
 
 ---
 
@@ -110,15 +110,10 @@ Older projects and exploratory work are available in [Archived_Projects](https:/
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Languages:** Python (NumPy, Pandas, Matplotlib, Scikit-Learn, PyTorch), R (Dplyr, Tidyr, Caret, Ggplot2), SQL
 - **ML & AI:** Machine Learning, Deep Learning, NLP, Time Series Analysis, RAG, Feature Engineering, Hyperparameter Tuning, Big Data Analytics
 - **Cloud & MLOps:** AWS SageMaker AI, S3, Lambda, Rekognition, IAM, Boto3, Docker, Git
 - **Databases & BI:** MySQL, SQLite, Tableau, Power BI, MS Excel
 
-<p align="center">
-  <a href="mailto:tarieretimitimi@gmail.com" class="btn btn-primary">Email Me</a>
-  <a href="https://www.linkedin.com/in/tariere-timitimi/" class="btn btn-info" style="background-color: #0a66c2; border-color: #0a66c2; color: white;">LinkedIn</a>
-  <a href="https://www.kaggle.com/tarieretimitimi" class="btn" style="background-color: #20beff; border-color: #20beff; color: white;">Kaggle</a>
-</p>
