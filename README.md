@@ -1,5 +1,5 @@
 # Tariere A. Timitimi
-## Data Science & ML Portfolio
+## Data Scientist  & ML Practitioner
 
 Hi, my name is Tariere! I'm a Data Science Master's candidate passionate about the end-to-end lifecycle of machine learning — from exploratory analysis and model selection to cloud deployment, with an emphasis on making deliberate, well-reasoned architectural decisions. I am constantly experimenting with new architectures and refining my approach to building impactful AI.
 
@@ -7,7 +7,7 @@ Outside of work, I'm a cozy gamer (I've recently started making my own mods for 
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 <div style="display:flex;flex-direction:column;gap:12px;margin-top:8px;margin-bottom:8px;">
 
