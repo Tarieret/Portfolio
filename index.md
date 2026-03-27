@@ -3,11 +3,15 @@ title: Tariere A. Timitimi
 subtitle: Data Scientist & ML Practitioner
 ---
 
+<div id="about"></div> 
+
 Hi, my name is Tariere! I'm a Data Science Master's candidate passionate about the end-to-end lifecycle of machine learning- from exploratory analysis and model selection to cloud deployment, with an emphasis on making deliberate, well-reasoned architectural decisions. I am constantly experimenting with new architectures and refining my approach to building impactful AI.
 
 Outside of work, I'm a cozy gamer (I've recently started making my own mods for The Sims 4), a sci-fi and anime fan (Cowboy Bebop is untouchable), and someone who genuinely loves learning for its own sake. Geography and anthropology are two of my deepest special interests. And if you want to get me talking, ask me about food — one of my favorite things about living in New York is that good food is always close by!
 
 ---
+
+<div id="tech-stack"></div>
 
 ##  Tech Stack
 
@@ -77,6 +81,8 @@ Outside of work, I'm a cozy gamer (I've recently started making my own mods for 
 </div>
 ---
 
+<div id="projects"></div>
+
 ## Featured Projects
 
 ### [Economic Time-Series Forecasting on AWS SageMaker](https://tarieret.github.io/Portfolio/projects/economic-forecasting)
@@ -130,6 +136,8 @@ I built this project to analyze patterns across 60,000+ films using a production
 Older projects and exploratory work are available in [Archived_Projects](https://github.com/Tarieret/Archived_Projects/tree/main) for reference.
 
 ---
+
+<div id="certifications"></div>
 
 ## Certifications
 
