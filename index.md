@@ -1,9 +1,9 @@
 ---
-<div id="about"></div> 
-
 title: Tariere A. Timitimi
 subtitle: Data Scientist & ML Practitioner
 ---
+
+<div id="about"></div> 
 
 Hi, my name is Tariere! I'm a Data Science Master's candidate passionate about the end-to-end lifecycle of machine learning- from exploratory analysis and model selection to cloud deployment, with an emphasis on making deliberate, well-reasoned architectural decisions. I am constantly experimenting with new architectures and refining my approach to building impactful AI.
 
