@@ -8,9 +8,9 @@ round-avatar: true
 
 social-network-links:
   github: Tarieret
+  kaggle: tarieretimitimi
   linkedin: tariere-timitimi
   email: tarieretimitimi@gmail.com
-  kaggle: tarieretimitimi
 
 site-css:
   - /Portfolio/assets/css/style.css
