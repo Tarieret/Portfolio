@@ -1,3 +1,4 @@
+
 ---
 title: Tariere A. Timitimi
 subtitle: Data Scientist & ML Practitioner
@@ -5,12 +6,76 @@ subtitle: Data Scientist & ML Practitioner
 
 Hi, my name is Tariere! I'm a Data Science Master's candidate passionate about the end-to-end lifecycle of machine learning — from exploratory analysis and model selection to cloud deployment, with an emphasis on making deliberate, well-reasoned architectural decisions. I am constantly experimenting with new architectures and refining my approach to building impactful AI.
 
-Outside of work, I'm a cozy gamer (I've recently started making my own mods for the sims)), a sci-fi and anime fan (Cowboy Bebop is untouchable), and someone who genuinely loves learning for its own sake. Geography and anthropology are two of my deepest special interests. And if you want to get me talking, ask me about food — one of my favorite things about living in New York is that good food is always close by.
+Outside of work, I'm a cozy gamer (I've recently started making my own mods for The Sims 4), a sci-fi and anime fan (Cowboy Bebop is untouchable), and someone who genuinely loves learning for its own sake. Geography and anthropology are two of my deepest special interests. And if you want to get me talking, ask me about food — one of my favorite things about living in New York is that good food is always close by.
 
-✨ Artist · Lifelong learner · Fan of great books and better company
+---
 
-**Technical Skills:** Python, R, SQL, Machine Learning, Deep Learning, AWS
+## 🛠️ Tech Stack
 
+<div style="display:flex;flex-direction:column;gap:12px;margin-top:8px;margin-bottom:8px;">
+
+  <div>
+    <div style="font-size:0.78em;color:#57606a;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:6px;font-weight:600;">Languages</div>
+    <div style="display:flex;flex-wrap:wrap;gap:8px;">
+      <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">Python</span>
+      <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">R</span>
+      <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">SQL</span>
+    </div>
+  </div>
+
+  <div>
+    <div style="font-size:0.78em;color:#57606a;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:6px;font-weight:600;">ML & AI</div>
+    <div style="display:flex;flex-wrap:wrap;gap:8px;">
+      <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">Scikit-learn</span>
+      <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">PyTorch</span>
+      <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">XGBoost</span>
+      <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">LangChain</span>
+      <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">Machine Learning</span>
+      <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">Deep Learning</span>
+      <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">NLP</span>
+      <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">Time Series Analysis</span>
+      <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">RAG</span>
+      <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">Feature Engineering</span>
+    </div>
+  </div>
+
+  <div>
+    <div style="font-size:0.78em;color:#57606a;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:6px;font-weight:600;">Data & Analytics</div>
+    <div style="display:flex;flex-wrap:wrap;gap:8px;">
+      <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">NumPy</span>
+      <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">Pandas</span>
+      <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">Matplotlib</span>
+      <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">ggplot2</span>
+      <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">Tableau</span>
+      <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">Power BI</span>
+      <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">A/B Testing</span>
+    </div>
+  </div>
+
+  <div>
+    <div style="font-size:0.78em;color:#57606a;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:6px;font-weight:600;">Cloud & MLOps</div>
+    <div style="display:flex;flex-wrap:wrap;gap:8px;">
+      <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">AWS SageMaker</span>
+      <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">S3</span>
+      <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">Lambda</span>
+      <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">Rekognition</span>
+      <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">Boto3</span>
+      <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">Docker</span>
+      <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">Git</span>
+    </div>
+  </div>
+
+  <div>
+    <div style="font-size:0.78em;color:#57606a;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:6px;font-weight:600;">Databases & BI</div>
+    <div style="display:flex;flex-wrap:wrap;gap:8px;">
+      <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">MySQL</span>
+      <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">SQLite</span>
+      <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">PostgreSQL</span>
+      <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">MS Excel</span>
+    </div>
+  </div>
+
+</div>
 ---
 
 ## Featured Projects
@@ -108,12 +173,4 @@ Older projects and exploratory work are available in [Archived_Projects](https:/
 
 </div>
 
----
-
-## Tech Stack
-
-- **Languages:** Python (NumPy, Pandas, Matplotlib, Scikit-Learn, PyTorch), R (Dplyr, Tidyr, Caret, Ggplot2), SQL
-- **ML & AI:** Machine Learning, Deep Learning, NLP, Time Series Analysis, RAG, Feature Engineering, Hyperparameter Tuning, Big Data Analytics
-- **Cloud & MLOps:** AWS SageMaker AI, S3, Lambda, Rekognition, IAM, Boto3, Docker, Git
-- **Databases & BI:** MySQL, SQLite, Tableau, Power BI, MS Excel
 
