@@ -1,12 +1,78 @@
 # Tariere A. Timitimi
 ## Data Science & ML Portfolio
 
-Hi, my name is Tariere! 
-I'm a ML Practitioner passionate about the end-to-end lifecycle of machine learning. My focus is on building end-to-end ML systems: from exploratory analysis and model selection to cloud deployment, with an emphasis on making deliberate, well-reasoned architectural decisions. I am constantly experimenting with new architectures and refining my approach to building impactful AI.
+Hi, my name is Tariere! I'm a Data Science Master's candidate passionate about the end-to-end lifecycle of machine learning — from exploratory analysis and model selection to cloud deployment, with an emphasis on making deliberate, well-reasoned architectural decisions. I am constantly experimenting with new architectures and refining my approach to building impactful AI.
 
-✨ Interests: Artist, lifelong learner, and fan of great books and better company.
+Outside of work, I'm a cozy gamer (I've recently started making my own mods for The Sims 4), a sci-fi and anime fan (Cowboy Bebop is untouchable), and someone who genuinely loves learning for its own sake. Geography and anthropology are two of my deepest special interests. And if you want to get me talking, ask me about food — one of my favorite things about living in New York is that good food is always close by.
 
-**Technical Skills:** Python, R, SQL, Machine Learning, Deep Learning, AWS
+---
+
+## 🛠️ Tech Stack
+
+<div style="display:flex;flex-direction:column;gap:12px;margin-top:8px;margin-bottom:8px;">
+
+  <div>
+    <div style="font-size:0.78em;color:#57606a;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:6px;font-weight:600;">Languages</div>
+    <div style="display:flex;flex-wrap:wrap;gap:8px;">
+      <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">Python</span>
+      <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">R</span>
+      <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">SQL</span>
+    </div>
+  </div>
+
+  <div>
+    <div style="font-size:0.78em;color:#57606a;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:6px;font-weight:600;">ML & AI</div>
+    <div style="display:flex;flex-wrap:wrap;gap:8px;">
+      <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">Scikit-learn</span>
+      <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">PyTorch</span>
+      <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">XGBoost</span>
+      <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">LangChain</span>
+      <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">Machine Learning</span>
+      <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">Deep Learning</span>
+      <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">NLP</span>
+      <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">Time Series Analysis</span>
+      <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">RAG</span>
+      <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">Feature Engineering</span>
+    </div>
+  </div>
+
+  <div>
+    <div style="font-size:0.78em;color:#57606a;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:6px;font-weight:600;">Data & Analytics</div>
+    <div style="display:flex;flex-wrap:wrap;gap:8px;">
+      <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">NumPy</span>
+      <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">Pandas</span>
+      <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">Matplotlib</span>
+      <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">ggplot2</span>
+      <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">Tableau</span>
+      <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">Power BI</span>
+      <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">A/B Testing</span>
+    </div>
+  </div>
+
+  <div>
+    <div style="font-size:0.78em;color:#57606a;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:6px;font-weight:600;">Cloud & MLOps</div>
+    <div style="display:flex;flex-wrap:wrap;gap:8px;">
+      <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">AWS SageMaker</span>
+      <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">S3</span>
+      <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">Lambda</span>
+      <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">Rekognition</span>
+      <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">Boto3</span>
+      <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">Docker</span>
+      <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">Git</span>
+    </div>
+  </div>
+
+  <div>
+    <div style="font-size:0.78em;color:#57606a;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:6px;font-weight:600;">Databases & BI</div>
+    <div style="display:flex;flex-wrap:wrap;gap:8px;">
+      <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">MySQL</span>
+      <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">SQLite</span>
+      <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">PostgreSQL</span>
+      <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">MS Excel</span>
+    </div>
+  </div>
+
+</div>
 
 ---
 
@@ -17,7 +83,7 @@ I built this project to explore how different machine learning architectures han
 
 **Key Skills/Tech:** Python, XGBoost, ARIMA, Prophet, SageMaker AI, Cloud Deployment, MLOps
 
-**Repo:** [View Project](https://github.com/Tarieret/Economic-Time-Series-Forecasting-on-AWS-SageMaker)
+<a href="https://github.com/Tarieret/Economic-Time-Series-Forecasting-on-AWS-SageMaker" style="display:inline-block;padding:7px 16px;background-color:#7c3aed;color:white;border-radius:5px;text-decoration:none;font-size:0.88em;font-weight:600;">View Project →</a>
 
 ---
 
@@ -26,7 +92,7 @@ This project explores how Retrieval-Augmented Generation can make domain-specifi
 
 **Key Skills/Tech:** Python, FastAPI, OpenAI API, LangChain, ChromaDB, Streamlit, Retrieval-Augmented Generation
 
-**Repo:** [View Project](https://github.com/Tarieret/RAG-Based-Reseach-Assistant)
+<a href="https://github.com/Tarieret/RAG-Based-Reseach-Assistant" style="display:inline-block;padding:7px 16px;background-color:#7c3aed;color:white;border-radius:5px;text-decoration:none;font-size:0.88em;font-weight:600;">View Project →</a>
 
 ---
 
@@ -37,7 +103,7 @@ For this project, I wanted to build an end-to-end houseplant health classificati
 
 **Key Skills/Tech:** Python, Amazon Rekognition, Custom Labels, Amazon S3, AWS Lambda, IAM, Boto3, Albumentations, Scikit-learn
 
-**Repo:** [View Project](https://github.com/Tarieret/Houseplant-Health-Classification)
+<a href="https://github.com/Tarieret/Houseplant-Health-Classification" style="display:inline-block;padding:7px 16px;background-color:#7c3aed;color:white;border-radius:5px;text-decoration:none;font-size:0.88em;font-weight:600;">View Project →</a>
 
 ---
 
@@ -46,7 +112,7 @@ I built this project to analyze patterns across 60,000+ films using a production
 
 **Key Skills/Tech:** R, tidyverse, ggplot2, lubridate, ggrepel, SQLite, DBI, RSQLite, Exploratory Data Analysis, Statistical Analysis
 
-**Repo:** [View Project](https://github.com/Tarieret/Film-Industry-EDA)
+<a href="https://github.com/Tarieret/Film-Industry-EDA" style="display:inline-block;padding:7px 16px;background-color:#7c3aed;color:white;border-radius:5px;text-decoration:none;font-size:0.88em;font-weight:600;">View Project →</a>
 
 ---
 
@@ -65,16 +131,49 @@ Older projects and exploratory work are available in [Archived_Projects](https:/
 
 ## Certifications
 
-<a href="https://www.credly.com/badges/8983ce52-d5b0-421a-b7c5-80b3e9fa676f/linked_in_profile">AWS ML Engineer – Associate</a>,
-<a href="https://www.nvidia.com/en-us/training/">NVIDIA Deep Learning</a>,
-<a href="https://credentials.databricks.com/c6b25acf-076b-494f-a959-740542fa0033#acc.PeisynNm">Databricks Fundamentals</a>,
-<a href="https://drive.google.com/file/d/1LnDWoYYBcAIY72g8Dj0FVGfU1gluaUSr/view">Databricks Apache Spark</a>,
-<a href="https://www.credly.com/badges/4881e30a-e6a7-4906-8342-364b621a6b59/linked_in_profile">AWS Cloud Practitioner</a>
+<div style="display:flex;flex-wrap:wrap;gap:12px;margin-top:8px;margin-bottom:8px;">
+
+  <a href="https://www.credly.com/badges/8983ce52-d5b0-421a-b7c5-80b3e9fa676f/linked_in_profile" target="_blank" style="text-decoration:none;color:inherit;">
+    <div style="border:1px solid #d0d7de;border-radius:8px;padding:14px 18px;width:220px;background:#f6f8fa;">
+      <div style="font-size:0.72em;color:#57606a;margin-bottom:5px;text-transform:uppercase;letter-spacing:0.05em;">Amazon Web Services</div>
+      <div style="font-weight:600;font-size:0.92em;">AWS ML Engineer – Associate</div>
+    </div>
+  </a>
+
+  <a href="https://www.nvidia.com/en-us/training/" target="_blank" style="text-decoration:none;color:inherit;">
+    <div style="border:1px solid #d0d7de;border-radius:8px;padding:14px 18px;width:220px;background:#f6f8fa;">
+      <div style="font-size:0.72em;color:#57606a;margin-bottom:5px;text-transform:uppercase;letter-spacing:0.05em;">NVIDIA</div>
+      <div style="font-weight:600;font-size:0.92em;">NVIDIA Deep Learning</div>
+    </div>
+  </a>
+
+  <a href="https://credentials.databricks.com/c6b25acf-076b-494f-a959-740542fa0033#acc.PeisynNm" target="_blank" style="text-decoration:none;color:inherit;">
+    <div style="border:1px solid #d0d7de;border-radius:8px;padding:14px 18px;width:220px;background:#f6f8fa;">
+      <div style="font-size:0.72em;color:#57606a;margin-bottom:5px;text-transform:uppercase;letter-spacing:0.05em;">Databricks</div>
+      <div style="font-weight:600;font-size:0.92em;">Databricks Fundamentals</div>
+    </div>
+  </a>
+
+  <a href="https://drive.google.com/file/d/1LnDWoYYBcAIY72g8Dj0FVGfU1gluaUSr/view" target="_blank" style="text-decoration:none;color:inherit;">
+    <div style="border:1px solid #d0d7de;border-radius:8px;padding:14px 18px;width:220px;background:#f6f8fa;">
+      <div style="font-size:0.72em;color:#57606a;margin-bottom:5px;text-transform:uppercase;letter-spacing:0.05em;">Databricks</div>
+      <div style="font-weight:600;font-size:0.92em;">Databricks Apache Spark</div>
+    </div>
+  </a>
+
+  <a href="https://www.credly.com/badges/4881e30a-e6a7-4906-8342-364b621a6b59/linked_in_profile" target="_blank" style="text-decoration:none;color:inherit;">
+    <div style="border:1px solid #d0d7de;border-radius:8px;padding:14px 18px;width:220px;background:#f6f8fa;">
+      <div style="font-size:0.72em;color:#57606a;margin-bottom:5px;text-transform:uppercase;letter-spacing:0.05em;">Amazon Web Services</div>
+      <div style="font-weight:600;font-size:0.92em;">AWS Cloud Practitioner</div>
+    </div>
+  </a>
+
+</div>
 
 ---
 
-## Core Competencies
-
-- **Methodologies:** Machine Learning, Deep Learning, Time Series Analysis, NLP, Big Data Analytics
-- **Languages:** Python (NumPy, Pandas, Matplotlib, Scikit-Learn, PyTorch), R (Dplyr, Tidyr, Caret, Ggplot2), SQL
-- **Tools & Platforms:** AWS SageMaker AI, S3, Lambda, Rekognition, MySQL, SQLite, Tableau, Power BI, MS Excel
+<p align="center">
+  <a href="mailto:tarieretimitimi@gmail.com" class="btn btn-primary">Email Me</a>
+  <a href="https://www.linkedin.com/in/tariere-timitimi/" style="background-color: #0a66c2; border-color: #0a66c2; color: white;">LinkedIn</a>
+  <a href="https://www.kaggle.com/YOUR_KAGGLE_USERNAME" style="background-color: #20beff; border-color: #20beff; color: white;">Kaggle</a>
+</p>
