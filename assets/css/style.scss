@@ -18,3 +18,9 @@
   width: 80px !important;
   height: 80px !important;
 }
+
+@media (max-width: 768px) {
+  .avatar-container {
+    display: none !important;
+  }
+}
