@@ -3,9 +3,11 @@ title: Tariere A. Timitimi
 subtitle: Data Scientist & ML Practitioner
 ---
 
-Hi, my name is Tariere! I'm a ML Practitioner passionate about the end-to-end lifecycle of machine learning. My focus is on building end-to-end ML systems: from exploratory analysis and model selection to cloud deployment, with an emphasis on making deliberate, well-reasoned architectural decisions. I am constantly experimenting with new architectures and refining my approach to building impactful AI.
+Hi, my name is Tariere! I'm a Data Science Master's candidate passionate about the end-to-end lifecycle of machine learning — from exploratory analysis and model selection to cloud deployment, with an emphasis on making deliberate, well-reasoned architectural decisions. I am constantly experimenting with new architectures and refining my approach to building impactful AI.
 
-✨ Interests: Artist, lifelong learner, and fan of great books and better company.
+Outside of work, I'm a cozy gamer (The Sims 4 is a lifestyle — I've recently started making my own mods), a sci-fi and anime fan (Cowboy Bebop is untouchable), and someone who genuinely loves learning for its own sake. Geography and anthropology are two of my deepest special interests. And if you want to get me talking, ask me about food — one of my favorite things about living in New York is that good food is always close by.
+
+✨ Artist · Lifelong learner · Fan of great books and better company
 
 **Technical Skills:** Python, R, SQL, Machine Learning, Deep Learning, AWS
 
@@ -19,6 +21,8 @@ I built this project to explore how different machine learning architectures han
 
 **Key Skills/Tech:** Python, XGBoost, ARIMA, Prophet, SageMaker AI, Cloud Deployment, MLOps
 
+<a href="https://tarieret.github.io/Portfolio/projects/economic-forecasting" style="display:inline-block;padding:7px 16px;background-color:#7c3aed;color:white;border-radius:5px;text-decoration:none;font-size:0.88em;font-weight:600;">View Project →</a>
+
 ---
 
 ### [RAG-Based Research Assistant](https://tarieret.github.io/Portfolio/projects/rag-research-assistant)
@@ -26,6 +30,8 @@ I built this project to explore how different machine learning architectures han
 This project explores how Retrieval-Augmented Generation can make domain-specific medical research easier to work with. It ingests peer-reviewed papers on brain tumor detection, indexes them using semantic embeddings, and returns citation-backed answers through a FastAPI backend and a Streamlit interface.
 
 **Key Skills/Tech:** Python, FastAPI, OpenAI API, LangChain, ChromaDB, Streamlit, Retrieval-Augmented Generation
+
+<a href="https://tarieret.github.io/Portfolio/projects/rag-research-assistant" style="display:inline-block;padding:7px 16px;background-color:#2c6fad;color:white;border-radius:5px;text-decoration:none;font-size:0.88em;font-weight:600;">View Project →</a>
 
 ---
 
@@ -35,6 +41,8 @@ For this project, I built an end-to-end houseplant health classification pipelin
 
 **Key Skills/Tech:** Python, Amazon Rekognition, Custom Labels, Amazon S3, AWS Lambda, IAM, Boto3, Albumentations, Scikit-learn
 
+<a href="https://tarieret.github.io/Portfolio/projects/houseplant-classification" style="display:inline-block;padding:7px 16px;background-color:#2c6fad;color:white;border-radius:5px;text-decoration:none;font-size:0.88em;font-weight:600;">View Project →</a>
+
 ---
 
 ### [Film Industry EDA (SQL & R)](https://tarieret.github.io/Portfolio/projects/film-industry-eda)
@@ -42,6 +50,8 @@ For this project, I built an end-to-end houseplant health classification pipelin
 I built this project to analyze patterns across 60,000+ films using a production-style data pipeline, loading raw TMDB data into a SQLite database, querying it with SQL, and wrangling and visualizing the results in R. Two findings stood out: popularity and rating are essentially uncorrelated (r = 0.087), and Drama movies consistently outrate Action films (6.27 vs. 5.96).
 
 **Key Skills/Tech:** R, tidyverse, ggplot2, lubridate, ggrepel, SQLite, DBI, RSQLite, Exploratory Data Analysis, Statistical Analysis
+
+<a href="https://tarieret.github.io/Portfolio/projects/film-industry-eda" style="display:inline-block;padding:7px 16px;background-color:#7c3aed;color:white;border-radius:5px;text-decoration:none;font-size:0.88em;font-weight:600;">View Project →</a>
 
 ---
 
@@ -59,21 +69,56 @@ Older projects and exploratory work are available in [Archived_Projects](https:/
 
 ## Certifications
 
-<a href="https://www.credly.com/badges/8983ce52-d5b0-421a-b7c5-80b3e9fa676f/linked_in_profile" class="btn">AWS ML Engineer – Associate</a>,
-<a href="https://www.nvidia.com/en-us/training/" class="btn">NVIDIA Deep Learning</a>,
-<a href="https://credentials.databricks.com/c6b25acf-076b-494f-a959-740542fa0033#acc.PeisynNm" class="btn">Databricks Fundamentals</a>,
-<a href="https://drive.google.com/file/d/1LnDWoYYBcAIY72g8Dj0FVGfU1gluaUSr/view" class="btn">Databricks Apache Spark</a>,
-<a href="https://www.credly.com/badges/4881e30a-e6a7-4906-8342-364b621a6b59/linked_in_profile" class="btn">AWS Cloud Practitioner</a>
+<div style="display:flex;flex-wrap:wrap;gap:12px;margin-top:8px;margin-bottom:8px;">
+
+  <a href="https://www.credly.com/badges/8983ce52-d5b0-421a-b7c5-80b3e9fa676f/linked_in_profile" target="_blank" style="text-decoration:none;color:inherit;">
+    <div style="border:1px solid #d0d7de;border-radius:8px;padding:14px 18px;width:220px;background:#f6f8fa;transition:box-shadow 0.2s;">
+      <div style="font-size:0.72em;color:#57606a;margin-bottom:5px;text-transform:uppercase;letter-spacing:0.05em;">Amazon Web Services</div>
+      <div style="font-weight:600;font-size:0.92em;">AWS ML Engineer – Associate</div>
+    </div>
+  </a>
+
+  <a href="https://www.nvidia.com/en-us/training/" target="_blank" style="text-decoration:none;color:inherit;">
+    <div style="border:1px solid #d0d7de;border-radius:8px;padding:14px 18px;width:220px;background:#f6f8fa;">
+      <div style="font-size:0.72em;color:#57606a;margin-bottom:5px;text-transform:uppercase;letter-spacing:0.05em;">NVIDIA</div>
+      <div style="font-weight:600;font-size:0.92em;">NVIDIA Deep Learning</div>
+    </div>
+  </a>
+
+  <a href="https://credentials.databricks.com/c6b25acf-076b-494f-a959-740542fa0033#acc.PeisynNm" target="_blank" style="text-decoration:none;color:inherit;">
+    <div style="border:1px solid #d0d7de;border-radius:8px;padding:14px 18px;width:220px;background:#f6f8fa;">
+      <div style="font-size:0.72em;color:#57606a;margin-bottom:5px;text-transform:uppercase;letter-spacing:0.05em;">Databricks</div>
+      <div style="font-weight:600;font-size:0.92em;">Databricks Fundamentals</div>
+    </div>
+  </a>
+
+  <a href="https://drive.google.com/file/d/1LnDWoYYBcAIY72g8Dj0FVGfU1gluaUSr/view" target="_blank" style="text-decoration:none;color:inherit;">
+    <div style="border:1px solid #d0d7de;border-radius:8px;padding:14px 18px;width:220px;background:#f6f8fa;">
+      <div style="font-size:0.72em;color:#57606a;margin-bottom:5px;text-transform:uppercase;letter-spacing:0.05em;">Databricks</div>
+      <div style="font-weight:600;font-size:0.92em;">Databricks Apache Spark</div>
+    </div>
+  </a>
+
+  <a href="https://www.credly.com/badges/4881e30a-e6a7-4906-8342-364b621a6b59/linked_in_profile" target="_blank" style="text-decoration:none;color:inherit;">
+    <div style="border:1px solid #d0d7de;border-radius:8px;padding:14px 18px;width:220px;background:#f6f8fa;">
+      <div style="font-size:0.72em;color:#57606a;margin-bottom:5px;text-transform:uppercase;letter-spacing:0.05em;">Amazon Web Services</div>
+      <div style="font-weight:600;font-size:0.92em;">AWS Cloud Practitioner</div>
+    </div>
+  </a>
+
+</div>
 
 ---
 
-## Core Competencies
+## 🛠️ Tech Stack
 
-- **Methodologies:** Machine Learning, Deep Learning, Time Series Analysis, NLP, Big Data Analytics
 - **Languages:** Python (NumPy, Pandas, Matplotlib, Scikit-Learn, PyTorch), R (Dplyr, Tidyr, Caret, Ggplot2), SQL
-- **Tools & Platforms:** AWS SageMaker AI, S3, Lambda, Rekognition, MySQL, SQLite, Tableau, Power BI, MS Excel
+- **ML & AI:** Machine Learning, Deep Learning, NLP, Time Series Analysis, RAG, Feature Engineering, Hyperparameter Tuning, Big Data Analytics
+- **Cloud & MLOps:** AWS SageMaker AI, S3, Lambda, Rekognition, IAM, Boto3, Docker, Git
+- **Databases & BI:** MySQL, SQLite, Tableau, Power BI, MS Excel
 
 <p align="center">
   <a href="mailto:tarieretimitimi@gmail.com" class="btn btn-primary">Email Me</a>
   <a href="https://www.linkedin.com/in/tariere-timitimi/" class="btn btn-info" style="background-color: #0a66c2; border-color: #0a66c2; color: white;">LinkedIn</a>
+  <a href="https://www.kaggle.com/tarieretimitimi" class="btn" style="background-color: #20beff; border-color: #20beff; color: white;">Kaggle</a>
 </p>
