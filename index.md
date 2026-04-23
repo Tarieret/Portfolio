@@ -127,7 +127,7 @@ I built this project to analyze patterns across 60,000+ films using a production
 
 ### StyleSignal: Customer Sentiment & Retention Analytics *(In Progress)*
 
-- **Objective:** Build an end-to-end NLP pipeline to analyze customer sentiment and retention risk in the fashion rental industry. Using the Rent the Runway public dataset (190K+ reviews), an LLM classifies sentiment and extracts recurring complaint themes — fit, quality, delivery, return experience- stored in a structured SQL database and surfaced through an interactive Tableau dashboard tracking churn risk by customer segment, complaint category trends, and NPS movement over time.
+- **Objective:** Build an end-to-end NLP pipeline to analyze customer sentiment and retention risk in the fashion rental industry. Using the Rent the Runway public dataset (190K+ reviews),an LLM classifies sentiment and extracts recurring complaint themes: fit, quality, delivery, return experience- stored in a structured SQL database and surfaced through an interactive Tableau dashboard tracking churn risk by customer segment, complaint category trends, and NPS movement over time.
 - **Key Skills/Tech:** Python, LLM (Claude/OpenAI API), SQL, Tableau, NLP, Sentiment Classification, Customer Analytics
 - **Repo:** *In Progress*
 
