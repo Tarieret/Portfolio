@@ -31,6 +31,7 @@ Outside of work, I'm a cozy gamer (I've recently started making my own mods for 
     <div style="display:flex;flex-wrap:wrap;gap:8px;">
       <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">Scikit-learn</span>
       <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">PyTorch</span>
+      <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">TensorFlow</span>
       <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">XGBoost</span>
       <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">LangChain</span>
       <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">Machine Learning</span>
