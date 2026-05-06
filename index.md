@@ -1,6 +1,6 @@
 ---
 title: Tariere A. Timitimi
-subtitle: Data Science & Machine Learning Practitioner
+subtitle: AI & Machine Learning Practitioner
 ---
 
 <div id="about"></div> 
