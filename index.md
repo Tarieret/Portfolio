@@ -88,7 +88,9 @@ Outside of work, I'm a cozy gamer (I've recently started making my own mods for 
 
 ### [Economic Time-Series Forecasting on AWS SageMaker](https://tarieret.github.io/Portfolio/projects/economic-forecasting)
 [![XGBoost CPI Forecast](/assets/img/XGBoost_CPI.png)](https://tarieret.github.io/Portfolio/projects/economic-forecasting)
-Macroeconomic forecasting carries real consequences- poor predictions inform bad policy and investment decisions. The question this project set out to answer: which ML architecture most reliably predicts U.S. CPI movements, and can a model be structured for production deployment?
+Macroeconomic forecasting carries real consequences- poor predictions inform bad policy and investment decisions. 
+The question this project set out to answer: which ML architecture most reliably predicts U.S. CPI movements, and can a model be structured for production deployment?
+
 After benchmarking ARIMA, LSTM, and XGBoost on U.S. CPI data, XGBoost, paired with stationarity transformations and a 12-month lookback window, outperformed both alternatives. A key inflection point was the decision to pivot away from LSTM after identifying an architectural mismatch with the dataset scale, a judgment call that reflects the practical side of model selection. The final model was deployed on AWS SageMaker with a custom inference handler for scalable cloud hosting.
 
 **Key Skills/Tech:** Python, XGBoost, ARIMA, Prophet, SageMaker AI, Cloud Deployment, MLOps
@@ -99,7 +101,9 @@ After benchmarking ARIMA, LSTM, and XGBoost on U.S. CPI data, XGBoost, paired wi
 
 ### [RAG-Based Research Assistant](https://tarieret.github.io/Portfolio/projects/rag-research-assistant)
 [![Streamlit](/assets/img/StreamlitDemo1.png)](https://tarieret.github.io/Portfolio/projects/rag-research-assistant)
-Domain-specific medical literature is dense and fragmented, and standard LLMs hallucinate when asked questions they haven't been grounded in. The problem: how do you make peer-reviewed research on brain tumor detection actually queryable, while keeping answers traceable to their sources?
+Domain-specific medical literature is dense and fragmented, and standard LLMs hallucinate when asked questions they haven't been grounded in. 
+The problem: how do you make peer-reviewed research on brain tumor detection actually queryable, while keeping answers traceable to their sources?
+
 This project ingests PDFs, indexes them using semantic embeddings in ChromaDB, and constrains LLM responses to retrieved context only, eliminating hallucination at the prompt engineering level. The result is a system that returns citation-backed answers in seconds, deployed through a FastAPI backend and Streamlit interface.
 
 **Key Skills/Tech:** Python, FastAPI, OpenAI API, LangChain, ChromaDB, Streamlit, Retrieval-Augmented Generation
@@ -110,7 +114,9 @@ This project ingests PDFs, indexes them using semantic embeddings in ChromaDB, a
 
 ### [House Plant Health Classification Using Amazon Rekognition](https://tarieret.github.io/Portfolio/projects/houseplant-classification)
 [![Storefront](/assets/img/storefront.png)](https://tarieret.github.io/Portfolio/projects/houseplant-classification)
-Identifying plant health issues early prevents loss, but visual assessment is subjective, inconsistent, and doesn't scale. This project builds an automated classification pipeline that detects unhealthy plants from images, with particular attention to the minority class where misclassification carries the highest cost.
+Identifying plant health issues early prevents loss, but visual assessment is subjective, inconsistent, and doesn't scale. 
+This project builds an automated classification pipeline that detects unhealthy plants from images, with particular attention to the minority class where misclassification carries the highest cost.
+
 The pipeline handles the full workflow: class imbalance correction through targeted image augmentation, stratified splitting, and labeled uploads to S3 via manifest files. The Amazon Rekognition Custom Labels model achieved 95% accuracy with precision of 1.00 and recall of 0.80 on the unhealthy class, meaning the system is highly reliable when flagging at-risk plants, the outcome that matters most operationally.
 
 **Key Skills/Tech:** Python, Amazon Rekognition, Custom Labels, Amazon S3, AWS Lambda, IAM, Boto3, Albumentations, Scikit-learn
@@ -122,6 +128,7 @@ The pipeline handles the full workflow: class imbalance correction through targe
 ### [Film Industry EDA (SQL & R)](https://tarieret.github.io/Portfolio/projects/film-industry-eda)
 [![Top Genres](/assets/img/02_top_genres.png)](https://tarieret.github.io/Portfolio/projects/film-industry-eda)
 The entertainment industry commonly assumes popular films are also well-rated. This project stress-tested that assumption at scale- across 60,000+ films from a 1.3M-row TMDB dataset.
+
 Using a production-style pipeline (raw data → SQLite → SQL queries → R/ggplot2), two findings stood out: popularity and rating are essentially uncorrelated (r = 0.087), meaning commercial success is not a proxy for quality; and Drama consistently outrates Action (6.27 vs. 5.96), a statistically significant gap across 35,000+ films with direct implications for content investment strategy.
 
 **Key Skills/Tech:** R, tidyverse, ggplot2, lubridate, ggrepel, SQLite, DBI, RSQLite, Exploratory Data Analysis, Statistical Analysis
@@ -132,7 +139,9 @@ Using a production-style pipeline (raw data → SQLite → SQL queries → R/ggp
 
 ### StyleSignal: Customer Sentiment & Retention Analytics *(In Progress)*
 
-Fashion rental businesses face a retention problem they often can't see clearly — customers churn without leaving explicit feedback, and aggregate ratings obscure the specific pain points driving disengagement. The objective: build a pipeline that identifies why customers leave and which segments are most at risk.
+Fashion rental businesses face a retention problem they often can't see clearly — customers churn without leaving explicit feedback, and aggregate ratings obscure the specific pain points driving disengagement. 
+The objective: build a pipeline that identifies why customers leave and which segments are most at risk.
+
 Using the Rent the Runway dataset (190K+ reviews), an LLM classifies sentiment and extracts recurring complaint themes- fit, quality, delivery, return experience. Results will be stored in a structured SQL database and surfaced through an interactive Tableau dashboard tracking churn risk by customer segment, complaint category trends, and NPS movement over time.
 
 **Key Skills/Tech:** Python, LLM (Claude/OpenAI API), SQL, Tableau, NLP, Sentiment Classification, Customer Analytics
