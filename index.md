@@ -1,13 +1,13 @@
 ---
 title: Tariere A. Timitimi
-subtitle: AI & Machine Learning Practitioner
+subtitle: AI & Data Science Practitioner
 ---
 
 <div id="about"></div> 
 
-Hi, my name is Tariere! I'm a Data Science Master's graduate passionate about the end-to-end lifecycle of machine learning, from exploratory analysis and model selection to cloud deployment, with an emphasis on making deliberate, well-reasoned architectural decisions.I'm a systems thinker at heart, most interested in the problem framing, data decisions, and architecture choices that determine whether ML actually works, not just whether it scores well. I'm constantly experimenting with new architectures and refining my approach to building impactful AI.
+Hi, my name is Tariere! I'm a AI and Data Science practitioner with 4 years of professional experience, including 2 years in data analytics and AI/ML engineering, with hands-on expertise in machine learning, generative AI, and cloud-based AI systems. I'm passionate about the end-to-end lifecycle of machine learning, from exploratory analysis and model selection to cloud deployment, with an emphasis on making deliberate, well-reasoned architectural decisions. I'm a systems thinker at heart, most interested in the problem framing, data decisions, and architecture choices that determine whether ML actually works, not just whether it scores well. I'm constantly experimenting with new architectures and refining my approach to building impactful AI.
 
-Outside of work, I'm a cozy gamer (I've recently started making my own mods for the Sims), a horror and anime fan, and someone who loves learning for its own sake. Geography and astronomy are two of my deepest special interests. I'm also an artist, I love painting, reading good books and trying out new foods...one of my favorite things about living in the NYC area is that good food is always close by!
+Outside of work, I'm a cozy gamer, a horror and anime fan, and someone who loves learning for its own sake. Geography and astronomy are two of my deepest special interests. I'm also an artist, I love painting, reading good books and trying out new foods...one of my favorite things about living in the NYC area is that good food is always close by!
 
 ---
 
