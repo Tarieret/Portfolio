@@ -137,14 +137,10 @@ Using a production-style pipeline (raw data → SQLite → SQL queries → R/ggp
 
 ---
 
-### StyleSignal: Customer Sentiment & Retention Analytics *(In Progress)*
-
-Fashion rental businesses face a retention problem they often can't see clearly — customers churn without leaving explicit feedback, and aggregate ratings obscure the specific pain points driving disengagement. 
-The objective: build a pipeline that identifies why customers leave and which segments are most at risk.
-
-Using the Rent the Runway dataset (190K+ reviews), an LLM classifies sentiment and extracts recurring complaint themes- fit, quality, delivery, return experience. Results will be stored in a structured SQL database and surfaced through an interactive Tableau dashboard tracking churn risk by customer segment, complaint category trends, and NPS movement over time.
-
-**Key Skills/Tech:** Python, LLM (Claude/OpenAI API), SQL, Tableau, NLP, Sentiment Classification, Customer Analytics
+### StyleSignal: Trend Lifecycle Clustering *(In Progress)*
+Fashion brands and buyers make inventory and marketing bets on trends without a reliable way to know what kind of trend they're looking at — a fast spike that will fade in weeks, or a slower pattern with staying power. Search and social data show that interest is rising, but not what shape that rise will take or how long it will last.
+This project builds a pipeline to classify trend behavior by shape rather than volume. Search-interest time series for style and brand keywords are pulled via Google Trends (pytrends), then decomposed into shape-based features — peak timing, rise rate, decay rate, duration above threshold, and amplitude — rather than clustering on raw interest values directly. Unsupervised clustering (K-means/hierarchical) groups trends into distinct lifecycle patterns (e.g., spike-and-fade, sustained growth, cyclical/seasonal return), with the goal of testing whether lifecycle shape predicts how long a trend remains commercially relevant.
+**Key Skills/Tech:** Python, pytrends, Pandas, Scikit-learn, Unsupervised Learning, Clustering, Feature Engineering, Time Series Analysis, Matplotlib/Seaborn 
 **Repo:** *In Progress*
 
 ---
