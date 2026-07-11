@@ -138,9 +138,9 @@ Using a production-style pipeline (raw data → SQLite → SQL queries → R/ggp
 ---
 
 ### StyleSignal: Trend Lifecycle Clustering *(In Progress)*
-Fashion brands and buyers make inventory and marketing bets on trends without a reliable way to know what kind of trend they're looking at — a fast spike that will fade in weeks, or a slower pattern with staying power. Search and social data show that interest is rising, but not what shape that rise will take or how long it will last.
+Fashion brands and buyers make inventory and marketing bets on trends without a reliable way to know what kind of trend they're looking at— a fast spike that will fade in weeks, or a slower pattern with staying power. Search and social data show that interest is rising, but not what shape that rise will take or how long it will last.
 
-This project builds a pipeline to classify trend behavior by shape rather than volume. Search-interest time series for style and brand keywords are pulled via Google Trends (pytrends), then decomposed into shape-based features — peak timing, rise rate, decay rate, duration above threshold, and amplitude — rather than clustering on raw interest values directly. Unsupervised clustering (K-means/hierarchical) groups trends into distinct lifecycle patterns (e.g., spike-and-fade, sustained growth, cyclical/seasonal return), with the goal of testing whether lifecycle shape predicts how long a trend remains commercially relevant.
+This project builds a pipeline to classify trend behavior by shape rather than volume. Search-interest time series for style and brand keywords are pulled via Google Trends (pytrends), then decomposed into shape-based features- peak timing, rise rate, decay rate, duration above threshold, and amplitude— rather than clustering on raw interest values directly. Unsupervised clustering (K-means/hierarchical) groups trends into distinct lifecycle patterns (e.g., spike-and-fade, sustained growth, cyclical/seasonal return), with the goal of testing whether lifecycle shape predicts how long a trend remains commercially relevant.
 
 **Key Skills/Tech:** Python, pytrends, Pandas, Scikit-learn, Unsupervised Learning, Clustering, Feature Engineering, Time Series Analysis, Matplotlib/Seaborn 
 
