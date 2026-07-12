@@ -31,7 +31,6 @@ Outside of work, I'm a cozy gamer, a horror and anime fan, and someone who loves
     <div style="display:flex;flex-wrap:wrap;gap:8px;">
       <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">Scikit-learn</span>
       <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">PyTorch</span>
-      <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">TensorFlow</span>
       <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">XGBoost</span>
       <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">LangChain</span>
       <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">Machine Learning</span>
@@ -49,6 +48,7 @@ Outside of work, I'm a cozy gamer, a horror and anime fan, and someone who loves
       <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">NumPy</span>
       <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">Pandas</span>
       <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">Matplotlib</span>
+      <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">Seaborn</span>
       <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">ggplot2</span>
       <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">Tableau</span>
       <span style="background:#ede9fe;color:#5b21b6;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:500;">Power BI</span>
