@@ -164,7 +164,7 @@ CI/CD pipelines are often slow, manual, and hard to debug, teams lose real time 
 
 As team lead, I guided ProcessDoctor through a diagnose-prescribe-treat pipeline: understanding CI/CD workflows from natural language or connected repos, identifying bottlenecks via IBM Bob, and using IBM Granite to generate optimized, production-ready CI/CD artifacts (including GitHub Actions YAML), orchestrated end-to-end through IBM watsonx Orchestrate. In our demo, the system took a 40-minute, sequential pipeline with manual approvals and restructured it into a 15-minute pipeline with parallel execution and automated approvals.
 
-Key Skills/Tech: React, TypeScript, FastAPI, Python, IBM Granite, IBM Bob, IBM watsonx Orchestrate, GitHub Actions, Workflow Automation
+**Key Skills/Tech:** React, TypeScript, FastAPI, Python, IBM Granite, IBM Bob, IBM watsonx Orchestrate, GitHub Actions, Workflow Automation
 
 <iframe width="560" height="315" 
   src="https://www.youtube.com/embed/dRjiyU1XnRg" 
