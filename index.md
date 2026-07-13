@@ -5,7 +5,7 @@ subtitle: AI & Data Science Practitioner
 
 <div id="about"></div> 
 
-Hi, my name is Tariere! I'm a AI and Data Science practitioner with 4 years of professional experience, including 2 years in data analytics and AI/ML engineering, with hands-on expertise in machine learning, generative AI, and cloud-based AI systems. I'm passionate about the end-to-end lifecycle of machine learning, from exploratory analysis and model selection to cloud deployment, with an emphasis on making deliberate, well-reasoned architectural decisions. I'm a systems thinker at heart, most interested in the problem framing, data decisions, and architecture choices that determine whether ML actually works, not just whether it scores well. I'm constantly experimenting with new architectures and refining my approach to building impactful AI.
+Hi, my name is Tariere! I'm a AI and Data Science practitioner with 4 years of professional experience, including 2 years in data analytics and AI/ML engineering, with hands-on expertise in machine learning, generative AI, and cloud-based AI systems. I'm passionate about the end-to-end lifecycle of machine learning, from exploratory analysis and model selection to cloud deployment, with an emphasis on making deliberate, well-reasoned architectural decisions. I'm a systems thinker at heart, most interested in the problem framing, data decisions, and architecture choices that determine whether ML actually works, not just whether it scores well.
 
 Outside of work, I'm a cozy gamer, a horror and anime fan, and someone who loves learning for its own sake. Geography and astronomy are two of my deepest special interests. I'm also an artist, I love painting, reading good books and trying out new foods...one of my favorite things about living in the NYC area is that good food is always close by!
 
@@ -138,9 +138,7 @@ Using a production-style pipeline (raw data → SQLite → SQL queries → R/ggp
 ---
 
 ### StyleSignal: Trend Lifecycle Clustering *(In Progress)*
-Fashion brands and buyers make inventory and marketing bets on trends without a reliable way to know what kind of trend they're looking at— a fast spike that will fade in weeks, or a slower pattern with staying power. Search and social data show that interest is rising, but not what shape that rise will take or how long it will last.
-
-This project builds a pipeline to classify trend behavior by shape rather than volume. Search-interest time series for style and brand keywords are pulled via Google Trends (pytrends), then decomposed into shape-based features- peak timing, rise rate, decay rate, duration above threshold, and amplitude— rather than clustering on raw interest values directly. Unsupervised clustering (K-means/hierarchical) groups trends into distinct lifecycle patterns (e.g., spike-and-fade, sustained growth, cyclical/seasonal return), with the goal of testing whether lifecycle shape predicts how long a trend remains commercially relevant.
+For this project, I am building a pipeline to classify trend behavior by shape rather than volume. Search-interest time series for style and brand keywords are pulled via Google Trends (pytrends), then decomposed into shape-based features- peak timing, rise rate, decay rate, duration above threshold, and amplitude— rather than clustering on raw interest values directly. Unsupervised clustering (K-means/hierarchical) groups trends into distinct lifecycle patterns (e.g., spike-and-fade, sustained growth, cyclical/seasonal return), with the goal of testing whether lifecycle shape predicts how long a trend remains commercially relevant.
 
 **Key Skills/Tech:** Python, pytrends, Pandas, Scikit-learn, Unsupervised Learning, Clustering, Feature Engineering, Time Series Analysis, Matplotlib/Seaborn 
 
