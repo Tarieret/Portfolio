@@ -160,7 +160,7 @@ Older projects and exploratory work are available in [Archived_Projects](https:/
 ### IBM Bob Dev Day Hackathon — ProcessDoctor
 Team JustShipIt · Team Lead · May 2026
 
-CI/CD pipelines are often slow, manual, and hard to debug — teams lose real time to repetitive configuration and manual approvals instead of building. The question ProcessDoctor set out to answer: can a system diagnose a workflow's bottlenecks and generate a production-ready, optimized pipeline automatically?
+CI/CD pipelines are often slow, manual, and hard to debug, teams lose real time to repetitive configuration and manual approvals instead of building. The question ProcessDoctor set out to answer: can a system diagnose a workflow's bottlenecks and generate a production-ready, optimized pipeline automatically?
 
 As team lead, I guided ProcessDoctor through a diagnose-prescribe-treat pipeline: understanding CI/CD workflows from natural language or connected repos, identifying bottlenecks via IBM Bob, and using IBM Granite to generate optimized, production-ready CI/CD artifacts (including GitHub Actions YAML), orchestrated end-to-end through IBM watsonx Orchestrate. In our demo, the system took a 40-minute, sequential pipeline with manual approvals and restructured it into a 15-minute pipeline with parallel execution and automated approvals.
 
@@ -180,10 +180,11 @@ Key Skills/Tech: React, TypeScript, FastAPI, Python, IBM Granite, IBM Bob, IBM w
 
 ## Volunteering & Leadership
 
-### Women in Data Science (WiDS) — 2026 Ambassador
+### Women in Data Science (WiDS)- 2026 Ambassador
 2026–Present
 
-Serving as a WiDS Worldwide Ambassador, supporting the organization's mission to inspire, educate, and support women pursuing careers in data science.
+Serving as a WiDS Worldwide Ambassador, supporting the orginization's mission to inspire, educate, and support women pursuing careers in data science. 
+
 ---
 
 <div id="certifications"></div>
