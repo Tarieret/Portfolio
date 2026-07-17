@@ -1,5 +1,5 @@
 
-# Tariere Timitimi — Data Science Portfolio
+# Tariere Timitimi — Portfolio
 
 Full project write-ups, context, and findings are documented on my portfolio site:
 
