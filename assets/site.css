@@ -51,7 +51,21 @@
   .nav-links a:hover, .nav-links a:focus-visible{ color:var(--lav-deep); }
   .nav-links a::after{ content:''; position:absolute; left:0; bottom:-5px; width:0; height:1px; background:linear-gradient(90deg,var(--lav),var(--silver)); transition:width 0.3s ease; }
   .nav-links a:hover::after{ width:100%; }
-  @media (max-width:760px){ .nav-links{ display:none; } }
+  @media (max-width:760px){
+    .nav-links{
+      display:none; flex-direction:column; gap:0;
+      position:absolute; top:100%; left:0; right:0;
+      background:var(--bg); border-bottom:1px solid var(--silver-line);
+      padding:6px 0; box-shadow:0 16px 28px -14px rgba(43,39,64,0.18);
+    }
+    .nav-links.open{ display:flex; }
+    .nav-links a{ padding:16px 24px; border-bottom:1px solid var(--silver-line); }
+    .nav-links a:last-child{ border-bottom:none; }
+  }
+
+  .nav-toggle{ display:none; background:none; border:none; cursor:pointer; padding:6px; }
+  .nav-toggle svg{ width:24px; height:24px; display:block; color:var(--text); }
+  @media (max-width:760px){ .nav-toggle{ display:block; } }
 
   /* ---------- hero ---------- */
   .hero{ min-height:88vh; display:flex; flex-direction:column; justify-content:center; position:relative; padding-top:70px; }
