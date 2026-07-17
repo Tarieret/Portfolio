@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Economic Time-Series Forecasting on AWS SageMaker — Tariere Timitimi</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/project.css">
+</head>
+<body>
+
+<nav>
+  <a href="../index.html" class="nav-mark">Tariere Timitimi</a>
+  <a href="../index.html#work" class="nav-back">← All Projects</a>
+</nav>
+
+<section class="p-hero">
+  <div class="wrap">
+    <div class="p-eyebrow">Time-Series Forecasting · Cloud Deployment</div>
+    <h1 class="p-title">Economic Time-Series Forecasting on AWS SageMaker</h1>
+    <p class="p-hook">XGBoost vs. ARIMA vs. Prophet — deployed end-to-end on AWS SageMaker.</p>
+    <div class="p-tags">
+      <span class="tag">Python</span><span class="tag">XGBoost</span><span class="tag">ARIMA</span><span class="tag">Prophet</span><span class="tag">AWS SageMaker</span><span class="tag">Boto3</span><span class="tag">FRED API</span><span class="tag">MLOps</span>
+    </div>
+  </div>
+</section>
+
+<div class="wrap"><div class="divider"></div></div>
+
+<section class="p-section">
+  <div class="wrap p-body">
+    <div class="p-label">Overview</div>
+    <p>This project forecasts U.S. Consumer Price Index (CPI) values using a multi-model approach, ranging from classical statistical methods to gradient boosting. The primary objective was to evaluate model accuracy under a rigorous time-series validation framework and demonstrate production-level deployment on AWS SageMaker.</p>
+    <p>A key decision mid-project was pivoting away from LSTM after testing showed deep learning struggled with the small monthly sample size and non-stationary trend of CPI data — a deliberate architectural choice in favor of a more robust tree-based approach.</p>
+
+    <div class="fig-row">
+      <div class="figure">
+        <img src="/Portfolio/assets/img/RMSE_Comparison.png" alt="RMSE comparison across models">
+        <div class="figure-cap">RMSE comparison across models</div>
+      </div>
+      <div class="figure">
+        <img src="/Portfolio/assets/img/XGBoost_CPI.png" alt="XGBoost CPI forecast">
+        <div class="figure-cap">XGBoost CPI forecast</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="p-section">
+  <div class="wrap p-body">
+    <div class="p-label">Results</div>
+    <p>Performance evaluated on a 24-month holdout set (Dec 2023 – Nov 2025):</p>
+
+    <table class="p-table">
+      <thead><tr><th>Model</th><th>MAE</th><th>RMSE</th></tr></thead>
+      <tbody>
+        <tr class="winner"><td><strong>XGBoost (Winner)</strong></td><td><strong>1.83</strong></td><td><strong>2.0</strong></td></tr>
+        <tr><td>Prophet</td><td>7.09</td><td>7.15</td></tr>
+        <tr><td>ARIMA (1,1,1)</td><td>8.04</td><td>9.29</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="p-section">
+  <div class="wrap p-body">
+    <div class="p-label">Data</div>
+    <ul>
+      <li><strong>Source:</strong> Federal Reserve Economic Data (FRED)</li>
+      <li><strong>Series:</strong> CPIAUCSL (Monthly)</li>
+      <li><strong>Evaluation window:</strong> 24-month holdout</li>
+    </ul>
+  </div>
+</section>
+
+<section class="p-section">
+  <div class="wrap p-body">
+    <div class="p-label">Technical Approach</div>
+    <ul>
+      <li>Applied first-order differencing to remove trend bias — the model predicts monthly delta rather than absolute CPI values</li>
+      <li>Engineered a 12-month sliding window of lag features to capture seasonal momentum and annual cycles</li>
+      <li>Benchmarked ARIMA and Prophet as statistical baselines before training XGBoost</li>
+      <li>Serialized the final model into <code>model.tar.gz</code> with a custom inference handler for SageMaker deployment</li>
+      <li>Kept the deployment script intentionally separate from the notebook to avoid unnecessary cloud costs</li>
+    </ul>
+  </div>
+</section>
+
+<div class="wrap"><div class="divider"></div></div>
+
+<div class="wrap p-footer-nav">
+  <a href="../index.html#work" class="btn btn-ghost">← Back to all projects</a>
+  <a href="https://github.com/Tarieret/Economic-Time-Series-Forecasting-on-AWS-SageMaker" target="_blank" rel="noopener" class="btn btn-primary">View on GitHub →</a>
+</div>
+
+<footer>Tariere Timitimi — New York, NY</footer>
+
+</body>
+</html>
