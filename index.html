@@ -100,8 +100,12 @@
     background:linear-gradient(100deg, var(--lav-deep) 10%, var(--silver) 55%, var(--lav-deep) 100%);
     -webkit-background-clip:text; background-clip:text; color:transparent;
   }
-  .hero-role{ margin-top:22px; font-size:1.08rem; color:var(--text-muted); max-width:580px; position:relative; z-index:1; font-weight:300; }
-  .hero-role strong{ color:var(--text); font-weight:500; }
+  .role-badge{
+    display:inline-block; background:rgba(255,255,255,0.6); border:1px solid var(--silver-line);
+    border-radius:100px; padding:8px 20px; font-family:'IBM Plex Mono', monospace; font-size:0.76rem;
+    letter-spacing:0.04em; color:var(--lav-deep); margin-bottom:20px; position:relative; z-index:1;
+  }
+  .hero-bio{ margin-top:18px; font-size:1.05rem; line-height:1.6; color:var(--text-muted); max-width:560px; position:relative; z-index:1; }
 
   .avatar{
     width:168px; height:168px; border-radius:50%; overflow:hidden;
@@ -137,6 +141,10 @@
   .about-text p{ color:var(--text-muted); font-size:1.02rem; margin-bottom:18px; max-width:540px; }
   .about-text p strong{ color:var(--text); font-weight:500; }
   .fact-list{ display:flex; flex-direction:column; gap:22px; }
+  .info-bullets{ list-style:none; display:flex; flex-direction:column; gap:16px; }
+  .info-bullets li{ position:relative; padding-left:20px; color:var(--text-muted); font-size:0.98rem; }
+  .info-bullets li::before{ content:'•'; position:absolute; left:0; color:var(--lav-deep); font-weight:700; }
+  .info-bullets .ib-label{ color:var(--text); font-weight:500; }
   .fact{ border-left:1px solid var(--silver-line); padding-left:20px; transition:border-color 0.3s ease; }
   .fact:hover{ border-left-color:var(--lav); }
   .fact-label{ font-family:'IBM Plex Mono', monospace; font-size:0.7rem; letter-spacing:0.1em; text-transform:uppercase; color:var(--text-muted); margin-bottom:4px; }
@@ -152,11 +160,15 @@
   /* ---------- projects ---------- */
   .project-grid{ display:grid; grid-template-columns:1fr; gap:1px; margin-top:28px; background:var(--silver-line); border:1px solid var(--silver-line); border-radius:var(--radius); overflow:hidden; }
   .project{ background:var(--bg-panel); padding:32px; display:grid; grid-template-columns:auto 1fr auto; gap:28px; align-items:start; transition:background 0.35s ease; }
+  .project .project-thumb{ grid-column:1 / -1; }
   .project:hover{ background:var(--bg-panel-2); }
   @media (max-width:760px){ .project{ grid-template-columns:1fr; gap:16px; padding:30px 24px; } }
   .project-index{ font-family:'IBM Plex Mono', monospace; font-size:0.8rem; color:var(--lav-deep); padding-top:4px; }
   .project-title{ font-family:'Fraunces', serif; font-weight:500; font-size:1.35rem; color:var(--text); margin-bottom:10px; }
   .badge-progress{ color:var(--text-muted); font-family:'IBM Plex Mono', monospace; font-size:0.68rem; letter-spacing:0.05em; border:1px solid var(--silver-line); border-radius:100px; padding:3px 10px; margin-left:8px; vertical-align:middle; }
+  .badge-done{ color:#3f7d4f; background:rgba(120,170,120,0.14); font-family:'IBM Plex Mono', monospace; font-size:0.68rem; letter-spacing:0.05em; border:1px solid rgba(63,125,79,0.25); border-radius:100px; padding:3px 10px; margin-left:8px; vertical-align:middle; }
+  .project-thumb{ width:100%; border-radius:10px; overflow:hidden; margin-bottom:20px; border:1px solid var(--silver-line); background:var(--bg-panel-2); }
+  .project-thumb img{ width:100%; display:block; }
   .project-hook{ color:var(--text); font-size:0.92rem; margin-bottom:10px; max-width:560px; font-style:italic; opacity:0.85; }
   .project-q{ color:var(--text-muted); font-size:0.95rem; margin-bottom:16px; max-width:560px; }
   .project-tags{ display:flex; flex-wrap:wrap; gap:8px; }
@@ -226,9 +238,10 @@
 <section class="hero" id="top">
   <div class="aura"></div>
   <div class="wrap">
-    <div class="eyebrow">AI &amp; Data Science Practitioner</div>
     <div class="avatar"><img src="assets/profile.jpg" alt="Tariere A. Timitimi"></div>
+    <div class="role-badge">AI &amp; Data Science Practitioner</div>
     <h1>Tariere A. <em>Timitimi</em></h1>
+    <p class="hero-bio">I turn messy, real-world data into systems people can actually trust — blending hands-on machine learning, generative AI, and cloud engineering with a systems-thinking approach to problem framing and architecture.</p>
     <div class="hero-cta">
       <a href="#work" class="btn btn-primary">Featured Projects</a>
       <a href="https://www.linkedin.com/in/tariere-timitimi" target="_blank" rel="noopener" class="btn btn-ghost">Connect on LinkedIn</a>
@@ -242,13 +255,23 @@
     <h2 class="section-title reveal">About</h2>
     <div class="about-grid">
       <div class="about-text reveal">
-        <p>Hi, my name is Tariere! I'm a AI and Data Science practitioner with 4 years of professional experience, including 2 years in data analytics and AI/ML engineering, with hands-on expertise in machine learning, generative AI, and cloud-based AI systems. I'm passionate about the end-to-end lifecycle of machine learning, from exploratory analysis and model selection to cloud deployment, with an emphasis on making deliberate, well-reasoned architectural decisions. I'm a systems thinker at heart, most interested in the problem framing, data decisions, and architecture choices that determine whether ML actually works, not just whether it scores well.</p>
-        <p>Outside of work, I'm a cozy gamer, a horror and anime fan, and someone who loves learning for its own sake. Geography and astronomy are two of my deepest special interests. I'm also an artist, I love painting, reading good books and trying out new foods...one of my favorite things about living in the NYC area is that good food is always close by!</p>
+        <div class="stack-group-label">Focus Areas</div>
+        <div class="stack-pills">
+          <span class="pill">Machine Learning</span><span class="pill">Generative AI</span><span class="pill">Cloud AI Systems</span>
+          <span class="pill">Systems Thinking</span><span class="pill">Architecture Design</span>
+        </div>
+
+        <div class="stack-group-label" style="margin-top:26px;">Beyond the Data</div>
+        <div class="stack-pills">
+          <span class="pill">Cozy Gaming</span><span class="pill">Horror &amp; Anime</span><span class="pill">Geography</span>
+          <span class="pill">Astronomy</span><span class="pill">Painting</span><span class="pill">Reading</span><span class="pill">Trying New Foods</span>
+        </div>
       </div>
-      <div class="fact-list reveal">
-        <div class="fact"><div class="fact-label">Based in</div><div class="fact-value">New York, NY</div></div>
-        <div class="fact"><div class="fact-label">Open to</div><div class="fact-value">Data Science, ML/AI Engineering, Analytics &amp; BI</div></div>
-      </div>
+      <ul class="info-bullets reveal">
+        <li><span class="ib-label">Based in</span> — New York, NY</li>
+        <li><span class="ib-label">Open to</span> — Data Science, ML/AI Engineering, Analytics &amp; BI</li>
+        <li><span class="ib-label">Outside tech</span> — cozy gaming, painting, and chasing good food around NYC</li>
+      </ul>
     </div>
   </div>
 </section>
@@ -305,9 +328,10 @@
 
     <div class="project-grid">
       <div class="project reveal">
+        <div class="project-thumb"><img src="/Portfolio/assets/img/XGBoost_CPI.png" alt="XGBoost CPI forecast"></div>
         <div class="project-index">01</div>
         <div>
-          <div class="project-title">Economic Time-Series Forecasting on AWS SageMaker</div>
+          <div class="project-title">Economic Time-Series Forecasting on AWS SageMaker <span class="badge-done">Completed</span></div>
           <div class="project-hook">Macroeconomic forecasting carries real consequences — poor predictions inform bad policy and investment decisions.</div>
           <div class="project-q">Benchmarked ARIMA, LSTM, and XGBoost on U.S. CPI data to find the most reliable architecture. XGBoost, paired with stationarity transformations and a 12-month lookback window, outperformed both alternatives — after pivoting away from LSTM once an architectural mismatch with the dataset scale became clear. Deployed on AWS SageMaker with a custom inference handler for scalable cloud hosting.</div>
           <div class="project-tags"><span class="tag">Python</span><span class="tag">XGBoost</span><span class="tag">ARIMA</span><span class="tag">Prophet</span><span class="tag">SageMaker AI</span><span class="tag">MLOps</span></div>
@@ -316,9 +340,10 @@
       </div>
 
       <div class="project reveal">
+        <div class="project-thumb"><img src="/Portfolio/assets/img/StreamlitDemo1.png" alt="Streamlit interface demo"></div>
         <div class="project-index">02</div>
         <div>
-          <div class="project-title">RAG-Based Research Assistant</div>
+          <div class="project-title">RAG-Based Research Assistant <span class="badge-done">Completed</span></div>
           <div class="project-hook">Domain-specific medical literature is dense and fragmented, and standard LLMs hallucinate when asked questions they haven't been grounded in.</div>
           <div class="project-q">Built a system that ingests PDFs, indexes them with semantic embeddings in ChromaDB, and constrains LLM responses to retrieved context only — eliminating hallucination at the prompt engineering level. Returns citation-backed answers in seconds, deployed through a FastAPI backend and Streamlit interface.</div>
           <div class="project-tags"><span class="tag">FastAPI</span><span class="tag">OpenAI API</span><span class="tag">LangChain</span><span class="tag">ChromaDB</span><span class="tag">Streamlit</span><span class="tag">RAG</span></div>
@@ -327,9 +352,10 @@
       </div>
 
       <div class="project reveal">
+        <div class="project-thumb"><img src="/Portfolio/assets/img/storefront.png" alt="Plant nursery storefront"></div>
         <div class="project-index">03</div>
         <div>
-          <div class="project-title">House Plant Health Classification Using Amazon Rekognition</div>
+          <div class="project-title">House Plant Health Classification Using Amazon Rekognition <span class="badge-done">Completed</span></div>
           <div class="project-hook">Identifying plant health issues early prevents loss, but visual assessment is subjective, inconsistent, and doesn't scale.</div>
           <div class="project-q">Built an automated classification pipeline with particular attention to the minority class, where misclassification carries the highest cost — including class imbalance correction through targeted augmentation, stratified splitting, and labeled S3 uploads via manifest files. The Rekognition Custom Labels model reached 95% accuracy with 1.00 precision and 0.80 recall on the unhealthy class, meaning it's highly reliable when flagging at-risk plants.</div>
           <div class="project-tags"><span class="tag">Amazon Rekognition</span><span class="tag">Custom Labels</span><span class="tag">S3</span><span class="tag">Lambda</span><span class="tag">Boto3</span><span class="tag">Albumentations</span></div>
@@ -338,9 +364,10 @@
       </div>
 
       <div class="project reveal">
+        <div class="project-thumb"><img src="/Portfolio/assets/img/02_top_genres.png" alt="Top genres chart"></div>
         <div class="project-index">04</div>
         <div>
-          <div class="project-title">Film Industry EDA (SQL &amp; R)</div>
+          <div class="project-title">Film Industry EDA (SQL &amp; R) <span class="badge-done">Completed</span></div>
           <div class="project-hook">The entertainment industry commonly assumes popular films are also well-rated — this project stress-tested that assumption at scale.</div>
           <div class="project-q">Across 60,000+ films from a 1.3M-row TMDB dataset, using a production-style pipeline (raw data → SQLite → SQL → R/ggplot2), two findings stood out: popularity and rating are essentially uncorrelated (r = 0.087), meaning commercial success isn't a proxy for quality, and Drama consistently outrates Action (6.27 vs. 5.96) — a statistically significant gap across 35,000+ films with direct implications for content investment strategy.</div>
           <div class="project-tags"><span class="tag">R</span><span class="tag">tidyverse</span><span class="tag">ggplot2</span><span class="tag">SQLite</span><span class="tag">DBI</span><span class="tag">EDA</span></div>
