@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tariere Timitimi — AI &amp; Data Science Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg: #f8f6fc;
+    --bg-panel: #efe9f9;
+    --bg-panel-2: #e6ddf6;
+    --lav: #9b7fd4;
+    --lav-deep: #6f4fb0;
+    --lav-pale: #cdbdec;
+    --silver: #a9a6ba;
+    --silver-line: #d8d3e6;
+    --text: #2b2740;
+    --text-muted: #6a6480;
+    --radius: 14px;
+  }
+
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html{ scroll-behavior:smooth; }
+
+  body{
+    background:var(--bg);
+    color:var(--text);
+    font-family:'Inter', sans-serif;
+    font-weight:400;
+    line-height:1.65;
+    overflow-x:hidden;
+    -webkit-font-smoothing:antialiased;
+  }
+
+  ::selection{ background:var(--lav-pale); color:var(--text); }
+  a{ color:inherit; text-decoration:none; }
+  .wrap{ max-width:1080px; margin:0 auto; padding:0 32px; }
+  @media (max-width:640px){ .wrap{ padding:0 20px; } }
+
+  .reveal{ opacity:0; transform:translateY(18px); transition:opacity 0.8s ease, transform 0.8s ease; }
+  .reveal.in{ opacity:1; transform:translateY(0); }
+  @media (prefers-reduced-motion: reduce){ .reveal{ opacity:1; transform:none; transition:none; } html{ scroll-behavior:auto; } }
+
+  /* ---------- nav ---------- */
+  nav{
+    position:fixed; top:0; left:0; right:0; z-index:100;
+    display:flex; justify-content:space-between; align-items:center;
+    padding:22px 40px;
+    backdrop-filter:blur(14px);
+    background:rgba(248,246,252,0.72);
+    border-bottom:1px solid transparent;
+    transition:border-color 0.4s ease;
+  }
+  nav.scrolled{ border-bottom-color:var(--silver-line); }
+  .nav-mark{ font-family:'Fraunces', serif; font-style:italic; font-weight:500; font-size:1.15rem; color:var(--text); }
+  .nav-links{ display:flex; gap:34px; font-size:0.8rem; letter-spacing:0.06em; text-transform:uppercase; font-family:'IBM Plex Mono', monospace; }
+  .nav-links a{ color:var(--text-muted); position:relative; transition:color 0.3s ease; }
+  .nav-links a:hover, .nav-links a:focus-visible{ color:var(--lav-deep); }
+  .nav-links a::after{ content:''; position:absolute; left:0; bottom:-5px; width:0; height:1px; background:linear-gradient(90deg,var(--lav),var(--silver)); transition:width 0.3s ease; }
+  .nav-links a:hover::after{ width:100%; }
+  @media (max-width:760px){ .nav-links{ display:none; } }
+
+  /* ---------- hero ---------- */
+  .hero{ min-height:100vh; display:flex; flex-direction:column; justify-content:center; position:relative; padding-top:80px; }
+  .aura{
+    position:absolute; top:50%; left:50%; width:900px; height:900px; transform:translate(-50%,-55%);
+    background:
+      radial-gradient(circle at 32% 28%, rgba(155,127,212,0.32), transparent 55%),
+      radial-gradient(circle at 68% 72%, rgba(169,166,186,0.28), transparent 55%);
+    filter:blur(70px); z-index:0; animation:drift 18s ease-in-out infinite alternate; pointer-events:none;
+  }
+  @keyframes drift{ 0%{ transform:translate(-52%,-56%) scale(1); } 100%{ transform:translate(-48%,-52%) scale(1.08); } }
+  @media (prefers-reduced-motion: reduce){ .aura{ animation:none; } }
+
+  .eyebrow{
+    font-family:'IBM Plex Mono', monospace; font-size:0.78rem; letter-spacing:0.16em; text-transform:uppercase;
+    color:var(--lav-deep); margin-bottom:22px; position:relative; z-index:1; display:flex; align-items:center; gap:10px;
+  }
+  .eyebrow::before{ content:''; width:26px; height:1px; background:var(--lav-deep); }
+
+  .hero h1{
+    font-family:'Fraunces', serif; font-weight:500; font-size:clamp(2.5rem, 6.6vw, 5.1rem);
+    line-height:1.05; color:var(--text); position:relative; z-index:1; letter-spacing:-0.01em;
+  }
+  .hero h1 em{
+    font-style:italic; font-weight:400;
+    background:linear-gradient(100deg, var(--lav-deep) 10%, var(--silver) 55%, var(--lav-deep) 100%);
+    -webkit-background-clip:text; background-clip:text; color:transparent;
+  }
+  .hero-role{ margin-top:22px; font-size:1.08rem; color:var(--text-muted); max-width:580px; position:relative; z-index:1; font-weight:300; }
+  .hero-role strong{ color:var(--text); font-weight:500; }
+
+  .avatar{
+    width:168px; height:168px; border-radius:50%; overflow:hidden;
+    margin-bottom:28px; position:relative; z-index:1;
+    border:2px solid var(--bg);
+    box-shadow:0 0 0 1px var(--silver-line), 0 12px 32px -10px rgba(111,79,176,0.35);
+  }
+  .avatar img{ width:100%; height:100%; object-fit:cover; display:block; }
+  @media (max-width:640px){ .avatar{ width:132px; height:132px; } }
+
+  .hero-cta{ margin-top:38px; display:flex; gap:16px; flex-wrap:wrap; position:relative; z-index:1; }
+  .btn{ font-family:'IBM Plex Mono', monospace; font-size:0.8rem; letter-spacing:0.05em; padding:13px 26px; border-radius:100px; text-transform:uppercase; transition:all 0.3s ease; border:1px solid var(--silver-line); display:inline-block; }
+  .btn-primary{ background:linear-gradient(100deg,var(--lav),var(--lav-deep)); color:#fbfaff; font-weight:500; border:none; box-shadow:0 8px 24px -8px rgba(111,79,176,0.45); }
+  .btn-primary:hover{ filter:brightness(1.08); transform:translateY(-2px); }
+  .btn-ghost{ color:var(--text); background:rgba(255,255,255,0.5); }
+  .btn-ghost:hover{ border-color:var(--lav); color:var(--lav-deep); transform:translateY(-2px); }
+
+  .scroll-cue{ position:absolute; bottom:40px; left:32px; z-index:1; font-family:'IBM Plex Mono', monospace; font-size:0.72rem; color:var(--text-muted); display:flex; align-items:center; gap:10px; letter-spacing:0.08em; }
+  .scroll-cue .stem{ width:1px; height:38px; background:linear-gradient(var(--lav), transparent); }
+  @media (max-width:640px){ .scroll-cue{ display:none; } }
+
+  /* ---------- sections ---------- */
+  .section{ padding:120px 0; position:relative; }
+  .section-tag{ font-family:'IBM Plex Mono', monospace; font-size:0.76rem; letter-spacing:0.16em; text-transform:uppercase; color:var(--lav-deep); margin-bottom:16px; display:flex; align-items:center; gap:10px; }
+  .section-tag::before{ content:''; width:26px; height:1px; background:var(--lav-deep); }
+  .section-title{ font-family:'Fraunces', serif; font-weight:500; font-size:clamp(1.7rem,3.2vw,2.5rem); color:var(--text); margin-bottom:8px; max-width:660px; display:flex; align-items:center; gap:14px; }
+  .section-title::before{ content:''; width:30px; height:1px; background:var(--lav-deep); flex-shrink:0; }
+  .divider{ height:1px; width:100%; background:linear-gradient(90deg, transparent, var(--silver-line) 20%, var(--silver-line) 80%, transparent); }
+
+  /* ---------- about ---------- */
+  .about-grid{ display:grid; grid-template-columns:1.3fr 1fr; gap:60px; margin-top:52px; align-items:start; }
+  @media (max-width:800px){ .about-grid{ grid-template-columns:1fr; gap:36px; } }
+  .about-text p{ color:var(--text-muted); font-size:1.02rem; margin-bottom:18px; max-width:540px; }
+  .about-text p strong{ color:var(--text); font-weight:500; }
+  .fact-list{ display:flex; flex-direction:column; gap:22px; }
+  .fact{ border-left:1px solid var(--silver-line); padding-left:20px; transition:border-color 0.3s ease; }
+  .fact:hover{ border-left-color:var(--lav); }
+  .fact-label{ font-family:'IBM Plex Mono', monospace; font-size:0.7rem; letter-spacing:0.1em; text-transform:uppercase; color:var(--text-muted); margin-bottom:4px; }
+  .fact-value{ font-size:0.98rem; color:var(--text); }
+
+  /* ---------- tech stack ---------- */
+  .stack-groups{ margin-top:52px; display:flex; flex-direction:column; gap:28px; }
+  .stack-group-label{ font-family:'IBM Plex Mono', monospace; font-size:0.72rem; letter-spacing:0.1em; text-transform:uppercase; color:var(--text-muted); margin-bottom:12px; }
+  .stack-pills{ display:flex; flex-wrap:wrap; gap:10px; }
+  .pill{ font-family:'IBM Plex Mono', monospace; font-size:0.8rem; padding:8px 18px; border-radius:100px; border:1px solid var(--silver-line); background:var(--bg-panel); color:var(--text); transition:all 0.3s ease; cursor:default; }
+  .pill:hover{ border-color:var(--lav); background:var(--bg-panel-2); transform:translateY(-2px); }
+
+  /* ---------- projects ---------- */
+  .project-grid{ display:grid; grid-template-columns:1fr; gap:1px; margin-top:52px; background:var(--silver-line); border:1px solid var(--silver-line); border-radius:var(--radius); overflow:hidden; }
+  .project{ background:var(--bg-panel); padding:40px; display:grid; grid-template-columns:auto 1fr auto; gap:28px; align-items:start; transition:background 0.35s ease; }
+  .project:hover{ background:var(--bg-panel-2); }
+  @media (max-width:760px){ .project{ grid-template-columns:1fr; gap:16px; padding:30px 24px; } }
+  .project-index{ font-family:'IBM Plex Mono', monospace; font-size:0.8rem; color:var(--lav-deep); padding-top:4px; }
+  .project-title{ font-family:'Fraunces', serif; font-weight:500; font-size:1.35rem; color:var(--text); margin-bottom:10px; }
+  .badge-progress{ color:var(--text-muted); font-family:'IBM Plex Mono', monospace; font-size:0.68rem; letter-spacing:0.05em; border:1px solid var(--silver-line); border-radius:100px; padding:3px 10px; margin-left:8px; vertical-align:middle; }
+  .project-hook{ color:var(--text); font-size:0.92rem; margin-bottom:10px; max-width:560px; font-style:italic; opacity:0.85; }
+  .project-q{ color:var(--text-muted); font-size:0.95rem; margin-bottom:16px; max-width:560px; }
+  .project-tags{ display:flex; flex-wrap:wrap; gap:8px; }
+  .tag{ font-family:'IBM Plex Mono', monospace; font-size:0.7rem; letter-spacing:0.03em; padding:5px 12px; border-radius:100px; border:1px solid var(--silver-line); color:var(--text-muted); background:rgba(155,127,212,0.06); }
+  .project-link{ font-family:'IBM Plex Mono', monospace; font-size:0.76rem; color:var(--text); border:1px solid var(--silver-line); padding:9px 18px; border-radius:100px; white-space:nowrap; transition:all 0.3s ease; height:fit-content; background:rgba(255,255,255,0.5); }
+  .project-link:hover{ border-color:var(--lav); color:var(--lav-deep); }
+
+  /* ---------- experience timeline ---------- */
+  .timeline{ margin-top:52px; position:relative; padding-left:32px; }
+  .timeline::before{ content:''; position:absolute; left:0; top:6px; bottom:6px; width:1px; background:linear-gradient(var(--lav), var(--silver) 60%, transparent); }
+  .tl-item{ position:relative; padding-bottom:44px; }
+  .tl-item:last-child{ padding-bottom:0; }
+  .tl-item::before{ content:''; position:absolute; left:-37px; top:6px; width:9px; height:9px; border-radius:50%; background:var(--lav); box-shadow:0 0 0 4px rgba(155,127,212,0.18); }
+  .tl-role{ font-family:'Fraunces', serif; font-size:1.15rem; color:var(--text); font-weight:500; }
+  .tl-meta{ font-family:'IBM Plex Mono', monospace; font-size:0.74rem; color:var(--lav-deep); margin:6px 0 12px; letter-spacing:0.04em; }
+  .tl-desc{ color:var(--text-muted); font-size:0.94rem; max-width:580px; }
+  .tl-desc li{ list-style:none; margin-bottom:6px; padding-left:16px; position:relative; }
+  .tl-desc li::before{ content:'—'; position:absolute; left:0; color:var(--silver); }
+
+  /* ---------- hackathon ---------- */
+  .hack-card{ margin-top:52px; background:var(--bg-panel); border:1px solid var(--silver-line); border-radius:var(--radius); padding:40px; }
+  .hack-meta{ font-family:'IBM Plex Mono', monospace; font-size:0.74rem; color:var(--lav-deep); letter-spacing:0.04em; margin-bottom:10px; }
+  .hack-title{ font-family:'Fraunces', serif; font-size:1.4rem; color:var(--text); margin-bottom:16px; }
+  .hack-text{ color:var(--text-muted); font-size:0.96rem; max-width:640px; margin-bottom:20px; }
+  .video-frame{ position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:10px; border:1px solid var(--silver-line); margin-top:22px; }
+  .video-frame iframe{ position:absolute; top:0; left:0; width:100%; height:100%; }
+
+  /* ---------- volunteering ---------- */
+  .vol-card{ margin-top:52px; display:flex; gap:24px; align-items:flex-start; border-left:1px solid var(--silver-line); padding-left:24px; }
+  .vol-card:hover{ border-left-color:var(--lav); }
+  .vol-role{ font-family:'Fraunces', serif; font-size:1.15rem; color:var(--text); font-weight:500; }
+  .vol-meta{ font-family:'IBM Plex Mono', monospace; font-size:0.74rem; color:var(--lav-deep); margin:6px 0 10px; }
+  .vol-desc{ color:var(--text-muted); font-size:0.94rem; max-width:560px; }
+
+  /* ---------- certifications ---------- */
+  .cert-grid{ display:grid; grid-template-columns:repeat(auto-fit, minmax(220px,1fr)); gap:16px; margin-top:52px; }
+  .cert-card{ border:1px solid var(--silver-line); border-radius:12px; padding:20px; background:var(--bg-panel); transition:all 0.3s ease; }
+  .cert-card:hover{ border-color:var(--lav); background:var(--bg-panel-2); transform:translateY(-2px); }
+  .cert-issuer{ font-family:'IBM Plex Mono', monospace; font-size:0.68rem; letter-spacing:0.06em; text-transform:uppercase; color:var(--text-muted); margin-bottom:8px; }
+  .cert-name{ font-weight:500; font-size:0.94rem; color:var(--text); }
+
+  /* ---------- contact ---------- */
+  .contact-section{ text-align:center; }
+  .contact-title{ font-family:'Fraunces', serif; font-style:italic; font-weight:400; font-size:clamp(2rem,5vw,3.3rem); color:var(--text); margin-bottom:24px; }
+  .contact-sub{ color:var(--text-muted); max-width:500px; margin:0 auto 42px; }
+  .contact-links{ display:flex; justify-content:center; gap:16px; flex-wrap:wrap; }
+
+  footer{ padding:36px 0; text-align:center; font-family:'IBM Plex Mono', monospace; font-size:0.72rem; color:var(--text-muted); letter-spacing:0.04em; }
+</style>
+</head>
+<body>
+
+<nav id="nav">
+  <a href="#top" class="nav-mark">Tariere Timitimi</a>
+  <div class="nav-links">
+    <a href="#about">About</a>
+    <a href="#stack">Stack</a>
+    <a href="#work">Work</a>
+    <a href="#experience">Experience</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<section class="hero" id="top">
+  <div class="aura"></div>
+  <div class="wrap">
+    <div class="eyebrow">AI &amp; Data Science Practitioner</div>
+    <div class="avatar"><img src="assets/profile.jpg" alt="Tariere Timitimi"></div>
+    <h1>Tariere <em>Timitimi</em></h1>
+    <p class="hero-role">AI &amp; Data Science Practitioner</p>
+    <div class="hero-cta">
+      <a href="#work" class="btn btn-primary">See the work</a>
+      <a href="https://www.linkedin.com/in/tariere-timitimi" target="_blank" rel="noopener" class="btn btn-ghost">Connect on LinkedIn</a>
+    </div>
+  </div>
+  <div class="scroll-cue"><div class="stem"></div>Scroll</div>
+</section>
+
+<section class="section" id="about">
+  <div class="wrap">
+    <h2 class="section-title reveal">About</h2>
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p>I'm an <strong>AI and Data Science practitioner</strong> with 4 years of professional experience, including 2 years in data analytics and AI/ML engineering, with hands-on expertise in machine learning, generative AI, and cloud-based AI systems.</p>
+        <p>I'm passionate about the <strong>end-to-end lifecycle of machine learning</strong> — from exploratory analysis and model selection to cloud deployment — with an emphasis on making deliberate, well-reasoned architectural decisions. At heart, I'm a systems thinker, most interested in the problem framing, data decisions, and architecture choices that determine whether ML actually works.</p>
+        <p>Outside of work, I'm a <strong>cozy gamer</strong>, a horror and anime fan, and someone who loves learning for its own sake — geography and astronomy are two of my deepest special interests. I'm also an artist: I paint, read good books, and try new foods whenever I can. One of my favorite things about the NYC area is that good food is always close by.</p>
+      </div>
+      <div class="fact-list reveal">
+        <div class="fact"><div class="fact-label">Based in</div><div class="fact-value">New York, NY</div></div>
+        <div class="fact"><div class="fact-label">Focus areas</div><div class="fact-value">ML Engineering · GenAI · Cloud AI Systems</div></div>
+        <div class="fact"><div class="fact-label">Also</div><div class="fact-value">WiDS 2026 Ambassador</div></div>
+        <div class="fact"><div class="fact-label">Outside of work</div><div class="fact-value">Painting, cozy games, geography &amp; astronomy</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="wrap"><div class="divider"></div></div>
+
+<section class="section" id="stack">
+  <div class="wrap">
+    <h2 class="section-title reveal">Tech Stack</h2>
+    <div class="stack-groups">
+      <div class="reveal">
+        <div class="stack-group-label">Languages</div>
+        <div class="stack-pills">
+          <span class="pill">Python</span><span class="pill">R</span><span class="pill">SQL</span>
+        </div>
+      </div>
+      <div class="reveal">
+        <div class="stack-group-label">ML &amp; AI</div>
+        <div class="stack-pills">
+          <span class="pill">Scikit-learn</span><span class="pill">PyTorch</span><span class="pill">XGBoost</span><span class="pill">LangChain</span>
+          <span class="pill">Machine Learning</span><span class="pill">Deep Learning</span><span class="pill">NLP</span>
+          <span class="pill">Time Series Analysis</span><span class="pill">RAG</span><span class="pill">Feature Engineering</span>
+        </div>
+      </div>
+      <div class="reveal">
+        <div class="stack-group-label">Data &amp; Analytics</div>
+        <div class="stack-pills">
+          <span class="pill">NumPy</span><span class="pill">Pandas</span><span class="pill">Matplotlib</span><span class="pill">Seaborn</span>
+          <span class="pill">ggplot2</span><span class="pill">Tableau</span><span class="pill">Power BI</span><span class="pill">A/B Testing</span>
+        </div>
+      </div>
+      <div class="reveal">
+        <div class="stack-group-label">Cloud &amp; MLOps</div>
+        <div class="stack-pills">
+          <span class="pill">AWS SageMaker</span><span class="pill">S3</span><span class="pill">Lambda</span><span class="pill">Rekognition</span>
+          <span class="pill">Boto3</span><span class="pill">Docker</span><span class="pill">Git</span>
+        </div>
+      </div>
+      <div class="reveal">
+        <div class="stack-group-label">Databases &amp; BI</div>
+        <div class="stack-pills">
+          <span class="pill">MySQL</span><span class="pill">SQLite</span><span class="pill">PostgreSQL</span><span class="pill">MS Excel</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="wrap"><div class="divider"></div></div>
+
+<section class="section" id="work">
+  <div class="wrap">
+    <h2 class="section-title reveal">Featured Projects</h2>
+
+    <div class="project-grid">
+      <div class="project reveal">
+        <div class="project-index">01</div>
+        <div>
+          <div class="project-title">Economic Time-Series Forecasting on AWS SageMaker</div>
+          <div class="project-hook">Macroeconomic forecasting carries real consequences — poor predictions inform bad policy and investment decisions.</div>
+          <div class="project-q">Benchmarked ARIMA, LSTM, and XGBoost on U.S. CPI data to find the most reliable architecture. XGBoost, paired with stationarity transformations and a 12-month lookback window, outperformed both alternatives — after pivoting away from LSTM once an architectural mismatch with the dataset scale became clear. Deployed on AWS SageMaker with a custom inference handler for scalable cloud hosting.</div>
+          <div class="project-tags"><span class="tag">Python</span><span class="tag">XGBoost</span><span class="tag">ARIMA</span><span class="tag">Prophet</span><span class="tag">SageMaker AI</span><span class="tag">MLOps</span></div>
+        </div>
+        <a href="projects/economic-forecasting.html" class="project-link">View project →</a>
+      </div>
+
+      <div class="project reveal">
+        <div class="project-index">02</div>
+        <div>
+          <div class="project-title">RAG-Based Research Assistant</div>
+          <div class="project-hook">Domain-specific medical literature is dense and fragmented, and standard LLMs hallucinate when asked questions they haven't been grounded in.</div>
+          <div class="project-q">Built a system that ingests PDFs, indexes them with semantic embeddings in ChromaDB, and constrains LLM responses to retrieved context only — eliminating hallucination at the prompt engineering level. Returns citation-backed answers in seconds, deployed through a FastAPI backend and Streamlit interface.</div>
+          <div class="project-tags"><span class="tag">FastAPI</span><span class="tag">OpenAI API</span><span class="tag">LangChain</span><span class="tag">ChromaDB</span><span class="tag">Streamlit</span><span class="tag">RAG</span></div>
+        </div>
+        <a href="projects/rag-research-assistant.html" class="project-link">View project →</a>
+      </div>
+
+      <div class="project reveal">
+        <div class="project-index">03</div>
+        <div>
+          <div class="project-title">House Plant Health Classification Using Amazon Rekognition</div>
+          <div class="project-hook">Identifying plant health issues early prevents loss, but visual assessment is subjective, inconsistent, and doesn't scale.</div>
+          <div class="project-q">Built an automated classification pipeline with particular attention to the minority class, where misclassification carries the highest cost — including class imbalance correction through targeted augmentation, stratified splitting, and labeled S3 uploads via manifest files. The Rekognition Custom Labels model reached 95% accuracy with 1.00 precision and 0.80 recall on the unhealthy class, meaning it's highly reliable when flagging at-risk plants.</div>
+          <div class="project-tags"><span class="tag">Amazon Rekognition</span><span class="tag">Custom Labels</span><span class="tag">S3</span><span class="tag">Lambda</span><span class="tag">Boto3</span><span class="tag">Albumentations</span></div>
+        </div>
+        <a href="projects/houseplant-classification.html" class="project-link">View project →</a>
+      </div>
+
+      <div class="project reveal">
+        <div class="project-index">04</div>
+        <div>
+          <div class="project-title">Film Industry EDA (SQL &amp; R)</div>
+          <div class="project-hook">The entertainment industry commonly assumes popular films are also well-rated — this project stress-tested that assumption at scale.</div>
+          <div class="project-q">Across 60,000+ films from a 1.3M-row TMDB dataset, using a production-style pipeline (raw data → SQLite → SQL → R/ggplot2), two findings stood out: popularity and rating are essentially uncorrelated (r = 0.087), meaning commercial success isn't a proxy for quality, and Drama consistently outrates Action (6.27 vs. 5.96) — a statistically significant gap across 35,000+ films with direct implications for content investment strategy.</div>
+          <div class="project-tags"><span class="tag">R</span><span class="tag">tidyverse</span><span class="tag">ggplot2</span><span class="tag">SQLite</span><span class="tag">DBI</span><span class="tag">EDA</span></div>
+        </div>
+        <a href="projects/film-industry-eda.html" class="project-link">View project →</a>
+      </div>
+
+      <div class="project reveal">
+        <div class="project-index">05</div>
+        <div>
+          <div class="project-title">StyleSignal: Trend Lifecycle Clustering <span class="badge-progress">In Progress</span></div>
+          <div class="project-q">Building a pipeline to classify trend behavior by shape rather than volume. Search-interest time series for style and brand keywords (via pytrends) are decomposed into shape-based features — peak timing, rise rate, decay rate, duration above threshold, amplitude — rather than clustering on raw interest values. Unsupervised clustering groups trends into lifecycle patterns (spike-and-fade, sustained growth, cyclical return), testing whether lifecycle shape predicts commercial relevance.</div>
+          <div class="project-tags"><span class="tag">pytrends</span><span class="tag">Unsupervised Learning</span><span class="tag">Clustering</span><span class="tag">Feature Engineering</span></div>
+        </div>
+        <a href="projects/stylesignal.html" class="project-link">View project →</a>
+      </div>
+    </div>
+
+    <p style="margin-top:28px; font-size:0.9rem; color:var(--text-muted);">Older exploratory work is archived in <a href="https://github.com/Tarieret/Archived_Projects/tree/main" target="_blank" rel="noopener" style="color:var(--lav-deep); border-bottom:1px solid var(--silver-line);">Archived_Projects</a>.</p>
+  </div>
+</section>
+
+<div class="wrap"><div class="divider"></div></div>
+
+<section class="section" id="experience">
+  <div class="wrap">
+    <h2 class="section-title reveal">Experience</h2>
+    <div class="timeline">
+      <div class="tl-item reveal">
+        <div class="tl-role">Senior Analyst — The Chum Effect (TCE)</div>
+        <div class="tl-meta">May 2026 — Present</div>
+        <ul class="tl-desc">
+          <li>Building an automated Python pipeline feeding Tableau, cutting manual data prep by ~45% across 15+ client engagements</li>
+          <li>Developing a sentiment classification model (scikit-learn, NLTK) achieving 88% accuracy across 50,000+ data points</li>
+        </ul>
+      </div>
+      <div class="tl-item reveal">
+        <div class="tl-role">Managing Editor, JCRES &amp; Graduate Research Assistant — St. John's University</div>
+        <div class="tl-meta">Jan 2025 — May 2026</div>
+        <ul class="tl-desc">
+          <li>Coordinated editorial operations across 2 journal volumes — 45 articles, ~675 author-reviewer relationships</li>
+          <li>Automated a data pipeline mapping 1,000+ records to university KPIs, cutting reporting time by ~40%</li>
+        </ul>
+      </div>
+      <div class="tl-item reveal">
+        <div class="tl-role">Data Analyst — Century Group</div>
+        <div class="tl-meta">Feb 2024 — Sept 2024</div>
+        <ul class="tl-desc">
+          <li>Deployed Power BI dashboards tracking KPIs across two offshore facilities, reviewed weekly by the CEO</li>
+          <li>Cut weekly report prep time by 92% by automating data cleaning in Python</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="wrap"><div class="divider"></div></div>
+
+<section class="section" id="hackathons">
+  <div class="wrap">
+    <h2 class="section-title reveal">Hackathons</h2>
+    <div class="hack-card reveal">
+      <div class="hack-meta">IBM Bob Dev Day Hackathon · Team JustShipIt · Team Lead · May 2026</div>
+      <div class="hack-title">ProcessDoctor</div>
+      <p class="hack-text" style="font-style:italic; opacity:0.85;">CI/CD pipelines are often slow, manual, and hard to debug — teams lose real time to repetitive configuration and manual approvals instead of building.</p>
+      <p class="hack-text">As team lead, I guided ProcessDoctor through a diagnose–prescribe–treat pipeline: understanding CI/CD workflows from natural language or connected repos, identifying bottlenecks via IBM Bob, and using IBM Granite to generate optimized, production-ready CI/CD artifacts (including GitHub Actions YAML), orchestrated end-to-end through IBM watsonx Orchestrate. In our demo, the system took a 40-minute sequential pipeline with manual approvals and restructured it into a 15-minute pipeline with parallel execution and automated approvals.</p>
+      <div class="project-tags"><span class="tag">React</span><span class="tag">TypeScript</span><span class="tag">FastAPI</span><span class="tag">IBM Granite</span><span class="tag">IBM Bob</span><span class="tag">watsonx Orchestrate</span></div>
+      <div class="video-frame">
+        <iframe src="https://www.youtube.com/embed/dRjiyU1XnRg" title="ProcessDoctor Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="wrap"><div class="divider"></div></div>
+
+<section class="section" id="volunteering">
+  <div class="wrap">
+    <h2 class="section-title reveal">Volunteering &amp; Leadership</h2>
+    <div class="vol-card reveal">
+      <div>
+        <div class="vol-role">Women in Data Science (WiDS) — 2026 Ambassador</div>
+        <div class="vol-meta">2026 — Present</div>
+        <div class="vol-desc">Serving as a WiDS Worldwide Ambassador, supporting the organization's mission to inspire, educate, and support women pursuing careers in data science.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="wrap"><div class="divider"></div></div>
+
+<section class="section" id="certifications">
+  <div class="wrap">
+    <h2 class="section-title reveal">Certifications</h2>
+    <div class="cert-grid">
+      <a href="https://www.credly.com/badges/8983ce52-d5b0-421a-b7c5-80b3e9fa676f/linked_in_profile" target="_blank" rel="noopener" class="cert-card reveal">
+        <div class="cert-issuer">Amazon Web Services</div>
+        <div class="cert-name">AWS ML Engineer – Associate</div>
+      </a>
+      <a href="https://www.nvidia.com/en-us/training/" target="_blank" rel="noopener" class="cert-card reveal">
+        <div class="cert-issuer">NVIDIA</div>
+        <div class="cert-name">NVIDIA Deep Learning</div>
+      </a>
+      <a href="https://credentials.databricks.com/c6b25acf-076b-494f-a959-740542fa0033#acc.PeisynNm" target="_blank" rel="noopener" class="cert-card reveal">
+        <div class="cert-issuer">Databricks</div>
+        <div class="cert-name">Databricks Fundamentals</div>
+      </a>
+      <a href="https://drive.google.com/file/d/1LnDWoYYBcAIY72g8Dj0FVGfU1gluaUSr/view" target="_blank" rel="noopener" class="cert-card reveal">
+        <div class="cert-issuer">Databricks</div>
+        <div class="cert-name">Databricks Apache Spark</div>
+      </a>
+      <a href="https://www.credly.com/badges/4881e30a-e6a7-4906-8342-364b621a6b59/linked_in_profile" target="_blank" rel="noopener" class="cert-card reveal">
+        <div class="cert-issuer">Amazon Web Services</div>
+        <div class="cert-name">AWS Cloud Practitioner</div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="section contact-section" id="contact">
+  <div class="wrap">
+    <div class="contact-title">Let's connect.</div>
+    <p class="contact-sub">Open to data science, ML engineering, and GenAI roles — always glad to talk shop about a model that shipped, or one that shouldn't have.</p>
+    <div class="contact-links">
+      <a href="mailto:tarieretimitimi@gmail.com" class="btn btn-primary">Email me</a>
+      <a href="https://www.linkedin.com/in/tariere-timitimi" target="_blank" rel="noopener" class="btn btn-ghost">LinkedIn</a>
+      <a href="https://tarieret.github.io/Portfolio/" target="_blank" rel="noopener" class="btn btn-ghost">GitHub</a>
+    </div>
+  </div>
+</section>
+
+<footer>Tariere Timitimi — New York, NY</footer>
+
+<script>
+  const nav = document.getElementById('nav');
+  window.addEventListener('scroll', () => { nav.classList.toggle('scrolled', window.scrollY > 20); });
+
+  const revealEls = document.querySelectorAll('.reveal');
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) { entry.target.classList.add('in'); io.unobserve(entry.target); }
+    });
+  }, { threshold: 0.12 });
+  revealEls.forEach(el => io.observe(el));
+</script>
+
+</body>
+</html>
