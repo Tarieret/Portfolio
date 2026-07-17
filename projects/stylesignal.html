@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>StyleSignal: Trend Lifecycle Clustering — Tariere Timitimi</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/project.css">
+</head>
+<body>
+
+<nav>
+  <a href="../index.html" class="nav-mark">Tariere Timitimi</a>
+  <a href="../index.html#work" class="nav-back">← All Projects</a>
+</nav>
+
+<section class="p-hero">
+  <div class="wrap">
+    <div class="p-eyebrow">NLP · Unsupervised Learning · In Progress</div>
+    <h1 class="p-title">StyleSignal: Trend Lifecycle Clustering</h1>
+    <p class="p-hook">Not every trend behaves the same way over time — this project classifies trend behavior by shape rather than raw volume.</p>
+    <div class="p-tags">
+      <span class="tag">Python</span><span class="tag">pytrends</span><span class="tag">Pandas</span><span class="tag">Scikit-learn</span><span class="tag">Unsupervised Learning</span><span class="tag">Clustering</span><span class="tag">Feature Engineering</span>
+    </div>
+  </div>
+</section>
+
+<div class="wrap"><div class="divider"></div></div>
+
+<section class="p-section">
+  <div class="wrap p-body">
+    <div class="p-label">The Question</div>
+    <p>Does the <em>shape</em> of a trend's lifecycle — not just how big it gets — predict how long it stays commercially relevant?</p>
+  </div>
+</section>
+
+<section class="p-section">
+  <div class="wrap p-body">
+    <div class="p-label">The Approach</div>
+    <p>Search-interest time series for style and brand keywords are pulled via <strong>pytrends</strong>, then decomposed into shape-based features rather than clustered on raw interest values directly.</p>
+    <ul>
+      <li>Extracting shape features: peak timing, rise rate, decay rate, duration above threshold, amplitude</li>
+      <li>Applying unsupervised clustering (K-means / hierarchical) to group trends into lifecycle patterns</li>
+      <li>Target patterns include spike-and-fade, sustained growth, and cyclical/seasonal return</li>
+      <li>Testing whether lifecycle shape predicts how long a trend remains commercially relevant</li>
+    </ul>
+
+    <div class="placeholder-fig">
+      <div class="ph-label">Screenshots and cluster visualizations coming soon</div>
+    </div>
+  </div>
+</section>
+
+<section class="p-section">
+  <div class="wrap p-body">
+    <div class="p-label">Status</div>
+    <p>In progress — repo and full write-up to follow as the clustering pipeline is finalized.</p>
+  </div>
+</section>
+
+<div class="wrap"><div class="divider"></div></div>
+
+<div class="wrap p-footer-nav">
+  <a href="../index.html#work" class="btn btn-ghost">← Back to all projects</a>
+</div>
+
+<footer>Tariere Timitimi — New York, NY</footer>
+
+</body>
+</html>
