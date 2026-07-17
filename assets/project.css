@@ -44,7 +44,7 @@ nav{ position:fixed; top:0; left:0; right:0; z-index:100; display:flex; justify-
 
 .figure{ margin:28px 0; border-radius:var(--radius); overflow:hidden; border:1px solid var(--silver-line); background:var(--bg-panel); }
 .figure img{ width:100%; display:block; }
-.figure-cap{ padding:14px 18px; font-family:'IBM Plex Mono', monospace; font-size:0.76rem; color:var(--text-muted); border-top:1px solid var(--silver-line); }
+.figure-cap{ padding:8px 14px; font-family:'IBM Plex Mono', monospace; font-size:0.66rem; color:var(--text-muted); border-top:1px solid var(--silver-line); }
 
 .placeholder-fig{
   margin:28px 0; border-radius:var(--radius); border:1px dashed var(--silver-line);
