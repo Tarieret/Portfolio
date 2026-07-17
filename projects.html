@@ -15,8 +15,9 @@
   <a href="index.html" class="nav-mark">Tariere A. Timitimi</a>
   <div class="nav-links">
     <a href="index.html">About</a>
-    <a href="experience.html">Experience and Education</a>
+    <a href="resume.html">Resume</a>
     <a href="projects.html">Featured Work</a>
+    <a href="contact.html">Contact</a>
   </div>
 </nav>
 
@@ -29,66 +30,72 @@
 
 <section class="section" id="work">
   <div class="wrap">
-    <h2 class="section-title reveal">Featured Projects</h2>
+    <div class="mini-grid">
 
-    <div class="project-grid">
-      <div class="project reveal">
-        <div class="project-thumb"><img src="/Portfolio/assets/img/XGBoost_CPI.png" alt="XGBoost CPI forecast"></div>
-        <div class="project-index">01</div>
-        <div>
-          <div class="project-title">Economic Time-Series Forecasting on AWS SageMaker <span class="badge-done">Completed</span></div>
-          <div class="project-hook">Macroeconomic forecasting carries real consequences: poor predictions inform bad policy and investment decisions.</div>
-          <div class="project-q">Benchmarked ARIMA, LSTM, and XGBoost on U.S. CPI data to find the most reliable architecture. XGBoost, paired with stationarity transformations and a 12-month lookback window, outperformed both alternatives, after pivoting away from LSTM once an architectural mismatch with the dataset scale became clear. Deployed on AWS SageMaker with a custom inference handler for scalable cloud hosting.</div>
-          <div class="project-tags"><span class="tag">Python</span><span class="tag">XGBoost</span><span class="tag">ARIMA</span><span class="tag">Prophet</span><span class="tag">SageMaker AI</span><span class="tag">MLOps</span></div>
+      <div class="mini-card reveal">
+        <div class="mini-thumb"><img src="/Portfolio/assets/img/XGBoost_CPI.png" alt="XGBoost CPI forecast"></div>
+        <div class="mini-body">
+          <div class="mini-title">Economic Time-Series Forecasting on AWS SageMaker</div>
+          <div class="mini-desc">Benchmarked ARIMA, LSTM, and XGBoost on U.S. CPI data, deploying the winning XGBoost model (RMSE: 2.0) on AWS SageMaker with custom inference.</div>
+          <div class="mini-meta">
+            <span class="mini-tags">Python · XGBoost · SageMaker</span>
+            <span class="mini-badge done">Completed</span>
+          </div>
+          <a href="projects/economic-forecasting.html" class="mini-link">View project →</a>
         </div>
-        <a href="projects/economic-forecasting.html" class="project-link">View project →</a>
       </div>
 
-      <div class="project reveal">
-        <div class="project-thumb"><img src="/Portfolio/assets/img/StreamlitDemo1.png" alt="Streamlit interface demo"></div>
-        <div class="project-index">02</div>
-        <div>
-          <div class="project-title">RAG-Based Research Assistant <span class="badge-done">Completed</span></div>
-          <div class="project-hook">Domain-specific medical literature is dense and fragmented, and standard LLMs hallucinate when asked questions they haven't been grounded in.</div>
-          <div class="project-q">Built a system that ingests PDFs, indexes them with semantic embeddings in ChromaDB, and constrains LLM responses to retrieved context only, eliminating hallucination at the prompt engineering level. Returns citation-backed answers in seconds, deployed through a FastAPI backend and Streamlit interface.</div>
-          <div class="project-tags"><span class="tag">FastAPI</span><span class="tag">OpenAI API</span><span class="tag">LangChain</span><span class="tag">ChromaDB</span><span class="tag">Streamlit</span><span class="tag">RAG</span></div>
+      <div class="mini-card reveal">
+        <div class="mini-thumb"><img src="/Portfolio/assets/img/StreamlitDemo1.png" alt="Streamlit interface demo"></div>
+        <div class="mini-body">
+          <div class="mini-title">RAG-Based Research Assistant</div>
+          <div class="mini-desc">Built a citation-grounded RAG pipeline over medical literature using LangChain and ChromaDB, eliminating hallucination at the prompt level.</div>
+          <div class="mini-meta">
+            <span class="mini-tags">LangChain · RAG · FastAPI</span>
+            <span class="mini-badge done">Completed</span>
+          </div>
+          <a href="projects/rag-research-assistant.html" class="mini-link">View project →</a>
         </div>
-        <a href="projects/rag-research-assistant.html" class="project-link">View project →</a>
       </div>
 
-      <div class="project reveal">
-        <div class="project-thumb"><img src="/Portfolio/assets/img/storefront.png" alt="Plant nursery storefront"></div>
-        <div class="project-index">03</div>
-        <div>
-          <div class="project-title">House Plant Health Classification Using Amazon Rekognition <span class="badge-done">Completed</span></div>
-          <div class="project-hook">Identifying plant health issues early prevents loss, but visual assessment is subjective, inconsistent, and doesn't scale.</div>
-          <div class="project-q">Built an automated classification pipeline with particular attention to the minority class, where misclassification carries the highest cost, including class imbalance correction through targeted augmentation, stratified splitting, and labeled S3 uploads via manifest files. The Rekognition Custom Labels model reached 95% accuracy with 1.00 precision and 0.80 recall on the unhealthy class, meaning it's highly reliable when flagging at-risk plants.</div>
-          <div class="project-tags"><span class="tag">Amazon Rekognition</span><span class="tag">Custom Labels</span><span class="tag">S3</span><span class="tag">Lambda</span><span class="tag">Boto3</span><span class="tag">Albumentations</span></div>
+      <div class="mini-card reveal">
+        <div class="mini-thumb"><img src="/Portfolio/assets/img/storefront.png" alt="Plant nursery storefront"></div>
+        <div class="mini-body">
+          <div class="mini-title">House Plant Health Classification</div>
+          <div class="mini-desc">Automated computer vision pipeline classifying plant health via Amazon Rekognition, reaching 95% accuracy with a focus on minority-class recall.</div>
+          <div class="mini-meta">
+            <span class="mini-tags">Rekognition · AWS · CV</span>
+            <span class="mini-badge done">Completed</span>
+          </div>
+          <a href="projects/houseplant-classification.html" class="mini-link">View project →</a>
         </div>
-        <a href="projects/houseplant-classification.html" class="project-link">View project →</a>
       </div>
 
-      <div class="project reveal">
-        <div class="project-thumb"><img src="/Portfolio/assets/img/02_top_genres.png" alt="Top genres chart"></div>
-        <div class="project-index">04</div>
-        <div>
-          <div class="project-title">Film Industry EDA (SQL &amp; R) <span class="badge-done">Completed</span></div>
-          <div class="project-hook">The entertainment industry commonly assumes popular films are also well-rated. This project stress-tested that assumption at scale.</div>
-          <div class="project-q">Across 60,000+ films from a 1.3M-row TMDB dataset, using a production-style pipeline (raw data → SQLite → SQL → R/ggplot2), two findings stood out: popularity and rating are essentially uncorrelated (r = 0.087), meaning commercial success isn't a proxy for quality, and Drama consistently outrates Action (6.27 vs. 5.96), a statistically significant gap across 35,000+ films with direct implications for content investment strategy.</div>
-          <div class="project-tags"><span class="tag">R</span><span class="tag">tidyverse</span><span class="tag">ggplot2</span><span class="tag">SQLite</span><span class="tag">DBI</span><span class="tag">EDA</span></div>
+      <div class="mini-card reveal">
+        <div class="mini-thumb"><img src="/Portfolio/assets/img/02_top_genres.png" alt="Top genres chart"></div>
+        <div class="mini-body">
+          <div class="mini-title">Film Industry EDA (SQL &amp; R)</div>
+          <div class="mini-desc">Analyzed 1.3M rows of TMDB data in SQL and R, finding popularity and rating are statistically uncorrelated (r = 0.087).</div>
+          <div class="mini-meta">
+            <span class="mini-tags">SQL · R · EDA</span>
+            <span class="mini-badge done">Completed</span>
+          </div>
+          <a href="projects/film-industry-eda.html" class="mini-link">View project →</a>
         </div>
-        <a href="projects/film-industry-eda.html" class="project-link">View project →</a>
       </div>
 
-      <div class="project reveal">
-        <div class="project-index">05</div>
-        <div>
-          <div class="project-title">StyleSignal: Trend Lifecycle Clustering <span class="badge-progress">In Progress</span></div>
-          <div class="project-q">Building a pipeline to classify trend behavior by shape rather than volume. Search-interest time series for style and brand keywords (via pytrends) are decomposed into shape-based features (peak timing, rise rate, decay rate, duration above threshold, amplitude) rather than clustering on raw interest values. Unsupervised clustering groups trends into lifecycle patterns (spike-and-fade, sustained growth, cyclical return), testing whether lifecycle shape predicts commercial relevance.</div>
-          <div class="project-tags"><span class="tag">pytrends</span><span class="tag">Unsupervised Learning</span><span class="tag">Clustering</span><span class="tag">Feature Engineering</span></div>
+      <div class="mini-card reveal">
+        <div class="mini-body">
+          <div class="mini-title">StyleSignal: Trend Lifecycle Clustering</div>
+          <div class="mini-desc">Clustering fashion search trends by lifecycle shape using pytrends and unsupervised learning, testing whether shape predicts commercial relevance.</div>
+          <div class="mini-meta">
+            <span class="mini-tags">pytrends · Clustering</span>
+            <span class="mini-badge progress">In Progress</span>
+          </div>
+          <a href="projects/stylesignal.html" class="mini-link">View project →</a>
         </div>
-        <a href="projects/stylesignal.html" class="project-link">View project →</a>
       </div>
+
     </div>
 
     <p style="margin-top:28px; font-size:0.9rem; color:var(--text); font-weight:600;">Older exploratory work is archived in <a href="https://github.com/Tarieret/Archived_Projects/tree/main" target="_blank" rel="noopener" style="color:var(--lav-deep); border-bottom:1px solid var(--silver-line);">Archived_Projects</a>.</p>
