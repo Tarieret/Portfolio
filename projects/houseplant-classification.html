@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Houseplant Health Classification — Tariere A. Timitimi</title>
+<title>Houseplant Health Classification | Tariere A. Timitimi</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -109,9 +109,21 @@ New Image → S3 (uploads/) → Lambda → Rekognition Inference → S3 (results
     <div class="p-label">Acknowledgements</div>
     <p>Training images were collected in person at two plant nurseries whose staff were kind enough to allow photography:</p>
     <ul>
-      <li><strong>Holiday Foliage Orchids and Plants</strong> — 146 West 28th Street, New York, NY</li>
-      <li><strong>Redwood Flower Shop</strong> — New Brunswick, NJ</li>
+      <li><strong>Holiday Foliage Orchids and Plants</strong>, 146 West 28th Street, New York, NY</li>
+      <li><strong>Redwood Flower Shop</strong>, New Brunswick, NJ</li>
     </ul>
+  </div>
+</section>
+
+<section class="p-section">
+  <div class="wrap p-body">
+    <div class="p-label">Key Decisions</div>
+    <ul>
+      <li>Corrected class imbalance through targeted augmentation rather than accepting a biased dataset, since the unhealthy class was both smaller and higher-stakes to miss</li>
+      <li>Optimized specifically for precision and recall on the unhealthy class rather than overall accuracy, since a missed sick plant is costlier than a false alarm</li>
+      <li>Automated the entire pipeline through Python/Boto3 rather than manual console setup, keeping it reproducible from a single notebook</li>
+    </ul>
+    <p class="reflection">This project taught me that the "right" metric depends on what a false negative actually costs in the real world. Optimizing for overall accuracy would have hidden exactly the failure mode that mattered most here.</p>
   </div>
 </section>
 

@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Economic Time-Series Forecasting on AWS SageMaker — Tariere A. Timitimi</title>
+<title>Economic Time-Series Forecasting on AWS SageMaker | Tariere A. Timitimi</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -20,7 +20,7 @@
   <div class="wrap">
     <div class="p-eyebrow">Time-Series Forecasting · Cloud Deployment</div>
     <h1 class="p-title">Economic Time-Series Forecasting on AWS SageMaker</h1>
-    <p class="p-hook">XGBoost vs. ARIMA vs. Prophet — deployed end-to-end on AWS SageMaker.</p>
+    <p class="p-hook">XGBoost vs. ARIMA vs. Prophet, deployed end-to-end on AWS SageMaker.</p>
     <div class="p-tags">
       <span class="tag">Python</span><span class="tag">XGBoost</span><span class="tag">ARIMA</span><span class="tag">Prophet</span><span class="tag">AWS SageMaker</span><span class="tag">Boto3</span><span class="tag">FRED API</span><span class="tag">MLOps</span>
     </div>
@@ -33,7 +33,7 @@
   <div class="wrap p-body">
     <div class="p-label">Overview</div>
     <p>This project forecasts U.S. Consumer Price Index (CPI) values using a multi-model approach, ranging from classical statistical methods to gradient boosting. The primary objective was to evaluate model accuracy under a rigorous time-series validation framework and demonstrate production-level deployment on AWS SageMaker.</p>
-    <p>A key decision mid-project was pivoting away from LSTM after testing showed deep learning struggled with the small monthly sample size and non-stationary trend of CPI data — a deliberate architectural choice in favor of a more robust tree-based approach.</p>
+    <p>A key decision mid-project was pivoting away from LSTM after testing showed deep learning struggled with the small monthly sample size and non-stationary trend of CPI data. It was a deliberate architectural choice in favor of a more robust tree-based approach.</p>
 
     <div class="fig-row">
       <div class="figure">
@@ -79,12 +79,25 @@
   <div class="wrap p-body">
     <div class="p-label">Technical Approach</div>
     <ul>
-      <li>Applied first-order differencing to remove trend bias — the model predicts monthly delta rather than absolute CPI values</li>
+      <li>Applied first-order differencing to remove trend bias: the model predicts monthly delta rather than absolute CPI values</li>
       <li>Engineered a 12-month sliding window of lag features to capture seasonal momentum and annual cycles</li>
       <li>Benchmarked ARIMA and Prophet as statistical baselines before training XGBoost</li>
       <li>Serialized the final model into <code>model.tar.gz</code> with a custom inference handler for SageMaker deployment</li>
       <li>Kept the deployment script intentionally separate from the notebook to avoid unnecessary cloud costs</li>
     </ul>
+  </div>
+</section>
+
+<section class="p-section">
+  <div class="wrap p-body">
+    <div class="p-label">Key Decisions</div>
+    <ul>
+      <li>Pivoted away from LSTM after testing showed it struggled with the small monthly sample size and non-stationary CPI trend, choosing a more robust tree-based approach instead</li>
+      <li>Applied first-order differencing to predict monthly delta rather than absolute CPI values, directly addressing non-stationarity</li>
+      <li>Engineered a 12-month lookback window to capture seasonal and annual cycles</li>
+      <li>Kept the deployment script separate from the notebook to avoid unnecessary cloud costs</li>
+    </ul>
+    <p class="reflection">This project reinforced that model selection should follow the data's constraints, not the other way around. A simpler, well-regularized architecture outperformed a more complex one once the dataset's scale and non-stationarity were properly accounted for.</p>
   </div>
 </section>
 

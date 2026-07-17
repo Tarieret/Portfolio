@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Film Industry EDA — Tariere A. Timitimi</title>
+<title>Film Industry EDA | Tariere A. Timitimi</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -45,8 +45,8 @@
 <section class="p-section">
   <div class="wrap p-body">
     <div class="p-label">Key Findings</div>
-    <p><strong>Popularity vs. Rating (Pearson Correlation, r = 0.087)</strong><br>There is a statistically significant but practically negligible relationship between popularity and audience rating. A movie can be widely watched without being highly rated — and vice versa.</p>
-    <p><strong>Action vs. Drama Ratings (Welch T-Test, p &lt; 0.001)</strong><br>Drama movies rate statistically higher than Action movies (6.27 vs. 5.96 average rating) across 35,000+ films — a small but highly significant gap suggesting audiences consistently reward narrative-driven films.</p>
+    <p><strong>Popularity vs. Rating (Pearson Correlation, r = 0.087)</strong><br>There is a statistically significant but practically negligible relationship between popularity and audience rating. A movie can be widely watched without being highly rated, and vice versa.</p>
+    <p><strong>Action vs. Drama Ratings (Welch T-Test, p &lt; 0.001)</strong><br>Drama movies rate statistically higher than Action movies (6.27 vs. 5.96 average rating) across 35,000+ films, a small but highly significant gap suggesting audiences consistently reward narrative-driven films.</p>
   </div>
 </section>
 
@@ -89,9 +89,9 @@
   <div class="wrap p-body">
     <div class="p-label">Data &amp; Filtering Decisions</div>
     <ul>
-      <li><strong>Source:</strong> TMDB Movies Dataset — 1.38M rows, 24 columns</li>
+      <li><strong>Source:</strong> TMDB Movies Dataset, 1.38M rows, 24 columns</li>
       <li><strong>Filters:</strong> Released status only, 1980–2023, minimum 10 votes per film</li>
-      <li><strong>Financial data excluded:</strong> Only ~17,000 of 1.38M entries had both budget and revenue recorded — insufficient for meaningful analysis</li>
+      <li><strong>Financial data excluded:</strong> Only ~17,000 of 1.38M entries had both budget and revenue recorded, insufficient for meaningful analysis</li>
       <li><strong>Date handling:</strong> SQLite stores R date objects as integers; date filtering was handled in R via lubridate rather than directly in SQL</li>
     </ul>
   </div>
@@ -101,9 +101,21 @@
   <div class="wrap p-body">
     <div class="p-label">Statistical Analysis</div>
     <ul>
-      <li><strong>Pearson Correlation</strong> — tests whether popularity score is related to audience rating</li>
-      <li><strong>Welch Two-Sample T-Test</strong> — tests whether Action and Drama movies receive statistically different ratings (H₀: no significant difference)</li>
+      <li><strong>Pearson Correlation:</strong> tests whether popularity score is related to audience rating</li>
+      <li><strong>Welch Two-Sample T-Test:</strong> tests whether Action and Drama movies receive statistically different ratings (H₀: no significant difference)</li>
     </ul>
+  </div>
+</section>
+
+<section class="p-section">
+  <div class="wrap p-body">
+    <div class="p-label">Key Decisions</div>
+    <ul>
+      <li>Excluded financial data despite it being in the raw dataset, since only ~17,000 of 1.38M entries had both budget and revenue reliably recorded. Including it would have meant analyzing an unrepresentative subset</li>
+      <li>Handled date filtering in R via lubridate rather than in SQL, since SQLite stores date objects as integers and this avoided silent misinterpretation</li>
+      <li>Used a Welch t-test rather than a standard t-test for the Action vs. Drama comparison, since the two genre groups don't have equal variance</li>
+    </ul>
+    <p class="reflection">This project was a reminder that a big dataset doesn't mean every column is usable. Deciding what to exclude, and being able to explain why, mattered as much as the statistical findings themselves.</p>
   </div>
 </section>
 

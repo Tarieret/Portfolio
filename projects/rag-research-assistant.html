@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>RAG-Based Research Assistant — Tariere A. Timitimi</title>
+<title>RAG-Based Research Assistant | Tariere A. Timitimi</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -87,6 +87,18 @@ User Query → Streamlit → FastAPI → ChromaDB Retrieval → GPT-4o-mini → 
 <section class="p-section">
   <div class="wrap p-body">
     <div class="callout"><strong>Note:</strong> This project is intended for research and educational use only and is not suitable for clinical or diagnostic decision-making.</div>
+  </div>
+</section>
+
+<section class="p-section">
+  <div class="wrap p-body">
+    <div class="p-label">Key Decisions</div>
+    <ul>
+      <li>Constrained LLM responses to retrieved context only, eliminating hallucination at the prompt-engineering level rather than filtering it out after the fact</li>
+      <li>Indexed content with semantic embeddings in ChromaDB instead of keyword search, to support natural-language queries over dense medical literature</li>
+      <li>Built citation-backed responses as a core requirement, not an add-on, given the research-integrity stakes of medical content</li>
+    </ul>
+    <p class="reflection">Working on this shifted how I think about GenAI reliability. Grounding and citation aren't polish, they're the difference between a demo and a tool someone can actually trust with research decisions.</p>
   </div>
 </section>
 
