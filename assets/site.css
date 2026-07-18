@@ -309,10 +309,15 @@
 .mini-details{ margin-top:2px; }
 .mini-details summary{
   cursor:pointer; list-style:none; font-family:'IBM Plex Mono', monospace;
-  font-size:0.7rem; letter-spacing:0.05em; color:var(--lav-deep);
-  display:inline-flex; align-items:center; gap:4px; padding:2px 0; user-select:none;
+  font-size:0.68rem; font-weight:400; letter-spacing:0.04em; color:var(--text-muted);
+  opacity:0.6; display:inline-block; padding:2px 0; user-select:none;
+  transition:opacity 0.25s ease, color 0.25s ease;
 }
+.mini-details summary:hover{ opacity:1; color:var(--lav-deep); }
 .mini-details summary::-webkit-details-marker{ display:none; }
+.mini-details summary::marker{ content:''; }
+.mini-details summary .mini-more,
+.mini-details summary .mini-less{ font-size:inherit; font-weight:inherit; letter-spacing:inherit; }
 .mini-details:not([open]) .mini-less{ display:none; }
 .mini-details[open] .mini-more{ display:none; }
 
