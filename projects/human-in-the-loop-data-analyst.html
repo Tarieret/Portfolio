@@ -35,15 +35,9 @@
     <p>Text-to-SQL agents that execute automatically are a liability: a misread question or an ambiguous schema can produce a query that silently returns the wrong answer, or one with unintended side effects. This project asks whether a natural-language question can become safe, reviewable SQL with a mandatory human approval step before anything runs, using the approval mechanism as a protocol-level guarantee rather than an application-level convention.</p>
     <p>The system exposes a DuckDB database (Instacart's public order data) as an MCP server with three tools: <code>list_tables</code>, <code>describe_table</code>, and <code>run_query</code>. A Streamlit chat interface sends questions to OpenAI's Responses API, which calls those tools directly. Every <code>run_query</code> call pauses for human approval before it executes, the SQL is shown in full, and only a click resumes execution.</p>
 
-    <div class="fig-row">
-      <div class="figure">
-        <img src="/Portfolio/assets/img/mcp-approval-gate.png" alt="Approval card showing the proposed SQL query with Approve and Reject buttons">
-        <div class="figure-cap">Approval gate: the proposed query, paused before execution</div>
-      </div>
-      <div class="figure">
-        <img src="/Portfolio/assets/img/mcp-answer.png" alt="Final plain-English answer after approval">
-        <div class="figure-cap">Result after approval, summarized in plain English</div>
-      </div>
+    <div class="figure">
+      <img src="/Portfolio/assets/img/mcp-human-in-loop-demo.gif" alt="Demo: asking a question, reviewing the generated SQL, approving it, and getting a plain-English answer">
+      <div class="figure-cap">Question → generated SQL → approval → answer</div>
     </div>
   </div>
 </section>
