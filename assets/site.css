@@ -302,3 +302,33 @@
 .contact-form button{ font-family:'IBM Plex Mono', monospace; font-size:0.85rem; letter-spacing:0.05em; padding:14px 26px; border-radius:100px; text-transform:uppercase; background:linear-gradient(100deg,var(--lav),var(--lav-deep)); color:#fbfaff; font-weight:500; border:none; cursor:pointer; transition:all 0.3s ease; }
 .contact-form button:hover{ filter:brightness(1.08); transform:translateY(-2px); }
 .form-note{ font-size:0.82rem; color:var(--text-muted); text-align:center; margin-top:14px; }
+
+/* ---------- expandable compact project cards (Featured Work v2) ---------- */
+.mini-hook{ color:var(--text-muted); font-size:0.88rem; line-height:1.55; }
+
+.mini-details{ margin-top:2px; }
+.mini-details summary{
+  cursor:pointer; list-style:none; font-family:'IBM Plex Mono', monospace;
+  font-size:0.7rem; letter-spacing:0.05em; color:var(--lav-deep);
+  display:inline-flex; align-items:center; gap:4px; padding:2px 0; user-select:none;
+}
+.mini-details summary::-webkit-details-marker{ display:none; }
+.mini-details:not([open]) .mini-less{ display:none; }
+.mini-details[open] .mini-more{ display:none; }
+
+.mini-details-body{ margin-top:12px; display:flex; flex-direction:column; gap:12px; }
+.mini-frame{ font-style:italic; opacity:0.85; color:var(--text); font-size:0.88rem; line-height:1.55; }
+
+.mini-pills{ display:flex; flex-wrap:wrap; gap:6px; }
+.mini-pill{
+  font-family:'IBM Plex Mono', monospace; font-size:0.66rem; padding:5px 12px;
+  border-radius:100px; border:1px solid var(--silver-line); background:var(--bg); color:var(--text-muted);
+}
+
+.mini-actions{ margin-top:auto; padding-top:10px; display:flex; justify-content:space-between; align-items:center; gap:12px; }
+.mini-btn{
+  font-family:'IBM Plex Mono', monospace; font-size:0.74rem; letter-spacing:0.04em;
+  padding:9px 18px; border-radius:100px; border:1px solid var(--silver-line);
+  background:rgba(255,255,255,0.5); color:var(--text); white-space:nowrap; transition:all 0.3s ease;
+}
+.mini-btn:hover{ border-color:var(--lav); color:var(--lav-deep); transform:translateY(-1px); }
