@@ -7,7 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/site.css">
+<link rel="stylesheet" href="assets/site.css?v=2">
 </head>
 <body>
 
@@ -39,21 +39,21 @@
         <div class="mini-thumb"><img src="/Portfolio/assets/img/XGBoost_CPI.png" alt="XGBoost CPI forecast"></div>
         <div class="mini-body">
           <div class="mini-title">Economic Time-Series Forecasting on AWS SageMaker</div>
-          <p class="mini-hook">XGBoost vs. ARIMA vs. Prophet on U.S. CPI, deployed end-to-end on AWS SageMaker.</p>
+          <p class="mini-frame">Inflation forecasts inform rate decisions and capital allocation; a model that's off by even a percentage point on CPI can misdirect portfolio or policy decisions.</p>
+          <p class="mini-hook">Built an XGBoost vs. ARIMA vs. Prophet model on U.S. CPI, deployed end-to-end on AWS SageMaker.</p>
+          <div class="mini-pills">
+            <span class="mini-pill">Python</span>
+            <span class="mini-pill">XGBoost</span>
+            <span class="mini-pill">ARIMA</span>
+            <span class="mini-pill">Prophet</span>
+            <span class="mini-pill">AWS SageMaker</span>
+            <span class="mini-pill">MLOps</span>
+          </div>
 
           <details class="mini-details">
             <summary><span class="mini-more">+ Show details</span><span class="mini-less">– Hide details</span></summary>
             <div class="mini-details-body">
-              <p class="mini-frame">Inflation forecasts inform rate decisions and capital allocation; a model that's off by even a percentage point on CPI can misdirect portfolio or policy decisions.</p>
               <p class="mini-desc">XGBoost won by a ~4x error margin (RMSE 2.0) after a mid-project pivot away from LSTM, which couldn't handle CPI's small sample size and non-stationary trend.</p>
-              <div class="mini-pills">
-                <span class="mini-pill">Python</span>
-                <span class="mini-pill">XGBoost</span>
-                <span class="mini-pill">ARIMA</span>
-                <span class="mini-pill">Prophet</span>
-                <span class="mini-pill">AWS SageMaker</span>
-                <span class="mini-pill">MLOps</span>
-              </div>
             </div>
           </details>
 
@@ -68,21 +68,21 @@
         <div class="mini-thumb"><img src="/Portfolio/assets/img/StreamlitDemo1.png" alt="Streamlit interface demo"></div>
         <div class="mini-body">
           <div class="mini-title">RAG-Based Research Assistant</div>
-          <p class="mini-hook">Natural language querying of medical research papers using Retrieval-Augmented Generation.</p>
+          <p class="mini-frame">Researchers lose hours manually searching PDFs for relevant findings; a grounded natural-language interface removes that bottleneck without the hallucination risk of a naive LLM wrapper.</p>
+          <p class="mini-hook">Built an end-to-end RAG pipeline for querying peer-reviewed medical research on brain tumor detection.</p>
+          <div class="mini-pills">
+            <span class="mini-pill">Python</span>
+            <span class="mini-pill">FastAPI</span>
+            <span class="mini-pill">LangChain</span>
+            <span class="mini-pill">ChromaDB</span>
+            <span class="mini-pill">GPT-4o-mini</span>
+            <span class="mini-pill">Streamlit</span>
+          </div>
 
           <details class="mini-details">
             <summary><span class="mini-more">+ Show details</span><span class="mini-less">– Hide details</span></summary>
             <div class="mini-details-body">
-              <p class="mini-frame">Researchers lose hours manually searching PDFs for relevant findings; a grounded natural-language interface removes that bottleneck without the hallucination risk of a naive LLM wrapper.</p>
-              <p class="mini-desc">Citation-grounded answers only, no hallucinated conclusions, via FastAPI + Streamlit + ChromaDB. 20 papers, 2,184 indexed chunks, 2–5s response time.</p>
-              <div class="mini-pills">
-                <span class="mini-pill">Python</span>
-                <span class="mini-pill">FastAPI</span>
-                <span class="mini-pill">LangChain</span>
-                <span class="mini-pill">ChromaDB</span>
-                <span class="mini-pill">GPT-4o-mini</span>
-                <span class="mini-pill">Streamlit</span>
-              </div>
+              <p class="mini-desc">Citation-grounded answers only, no hallucinated conclusions. 20 papers, 2,184 indexed chunks, 2–5s response time.</p>
             </div>
           </details>
 
@@ -97,20 +97,20 @@
         <div class="mini-thumb"><img src="/Portfolio/assets/img/storefront.png" alt="Plant nursery storefront"></div>
         <div class="mini-body">
           <div class="mini-title">Houseplant Health Classification</div>
-          <p class="mini-hook">End-to-end computer vision pipeline using Amazon Rekognition Custom Labels.</p>
+          <p class="mini-frame">Catching plant disease early prevents inventory loss for nurseries and retailers; a missed sick plant costs more than a false alarm, so the model was tuned for that tradeoff, not raw accuracy.</p>
+          <p class="mini-hook">Built an end-to-end computer vision pipeline classifying houseplant health via Amazon Rekognition Custom Labels.</p>
+          <div class="mini-pills">
+            <span class="mini-pill">Python</span>
+            <span class="mini-pill">Amazon Rekognition</span>
+            <span class="mini-pill">AWS Lambda</span>
+            <span class="mini-pill">Boto3</span>
+            <span class="mini-pill">Albumentations</span>
+          </div>
 
           <details class="mini-details">
             <summary><span class="mini-more">+ Show details</span><span class="mini-less">– Hide details</span></summary>
             <div class="mini-details-body">
-              <p class="mini-frame">Catching plant disease early prevents inventory loss for nurseries and retailers; a missed sick plant costs more than a false alarm, so the model was tuned for that tradeoff, not raw accuracy.</p>
               <p class="mini-desc">Fully automated serverless inference through Lambda. 0.95 accuracy, 1.00 precision / 0.80 recall on the unhealthy class, on a self-collected, self-photographed dataset.</p>
-              <div class="mini-pills">
-                <span class="mini-pill">Python</span>
-                <span class="mini-pill">Amazon Rekognition</span>
-                <span class="mini-pill">AWS Lambda</span>
-                <span class="mini-pill">Boto3</span>
-                <span class="mini-pill">Albumentations</span>
-              </div>
             </div>
           </details>
 
@@ -125,20 +125,20 @@
         <div class="mini-thumb"><img src="/Portfolio/assets/img/02_top_genres.png" alt="Top genres chart"></div>
         <div class="mini-body">
           <div class="mini-title">Film Industry EDA</div>
-          <p class="mini-hook">Exploratory analysis of 60,000+ films using R, SQLite, and ggplot2.</p>
+          <p class="mini-frame">Streaming and studio decision-makers often conflate popularity with quality; this analysis tests that assumption across 60,000+ films.</p>
+          <p class="mini-hook">Analyzed 60,000+ films from TMDB using SQL and R to test whether popularity predicts quality.</p>
+          <div class="mini-pills">
+            <span class="mini-pill">R</span>
+            <span class="mini-pill">tidyverse</span>
+            <span class="mini-pill">SQLite</span>
+            <span class="mini-pill">ggplot2</span>
+            <span class="mini-pill">Statistical Testing</span>
+          </div>
 
           <details class="mini-details">
             <summary><span class="mini-more">+ Show details</span><span class="mini-less">– Hide details</span></summary>
             <div class="mini-details-body">
-              <p class="mini-frame">Streaming and studio decision-makers often conflate popularity with quality; this analysis tests that assumption across 60,000+ films.</p>
               <p class="mini-desc">Found popularity and rating are nearly uncorrelated (r = 0.087) and Drama significantly outrates Action (p &lt; 0.001) across 35,000+ films.</p>
-              <div class="mini-pills">
-                <span class="mini-pill">R</span>
-                <span class="mini-pill">tidyverse</span>
-                <span class="mini-pill">SQLite</span>
-                <span class="mini-pill">ggplot2</span>
-                <span class="mini-pill">Statistical Testing</span>
-              </div>
             </div>
           </details>
 
@@ -153,20 +153,20 @@
         <div class="mini-thumb"><img src="/Portfolio/assets/img/mcp-human-in-loop-demo.gif" alt="Human-in-the-loop data analyst demo, approval card and query preview"></div>
         <div class="mini-body">
           <div class="mini-title">Human-in-the-Loop Data Analyst</div>
-          <p class="mini-hook">A plain-English question becomes a reviewable SQL query, and nothing executes until a human approves it.</p>
+          <p class="mini-frame">Autonomous text-to-SQL agents are a liability in production: a misread question can silently return a wrong number, or worse, execute an unintended write. This puts a human approval gate at the protocol level, not just the app level.</p>
+          <p class="mini-hook">Built a human-in-the-loop pipeline turning plain-English questions into reviewable, approval-gated SQL.</p>
+          <div class="mini-pills">
+            <span class="mini-pill">Python</span>
+            <span class="mini-pill">DuckDB</span>
+            <span class="mini-pill">FastMCP</span>
+            <span class="mini-pill">OpenAI Responses API</span>
+            <span class="mini-pill">Streamlit</span>
+          </div>
 
           <details class="mini-details">
             <summary><span class="mini-more">+ Show details</span><span class="mini-less">– Hide details</span></summary>
             <div class="mini-details-body">
-              <p class="mini-frame">Autonomous text-to-SQL agents are a liability in production: a misread question can silently return a wrong number, or worse, execute an unintended write. This puts a human approval gate at the protocol level, not just the app level.</p>
               <p class="mini-desc">Approval enforced by OpenAI's infrastructure via MCP's require_approval mechanism, not application code. A second safety layer inside the MCP server rejects anything that isn't a bare SELECT. Zero unapproved executions across all test runs.</p>
-              <div class="mini-pills">
-                <span class="mini-pill">Python</span>
-                <span class="mini-pill">DuckDB</span>
-                <span class="mini-pill">FastMCP</span>
-                <span class="mini-pill">OpenAI Responses API</span>
-                <span class="mini-pill">Streamlit</span>
-              </div>
             </div>
           </details>
 
@@ -181,15 +181,15 @@
         <div class="mini-body">
           <div class="mini-title">StyleSignal: Trend Lifecycle Clustering</div>
           <p class="mini-hook">Clustering fashion search trends by lifecycle shape using pytrends and unsupervised learning.</p>
+          <div class="mini-pills">
+            <span class="mini-pill">pytrends</span>
+            <span class="mini-pill">Clustering</span>
+          </div>
 
           <details class="mini-details">
             <summary><span class="mini-more">+ Show details</span><span class="mini-less">– Hide details</span></summary>
             <div class="mini-details-body">
               <p class="mini-desc">Testing whether lifecycle shape predicts commercial relevance for fashion trends.</p>
-              <div class="mini-pills">
-                <span class="mini-pill">pytrends</span>
-                <span class="mini-pill">Clustering</span>
-              </div>
             </div>
           </details>
 
