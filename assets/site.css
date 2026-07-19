@@ -247,8 +247,8 @@
 .mini-thumb{ width:100%; aspect-ratio:5/4; overflow:hidden; background:var(--bg-panel-2); border-radius:calc(var(--radius) - 6px); }
 @media (max-width:640px){ .mini-thumb{ aspect-ratio:16/10; } }
 .mini-thumb img{ width:100%; height:100%; object-fit:cover; object-position:top; display:block; }
-.mini-body{ padding:14px 4px 18px; display:flex; flex-direction:column; gap:7px; flex:1; }
-.mini-title{ font-family:'Fraunces', serif; font-weight:500; font-size:1.1rem; color:var(--text); line-height:1.3; }
+.mini-body{ padding:11px 4px 14px; display:flex; flex-direction:column; gap:6px; flex:1; }
+.mini-title{ font-family:'Fraunces', serif; font-weight:500; font-size:1.02rem; color:var(--text); line-height:1.25; }
 .mini-desc{ margin:0; color:var(--text-muted); font-size:0.85rem; line-height:1.5; flex:1; }
 .mini-meta{ display:flex; justify-content:space-between; align-items:center; margin-top:4px; }
 .mini-tags{ font-family:'IBM Plex Mono', monospace; font-size:0.68rem; color:var(--lav-deep); letter-spacing:0.02em; }
@@ -327,11 +327,11 @@
 
 .mini-pills{ display:flex; flex-wrap:wrap; gap:6px; }
 .mini-pill{
-  font-family:'IBM Plex Mono', monospace; font-size:0.66rem; padding:5px 12px;
+  font-family:'IBM Plex Mono', monospace; font-size:0.64rem; padding:4px 10px;
   border-radius:100px; border:1px solid var(--silver-line); background:var(--bg); color:var(--text-muted);
 }
 
-.mini-actions{ margin-top:auto; padding-top:10px; display:flex; justify-content:space-between; align-items:center; gap:12px; }
+.mini-actions{ margin-top:auto; padding-top:6px; display:flex; justify-content:space-between; align-items:center; gap:12px; }
 .mini-btn{
   font-family:'IBM Plex Mono', monospace; font-size:0.74rem; letter-spacing:0.04em;
   padding:9px 18px; border-radius:100px; border:1px solid var(--silver-line);
