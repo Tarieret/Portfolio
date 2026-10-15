@@ -179,27 +179,30 @@
       </div>
 
       <div class="mini-card reveal">
+        <div class="mini-thumb"><img src="/Portfolio/assets/img/attributed_vs_incremental.png" alt="Chart comparing attributed conversions to incremental conversions from a real ad-vs-PSA holdout"></div>
         <div class="mini-body">
-          <div class="mini-title">Love Island USA Survival Analysis</div>
-          <p class="mini-frame">Time-to-event modeling with proper censoring is the same framework behind subscription churn, credit default, and clinical outcome analysis; treating an active case as if the event already happened silently corrupts the model. Applied here to villa elimination timing: a personal-interest dataset, analyzed with the same rigor as a production churn model.</p>
-          <p class="mini-hook">Modeling time-to-elimination across 8 seasons of Love Island USA with Kaplan-Meier, Cox Proportional Hazards, and a Random Survival Forest benchmark.</p>
+          <div class="mini-title">Measuring Incremental Marketing Lift</div>
+          <p class="mini-frame">Ad platforms count every conversion that follows an ad as caused by it, which overstates what a campaign earned and leads to overspending. The real question is how much was incremental, and whether the method used to estimate it can be trusted.</p>
+          <p class="mini-hook">Measured incremental lift on a real 588,101-user ad holdout, then simulated a known effect to test which causal methods can be trusted.</p>
           <div class="mini-pills">
             <span class="mini-pill">Python</span>
-            <span class="mini-pill">lifelines</span>
-            <span class="mini-pill">scikit-survival</span>
-            <span class="mini-pill">Survival Analysis</span>
+            <span class="mini-pill">Causal Inference</span>
+            <span class="mini-pill">A/B Testing</span>
+            <span class="mini-pill">IPW / Propensity Matching</span>
+            <span class="mini-pill">Simulation</span>
+            <span class="mini-pill">statsmodels</span>
           </div>
 
           <details class="mini-details">
             <summary><span class="mini-more">+ Show details</span><span class="mini-less">– Hide details</span></summary>
             <div class="mini-details-body">
-              <p class="mini-desc">Cox PH as the interpretable statistical baseline, benchmarked against a Random Survival Forest via concordance index, to test whether added model complexity actually improves prediction over the simpler model.</p>
+              <p class="mini-desc">On real data, only ~30% of attributed conversions were incremental (+0.77pp lift, 95% CI 0.60–0.94pp). In simulation with a known +2pp effect, the naive exposed-vs-unexposed comparison overstated lift by 2.5–4.1pp and its confidence interval missed the truth every time under confounding, while IPW and propensity matching recovered it with under 0.02pp bias. The real-data analysis uses a public Kaggle A/B dataset (control saw a PSA); the simulation is synthetic, and no ROI is claimed.</p>
             </div>
           </details>
 
           <div class="mini-actions">
-            <span class="mini-badge progress">In Progress</span>
-            <a href="https://github.com/Tarieret" target="_blank" rel="noopener" class="mini-btn">View project →</a>
+            <span class="mini-badge done">Completed</span>
+            <a href="https://github.com/Tarieret/causal-marketing-lift" target="_blank" rel="noopener" class="mini-btn">View project →</a>
           </div>
         </div>
       </div>
