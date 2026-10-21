@@ -69,7 +69,7 @@
         <div class="mini-body">
           <div class="mini-title">Economic Time-Series Forecasting on AWS SageMaker</div>
           <p class="mini-frame">Inflation forecasts inform rate decisions and capital allocation; a model that's off by even a percentage point on CPI can misdirect portfolio or policy decisions.</p>
-          <p class="mini-hook">Built an XGBoost vs. ARIMA vs. Prophet model on U.S. CPI, deployed end-to-end on AWS SageMaker.</p>
+          <p class="mini-hook">Benchmarked XGBoost, ARIMA, and Prophet on U.S. CPI and deployed the best model end-to-end on AWS SageMaker.</p>
           <div class="mini-pills">
             <span class="mini-pill">Python</span>
             <span class="mini-pill">XGBoost</span>
@@ -82,7 +82,7 @@
           <details class="mini-details">
             <summary><span class="mini-more">+ Show details</span><span class="mini-less">– Hide details</span></summary>
             <div class="mini-details-body">
-              <p class="mini-desc">XGBoost won by a ~4x error margin (RMSE 2.0) after a mid-project pivot away from LSTM, which couldn't handle CPI's small sample size and non-stationary trend.</p>
+              <p class="mini-desc">XGBoost achieved the lowest RMSE of the three models (2.0), after a mid-project pivot away from LSTM, which couldn't handle CPI's small sample size and non-stationary trend.</p>
             </div>
           </details>
 
@@ -97,7 +97,7 @@
         <div class="mini-thumb"><img src="/Portfolio/assets/img/rag-demo-trimmed.gif" alt="RAG Research Assistant demo: asking a question and receiving a citation-grounded answer"></div>
         <div class="mini-body">
           <div class="mini-title">RAG-Based Research Assistant</div>
-          <p class="mini-frame">Researchers lose hours manually searching PDFs for relevant findings; a grounded natural-language interface removes that bottleneck without the hallucination risk of a naive LLM wrapper.</p>
+          <p class="mini-frame">Researchers lose hours manually searching PDFs for relevant findings; a grounded natural-language interface removes that bottleneck while reducing the hallucination risk of a naive LLM wrapper.</p>
           <p class="mini-hook">Built an end-to-end RAG pipeline for querying peer-reviewed medical research on brain tumor detection.</p>
           <div class="mini-pills">
             <span class="mini-pill">Python</span>
@@ -111,7 +111,7 @@
           <details class="mini-details">
             <summary><span class="mini-more">+ Show details</span><span class="mini-less">– Hide details</span></summary>
             <div class="mini-details-body">
-              <p class="mini-desc">Citation-grounded answers only, no hallucinated conclusions. 20 papers, 2,183 indexed chunks, 2–5s response time.</p>
+              <p class="mini-desc">Answers are grounded in retrieved, cited passages to reduce hallucination. 20 papers, 2,183 indexed chunks, 2–5s response time.</p>
             </div>
           </details>
 
@@ -150,7 +150,7 @@
         </div>
       </div>
 
-            <div class="mini-card reveal">
+      <div class="mini-card reveal">
         <div class="mini-thumb"><img src="/Portfolio/assets/img/film-eda-full.gif" alt="TMDB Tableau dashboard demo: filtering by decade and clicking through genres"></div>
         <div class="mini-body">
           <div class="mini-title">TMDB Analytics Dashboard</div>
@@ -168,7 +168,7 @@
           <details class="mini-details">
             <summary><span class="mini-more">+ Show details</span><span class="mini-less">– Hide details</span></summary>
             <div class="mini-details-body">
-              <p class="mini-desc">Found popularity and rating are nearly uncorrelated (r = 0.086) and Drama significantly outrates Action (6.27 vs. 5.95, Welch t-test, p &lt; 0.001) across 35,000+ films. Documentary and Music rank as the highest-rated genres overall (6.87 and 6.84). Expanded into an interactive Tableau dashboard with a decade filter and click-through genre comparison.</p>
+              <p class="mini-desc">Found popularity and rating are nearly uncorrelated (r = 0.086) and Drama significantly outrates Action (6.27 vs. 5.95, Welch t-test, p &lt; 0.001). Documentary and Music rank as the highest-rated genres overall (6.87 and 6.84). Expanded into an interactive Tableau dashboard with a decade filter and click-through genre comparison.</p>
             </div>
           </details>
 
@@ -178,9 +178,6 @@
           </div>
         </div>
       </div>
-
-
-          
 
       <div class="mini-card reveal">
         <div class="mini-thumb"><img src="/Portfolio/assets/img/storefront.png" alt="Plant nursery storefront"></div>
@@ -199,7 +196,7 @@
           <details class="mini-details">
             <summary><span class="mini-more">+ Show details</span><span class="mini-less">– Hide details</span></summary>
             <div class="mini-details-body">
-              <p class="mini-desc">Fully automated serverless inference through Lambda. 0.95 accuracy, 1.00 precision / 0.80 recall on the unhealthy class, on a self-collected, self-photographed dataset.</p>
+              <p class="mini-desc">Serverless inference through AWS Lambda. 0.95 accuracy, 1.00 precision / 0.80 recall on the unhealthy class, on a self-collected, self-photographed dataset.</p>
             </div>
           </details>
 
@@ -225,7 +222,7 @@
       <div class="hack-meta">IBM Bob Dev Day Hackathon · Team JustShipIt · Team Lead · May 2026</div>
       <div class="hack-title">ProcessDoctor</div>
       <p class="hack-text" style="font-style:italic; opacity:0.85;">CI/CD pipelines are often slow, manual, and hard to debug. Teams lose real time to repetitive configuration and manual approvals instead of building.</p>
-      <p class="hack-text">As team lead, I guided ProcessDoctor through a diagnose–prescribe–treat pipeline: understanding CI/CD workflows from natural language or connected repos, identifying bottlenecks via IBM Bob, and using IBM Granite to generate optimized, production-ready CI/CD artifacts (including GitHub Actions YAML), orchestrated end-to-end through IBM watsonx Orchestrate. In our demo, the system took a 40-minute sequential pipeline with manual approvals and restructured it into a 15-minute pipeline with parallel execution and automated approvals.</p>
+      <p class="hack-text">As team lead, I guided ProcessDoctor through a diagnose–prescribe–treat pipeline: understanding CI/CD workflows from natural language or connected repos, identifying bottlenecks via IBM Bob, and using IBM Granite to generate optimized CI/CD artifacts (including GitHub Actions YAML), orchestrated end-to-end through IBM watsonx Orchestrate. In our demo, the system took a 40-minute sequential pipeline with manual approvals and restructured it into a 15-minute pipeline with parallel execution and automated approvals.</p>
       <div class="project-tags"><span class="tag">React</span><span class="tag">TypeScript</span><span class="tag">FastAPI</span><span class="tag">IBM Granite</span><span class="tag">IBM Bob</span><span class="tag">watsonx Orchestrate</span></div>
       <div class="video-frame">
         <iframe src="https://www.youtube.com/embed/dRjiyU1XnRg" title="ProcessDoctor Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
