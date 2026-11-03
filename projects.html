@@ -1,273 +1,194 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Featured Work | Tariere Timitimi</title>
+<title>Projects | Tariere Timitimi</title>
+<meta name="description" content="Data science, machine learning, and analytics projects by Tariere Timitimi.">
+<script>try{var t=localStorage.getItem('theme');if(t)document.documentElement.setAttribute('data-theme',t);}catch(e){}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/site.css?v=2">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css?v=7">
 </head>
 <body>
 
-<nav id="nav">
+<nav>
   <a href="index.html" class="nav-mark">Tariere Timitimi</a>
-  <div class="nav-links">
-    <a href="index.html">About</a>
-    <a href="resume.html">Resume</a>
-    <a href="projects.html">Featured Work</a>
-    <a href="index.html#contact">Contact</a>
+  <div class="nav-right">
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="resume.html">Resume</a>
+      <a href="https://tarieretimitimi.substack.com" target="_blank" rel="noopener">Writing</a>
+    </div>
+    <button class="icon-btn" id="themeBtn" type="button" aria-label="Switch to dark mode">
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="7" width="20" height="10" rx="5"/><circle id="knob" cx="7" cy="12" r="3" fill="currentColor"/></svg>
+    </button>
+    <button class="icon-btn nav-toggle" id="navToggle" type="button" aria-label="Menu" aria-expanded="false">
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
   </div>
-  <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
-  </button>
 </nav>
 
-<section class="page-hero">
-  <div class="wrap">
-    <div class="eyebrow">Selected Work</div>
-    <h1>Featured Work</h1>
-  </div>
-</section>
+<main class="page with-side">
+  <header class="page-head">
+    <h1>Projects</h1>
+    <p class="sub">A selection of my data science, machine learning, and analytics projects.</p>
+  </header>
 
-<section class="section" id="work">
-  <div class="wrap">
-    <div class="mini-grid">
-
-      <div class="mini-card reveal">
-        <div class="mini-thumb"><img src="/Portfolio/assets/img/attributed_vs_incremental_diagram_bp.png" alt="Diagram comparing an ad group to a PSA control group, showing about 30% of attributed conversions were incremental"></div>
-        <div class="mini-body">
-          <div class="mini-title">Measuring Incremental Marketing Lift</div>
-          <p class="mini-frame">Ad platforms count every conversion that follows an ad as caused by it, which overstates what a campaign earned and leads to overspending. The real question is how much was incremental, and whether the method used to estimate it can be trusted.</p>
-          <p class="mini-hook">Measured incremental lift on a real 588,101-user ad holdout, then simulated a known effect to test which causal methods can be trusted.</p>
-          <div class="mini-pills">
-            <span class="mini-pill">Python</span>
-            <span class="mini-pill">Causal Inference</span>
-            <span class="mini-pill">A/B Testing</span>
-            <span class="mini-pill">IPW / Propensity Matching</span>
-            <span class="mini-pill">Simulation</span>
-            <span class="mini-pill">statsmodels</span>
-          </div>
-
-          <details class="mini-details">
-            <summary><span class="mini-more">+ Show details</span><span class="mini-less">– Hide details</span></summary>
-            <div class="mini-details-body">
-              <p class="mini-desc">Only ~30% of attributed conversions were incremental (+0.77pp lift) on a public Kaggle ad-vs-PSA dataset. In a simulation with a known +2pp effect, the naive comparison overstated lift by 2.5–4.1pp, while IPW and propensity matching recovered it.</p>
-            </div>
+  <div>
+    <div class="pgrid" id="pgrid">
+      <article class="card" data-cats="Python|Causal Inference|Experimentation">
+        <div class="frame"><img src="assets/img/attributed_vs_incremental_diagram_bp.png" alt="Diagram comparing an ad group to a PSA control group, showing about 30% of attributed conversions were incremental" loading="lazy"></div>
+        <div class="body">
+          <h2>Measuring Incremental Marketing Lift</h2>
+          <p class="framing">Ad platforms count every conversion that follows an ad as caused by it, which overstates what a campaign earned and leads to overspending. The real question is how much was incremental, and whether the method used to estimate it can be trusted.</p>
+          <p class="hook">Measured incremental lift on a real 588,101-user ad holdout, then simulated a known effect to test which causal methods can be trusted.</p>
+          <div class="tags"><span class="tag">Python</span><span class="tag">Causal Inference</span><span class="tag">A/B Testing</span><span class="tag">IPW / Propensity Matching</span><span class="tag">Simulation</span><span class="tag">statsmodels</span></div>
+          <details class="more">
+            <summary><span class="more-label">+ Show details</span><span class="less">&minus; Hide details</span></summary>
+            <p>Only ~30% of attributed conversions were incremental (+0.77pp lift) on a public Kaggle ad-vs-PSA dataset. In a simulation with a known +2pp effect, the naive comparison overstated lift by 2.5–4.1pp, while IPW and propensity matching recovered it.</p>
           </details>
-
-          <div class="mini-actions">
-            <span class="mini-badge done">Completed</span>
-            <a href="https://github.com/Tarieret/causal-marketing-lift" target="_blank" rel="noopener" class="mini-btn">View project →</a>
+          <div class="actions">
+            <span class="badge">Completed</span>
+            <a class="link-btn" href="https://github.com/Tarieret/causal-marketing-lift" target="_blank" rel="noopener">View project &rarr;</a>
           </div>
         </div>
-      </div>
-
-      <div class="mini-card reveal">
-        <div class="mini-thumb"><img src="/Portfolio/assets/img/XGBoost_CPI.png" alt="Diagram comparing ARIMA, Prophet and XGBoost RMSE on U.S. CPI, with XGBoost deployed on AWS SageMaker"></div>
-        <div class="mini-body">
-          <div class="mini-title">Economic Time-Series Forecasting on AWS SageMaker</div>
-          <p class="mini-frame">Inflation forecasts inform rate decisions and capital allocation; a model that's off by even a percentage point on CPI can misdirect portfolio or policy decisions.</p>
-          <p class="mini-hook">Benchmarked XGBoost, ARIMA, and Prophet on U.S. CPI and deployed the best model end-to-end on AWS SageMaker.</p>
-          <div class="mini-pills">
-            <span class="mini-pill">Python</span>
-            <span class="mini-pill">XGBoost</span>
-            <span class="mini-pill">ARIMA</span>
-            <span class="mini-pill">Prophet</span>
-            <span class="mini-pill">AWS SageMaker</span>
-            <span class="mini-pill">MLOps</span>
-          </div>
-
-          <details class="mini-details">
-            <summary><span class="mini-more">+ Show details</span><span class="mini-less">– Hide details</span></summary>
-            <div class="mini-details-body">
-              <p class="mini-desc">XGBoost achieved the lowest RMSE of the three models (2.0), after a mid-project pivot away from LSTM, which couldn't handle CPI's small sample size and non-stationary trend.</p>
-            </div>
+      </article>
+      <article class="card" data-cats="Python|Machine Learning|Time Series|AWS">
+        <div class="frame"><img src="assets/img/XGBoost_CPI.png" alt="Diagram comparing ARIMA, Prophet and XGBoost RMSE on U.S. CPI, with XGBoost deployed on AWS SageMaker" loading="lazy"></div>
+        <div class="body">
+          <h2>Economic Time-Series Forecasting on AWS SageMaker</h2>
+          <p class="framing">Inflation forecasts inform rate decisions and capital allocation; a model that's off by even a percentage point on CPI can misdirect portfolio or policy decisions.</p>
+          <p class="hook">Benchmarked XGBoost, ARIMA, and Prophet on U.S. CPI and deployed the best model end-to-end on AWS SageMaker.</p>
+          <div class="tags"><span class="tag">Python</span><span class="tag">XGBoost</span><span class="tag">ARIMA</span><span class="tag">Prophet</span><span class="tag">AWS SageMaker</span><span class="tag">MLOps</span></div>
+          <details class="more">
+            <summary><span class="more-label">+ Show details</span><span class="less">&minus; Hide details</span></summary>
+            <p>XGBoost achieved the lowest RMSE of the three models (2.0), after a mid-project pivot away from LSTM, which couldn't handle CPI's small sample size and non-stationary trend.</p>
           </details>
-
-          <div class="mini-actions">
-            <span class="mini-badge done">Completed</span>
-            <a href="https://github.com/Tarieret/Economic-Time-Series-Forecasting-on-AWS-SageMaker-AI" target="_blank" rel="noopener" class="mini-btn">View project →</a>
+          <div class="actions">
+            <span class="badge">Completed</span>
+            <a class="link-btn" href="https://github.com/Tarieret/Economic-Time-Series-Forecasting-on-AWS-SageMaker-AI" target="_blank" rel="noopener">View project &rarr;</a>
           </div>
         </div>
-      </div>
-
-      <div class="mini-card reveal">
-        <div class="mini-thumb"><img src="/Portfolio/assets/img/rag-demo-trimmed.gif" alt="RAG Research Assistant demo: asking a question and receiving a citation-grounded answer"></div>
-        <div class="mini-body">
-          <div class="mini-title">RAG-Based Research Assistant</div>
-          <p class="mini-frame">Researchers lose hours manually searching PDFs for relevant findings; a grounded natural-language interface removes that bottleneck while reducing the hallucination risk of a naive LLM wrapper.</p>
-          <p class="mini-hook">Built an end-to-end RAG pipeline for querying peer-reviewed medical research on brain tumor detection.</p>
-          <div class="mini-pills">
-            <span class="mini-pill">Python</span>
-            <span class="mini-pill">FastAPI</span>
-            <span class="mini-pill">LangChain</span>
-            <span class="mini-pill">ChromaDB</span>
-            <span class="mini-pill">GPT-4o-mini</span>
-            <span class="mini-pill">Streamlit</span>
-          </div>
-
-          <details class="mini-details">
-            <summary><span class="mini-more">+ Show details</span><span class="mini-less">– Hide details</span></summary>
-            <div class="mini-details-body">
-              <p class="mini-desc">Answers are grounded in retrieved, cited passages to reduce hallucination. 20 papers, 2,183 indexed chunks, 2–5s response time.</p>
-            </div>
+      </article>
+      <article class="card" data-cats="Python|Generative AI|NLP">
+        <div class="frame"><img src="assets/img/rag-demo-trimmed.gif" alt="RAG Research Assistant demo: asking a question and receiving a citation-grounded answer" loading="lazy"></div>
+        <div class="body">
+          <h2>RAG-Based Research Assistant</h2>
+          <p class="framing">Researchers lose hours manually searching PDFs for relevant findings; a grounded natural-language interface removes that bottleneck while reducing the hallucination risk of a naive LLM wrapper.</p>
+          <p class="hook">Built an end-to-end RAG pipeline for querying peer-reviewed medical research on brain tumor detection.</p>
+          <div class="tags"><span class="tag">Python</span><span class="tag">FastAPI</span><span class="tag">LangChain</span><span class="tag">ChromaDB</span><span class="tag">GPT-4o-mini</span><span class="tag">Streamlit</span></div>
+          <details class="more">
+            <summary><span class="more-label">+ Show details</span><span class="less">&minus; Hide details</span></summary>
+            <p>Answers are grounded in retrieved, cited passages to reduce hallucination. 20 papers, 2,183 indexed chunks, 2–5s response time.</p>
           </details>
-
-          <div class="mini-actions">
-            <span class="mini-badge done">Completed</span>
-            <a href="https://github.com/Tarieret/RAG-Based-Reseach-Assistant" target="_blank" rel="noopener" class="mini-btn">View project →</a>
+          <div class="actions">
+            <span class="badge">Completed</span>
+            <a class="link-btn" href="https://github.com/Tarieret/RAG-Based-Reseach-Assistant" target="_blank" rel="noopener">View project &rarr;</a>
           </div>
         </div>
-      </div>
-
-      <div class="mini-card reveal">
-        <div class="mini-thumb"><img src="/Portfolio/assets/img/mcp-human-in-loop-demo.gif" alt="Human-in-the-loop data analyst demo, approval card and query preview"></div>
-        <div class="mini-body">
-          <div class="mini-title">Human-in-the-Loop Data Analyst</div>
-          <p class="mini-frame">Autonomous text-to-SQL agents are a liability in production: a misread question can silently return a wrong number, or worse, execute an unintended write. This puts a human approval gate at the protocol level, not just the app level.</p>
-          <p class="mini-hook">Built a human-in-the-loop pipeline turning plain-English questions into reviewable, approval-gated SQL.</p>
-          <div class="mini-pills">
-            <span class="mini-pill">Python</span>
-            <span class="mini-pill">DuckDB</span>
-            <span class="mini-pill">FastMCP</span>
-            <span class="mini-pill">OpenAI Responses API</span>
-            <span class="mini-pill">Streamlit</span>
-          </div>
-
-          <details class="mini-details">
-            <summary><span class="mini-more">+ Show details</span><span class="mini-less">– Hide details</span></summary>
-            <div class="mini-details-body">
-              <p class="mini-desc">Approval enforced by OpenAI's infrastructure via MCP's require_approval mechanism, not application code. A second safety layer inside the MCP server rejects anything that isn't a bare SELECT. Zero unapproved executions across all test runs.</p>
-            </div>
+      </article>
+      <article class="card" data-cats="Python|Generative AI|SQL">
+        <div class="frame"><img src="assets/img/mcp-human-in-loop-demo.gif" alt="Human-in-the-loop data analyst demo, approval card and query preview" loading="lazy"></div>
+        <div class="body">
+          <h2>Human-in-the-Loop Data Analyst</h2>
+          <p class="framing">Autonomous text-to-SQL agents are a liability in production: a misread question can silently return a wrong number, or worse, execute an unintended write. This puts a human approval gate at the protocol level, not just the app level.</p>
+          <p class="hook">Built a human-in-the-loop pipeline turning plain-English questions into reviewable, approval-gated SQL.</p>
+          <div class="tags"><span class="tag">Python</span><span class="tag">DuckDB</span><span class="tag">FastMCP</span><span class="tag">OpenAI Responses API</span><span class="tag">Streamlit</span></div>
+          <details class="more">
+            <summary><span class="more-label">+ Show details</span><span class="less">&minus; Hide details</span></summary>
+            <p>Approval enforced by OpenAI's infrastructure via MCP's require_approval mechanism, not application code. A second safety layer inside the MCP server rejects anything that isn't a bare SELECT. Zero unapproved executions across all test runs.</p>
           </details>
-
-          <div class="mini-actions">
-            <span class="mini-badge done">Completed</span>
-            <a href="https://github.com/Tarieret/Human-in-the-Loop-Data-Analyst" target="_blank" rel="noopener" class="mini-btn">View project →</a>
+          <div class="actions">
+            <span class="badge">Completed</span>
+            <a class="link-btn" href="https://github.com/Tarieret/Human-in-the-Loop-Data-Analyst" target="_blank" rel="noopener">View project &rarr;</a>
           </div>
         </div>
-      </div>
-
-      <div class="mini-card reveal">
-        <div class="mini-thumb"><img src="/Portfolio/assets/img/film-eda-full.gif" alt="TMDB Tableau dashboard demo: filtering by decade and clicking through genres"></div>
-        <div class="mini-body">
-          <div class="mini-title">TMDB Analytics Dashboard</div>
-          <p class="mini-frame">Streaming and studio decision-makers often conflate popularity with quality; this analysis tests that assumption across 61,000+ films.</p>
-          <p class="mini-hook">Analyzed 61,000+ films from a 1.5M-row TMDB dataset using SQL and Python to test whether popularity predicts quality.</p>
-          <div class="mini-pills">
-            <span class="mini-pill">Python</span>
-            <span class="mini-pill">pandas</span>
-            <span class="mini-pill">SQLite</span>
-            <span class="mini-pill">seaborn</span>
-            <span class="mini-pill">Tableau</span>
-            <span class="mini-pill">Statistical Testing</span>
-          </div>
-
-          <details class="mini-details">
-            <summary><span class="mini-more">+ Show details</span><span class="mini-less">– Hide details</span></summary>
-            <div class="mini-details-body">
-              <p class="mini-desc">Found popularity and rating are nearly uncorrelated (r = 0.086) and Drama significantly outrates Action (6.27 vs. 5.95, Welch t-test, p &lt; 0.001). Documentary and Music rank as the highest-rated genres overall (6.87 and 6.84). Expanded into an interactive Tableau dashboard with a decade filter and click-through genre comparison.</p>
-            </div>
+      </article>
+      <article class="card" data-cats="Python|SQL|Analytics &amp; BI|Statistics">
+        <div class="frame"><img src="assets/img/film-eda-full.gif" alt="TMDB Tableau dashboard demo: filtering by decade and clicking through genres" loading="lazy"></div>
+        <div class="body">
+          <h2>TMDB Analytics Dashboard</h2>
+          <p class="framing">Streaming and studio decision-makers often conflate popularity with quality; this analysis tests that assumption across 61,000+ films.</p>
+          <p class="hook">Analyzed 61,000+ films from a 1.5M-row TMDB dataset using SQL and Python to test whether popularity predicts quality.</p>
+          <div class="tags"><span class="tag">Python</span><span class="tag">pandas</span><span class="tag">SQLite</span><span class="tag">seaborn</span><span class="tag">Tableau</span><span class="tag">Statistical Testing</span></div>
+          <details class="more">
+            <summary><span class="more-label">+ Show details</span><span class="less">&minus; Hide details</span></summary>
+            <p>Found popularity and rating are nearly uncorrelated (r = 0.086) and Drama significantly outrates Action (6.27 vs. 5.95, Welch t-test, p &lt; 0.001). Documentary and Music rank as the highest-rated genres overall (6.87 and 6.84). Expanded into an interactive Tableau dashboard with a decade filter and click-through genre comparison.</p>
           </details>
-
-          <div class="mini-actions">
-            <span class="mini-badge done">Completed</span>
-            <a href="https://github.com/Tarieret/Film-Industry-EDA" target="_blank" rel="noopener" class="mini-btn">View project →</a>
+          <div class="actions">
+            <span class="badge">Completed</span>
+            <a class="link-btn" href="https://github.com/Tarieret/Film-Industry-EDA" target="_blank" rel="noopener">View project &rarr;</a>
           </div>
         </div>
-      </div>
-
-      <div class="mini-card reveal">
-        <div class="mini-thumb"><img src="/Portfolio/assets/img/storefront.png" alt="Plant nursery storefront"></div>
-        <div class="mini-body">
-          <div class="mini-title">Houseplant Health Classification</div>
-          <p class="mini-frame">Catching plant disease early prevents inventory loss for nurseries and retailers; a missed sick plant costs more than a false alarm, so the model was tuned for that tradeoff, not raw accuracy.</p>
-          <p class="mini-hook">Built an end-to-end computer vision pipeline classifying houseplant health via Amazon Rekognition Custom Labels.</p>
-          <div class="mini-pills">
-            <span class="mini-pill">Python</span>
-            <span class="mini-pill">Amazon Rekognition</span>
-            <span class="mini-pill">AWS Lambda</span>
-            <span class="mini-pill">Boto3</span>
-            <span class="mini-pill">Albumentations</span>
-          </div>
-
-          <details class="mini-details">
-            <summary><span class="mini-more">+ Show details</span><span class="mini-less">– Hide details</span></summary>
-            <div class="mini-details-body">
-              <p class="mini-desc">Serverless inference through AWS Lambda. 0.95 accuracy, 1.00 precision / 0.80 recall on the unhealthy class, on a self-collected, self-photographed dataset.</p>
-            </div>
+      </article>
+      <article class="card" data-cats="Python|Computer Vision|AWS">
+        <div class="frame"><img src="assets/img/storefront.jpg" alt="Plant nursery storefront" loading="lazy"></div>
+        <div class="body">
+          <h2>Houseplant Health Classification</h2>
+          <p class="framing">Catching plant disease early prevents inventory loss for nurseries and retailers; a missed sick plant costs more than a false alarm, so the model was tuned for that tradeoff, not raw accuracy.</p>
+          <p class="hook">Built an end-to-end computer vision pipeline classifying houseplant health via Amazon Rekognition Custom Labels.</p>
+          <div class="tags"><span class="tag">Python</span><span class="tag">Amazon Rekognition</span><span class="tag">AWS Lambda</span><span class="tag">Boto3</span><span class="tag">Albumentations</span></div>
+          <details class="more">
+            <summary><span class="more-label">+ Show details</span><span class="less">&minus; Hide details</span></summary>
+            <p>Serverless inference through AWS Lambda. 0.95 accuracy, 1.00 precision / 0.80 recall on the unhealthy class, on a self-collected, self-photographed dataset.</p>
           </details>
-
-          <div class="mini-actions">
-            <span class="mini-badge done">Completed</span>
-            <a href="https://github.com/Tarieret/Houseplant-Health-Classification" target="_blank" rel="noopener" class="mini-btn">View project →</a>
+          <div class="actions">
+            <span class="badge">Completed</span>
+            <a class="link-btn" href="https://github.com/Tarieret/Houseplant-Health-Classification" target="_blank" rel="noopener">View project &rarr;</a>
           </div>
         </div>
-      </div>
-
+      </article>
     </div>
 
-    <p style="margin-top:28px; font-size:0.9rem; color:var(--text); font-weight:600;">Older exploratory work is archived in <a href="https://github.com/Tarieret/Archived_Projects/tree/main" target="_blank" rel="noopener" style="color:var(--lav-deep); border-bottom:1px solid var(--silver-line);">Archived_Projects</a>.</p>
-  </div>
-</section>
+    <p class="note">Older exploratory work is archived in <a href="https://github.com/Tarieret/Archived_Projects/tree/main" target="_blank" rel="noopener">Archived_Projects</a>.</p>
 
-<div class="wrap"><div class="divider"></div></div>
-
-<section class="section" id="hackathons">
-  <div class="wrap">
-    <h2 class="section-title reveal">Hackathons</h2>
-    <div class="hack-card reveal">
-      <div class="hack-meta">IBM Bob Dev Day Hackathon · Team JustShipIt · Team Lead · May 2026</div>
-      <div class="hack-title">ProcessDoctor</div>
-      <p class="hack-text" style="font-style:italic; opacity:0.85;">CI/CD pipelines are often slow, manual, and hard to debug. Teams lose real time to repetitive configuration and manual approvals instead of building.</p>
-      <p class="hack-text">As team lead, I guided ProcessDoctor through a diagnose–prescribe–treat pipeline: understanding CI/CD workflows from natural language or connected repos, identifying bottlenecks via IBM Bob, and using IBM Granite to generate optimized CI/CD artifacts (including GitHub Actions YAML), orchestrated end-to-end through IBM watsonx Orchestrate. In our demo, the system took a 40-minute sequential pipeline with manual approvals and restructured it into a 15-minute pipeline with parallel execution and automated approvals.</p>
-      <div class="project-tags"><span class="tag">React</span><span class="tag">TypeScript</span><span class="tag">FastAPI</span><span class="tag">IBM Granite</span><span class="tag">IBM Bob</span><span class="tag">watsonx Orchestrate</span></div>
-      <div class="video-frame">
-        <iframe src="https://www.youtube.com/embed/dRjiyU1XnRg" title="ProcessDoctor Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h2 id="hackathons">Hackathons</h2>
+    <div class="hack">
+      <div class="meta">IBM Bob Dev Day Hackathon · Team JustShipIt · Team Lead · May 2026</div>
+      <h3>ProcessDoctor</h3>
+      <p class="framing">CI/CD pipelines are often slow, manual, and hard to debug. Teams lose real time to repetitive configuration and manual approvals instead of building.</p>
+      <p>As team lead, I guided ProcessDoctor through a diagnose–prescribe–treat pipeline: understanding CI/CD workflows from natural language or connected repos, identifying bottlenecks via IBM Bob, and using IBM Granite to generate optimized CI/CD artifacts (including GitHub Actions YAML), orchestrated end-to-end through IBM watsonx Orchestrate. In our demo, the system took a 40-minute sequential pipeline with manual approvals and restructured it into a 15-minute pipeline with parallel execution and automated approvals.</p>
+      <div class="tags"><span class="tag">React</span><span class="tag">TypeScript</span><span class="tag">FastAPI</span><span class="tag">IBM Granite</span><span class="tag">IBM Bob</span><span class="tag">watsonx Orchestrate</span></div>
+      <div class="video">
+        <iframe src="https://www.youtube.com/embed/dRjiyU1XnRg" title="ProcessDoctor demo video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
       </div>
     </div>
   </div>
-</section>
 
-<footer>
-  <div class="footer-icons">
-    <a href="mailto:tarieretimitimi@gmail.com" aria-label="Email">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="4.5" width="19" height="15" rx="2.5"/><path d="M3.5 6.2l8.5 6.8 8.5-6.8"/></svg>
-    </a>
-    <a href="https://www.linkedin.com/in/tariere-timitimi" target="_blank" rel="noopener" aria-label="LinkedIn">
-      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.15 1.45-2.15 2.94v5.67H9.33V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27ZM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.8 0 0 .78 0 1.75v20.5C0 23.22.8 24 1.77 24h20.45C23.2 24 24 23.22 24 22.25V1.75C24 .78 23.2 0 22.22 0Z"/></svg>
-    </a>
-    <a href="https://github.com/Tarieret" target="_blank" rel="noopener" aria-label="GitHub">
-      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.98 5.24.98 11.52c0 4.99 3.29 9.22 7.86 10.72.57.1.78-.25.78-.55 0-.27-.01-1.17-.02-2.12-3.2.7-3.88-1.36-3.88-1.36-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.71.08-.71 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.71 1.26 3.37.96.1-.75.4-1.26.73-1.55-2.55-.29-5.23-1.28-5.23-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.76.12 3.05.74.81 1.19 1.84 1.19 3.1 0 4.43-2.69 5.4-5.25 5.69.42.36.78 1.07.78 2.16 0 1.56-.01 2.82-.01 3.2 0 .3.2.66.79.55A11.03 11.03 0 0 0 23.02 11.52C23.02 5.24 18.27.5 12 .5Z"/></svg>
-    </a>
-    <a href="https://www.kaggle.com/tarieretimitimi" target="_blank" rel="noopener" aria-label="Kaggle">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="10"/><text x="12" y="16.5" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="11" fill="currentColor" stroke="none">K</text></svg>
-    </a>
-  </div>
-  &copy; 2026 Tariere Timitimi. All rights reserved.
-</footer>
+  <aside class="side">
+    <h3>Categories</h3>
+    <div class="list" id="cats"></div>
+  </aside>
+</main>
 
+<footer>&copy; 2026 Tariere Timitimi</footer>
+
+<script src="assets/site.js"></script>
 <script>
-  const nav = document.getElementById('nav');
-  window.addEventListener('scroll', () => { nav.classList.toggle('scrolled', window.scrollY > 20); });
-
-  const navToggle = document.getElementById('navToggle');
-  const navLinks = document.querySelector('.nav-links');
-  if (navToggle && navLinks) {
-    navToggle.addEventListener('click', () => { navLinks.classList.toggle('open'); });
-    navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => navLinks.classList.remove('open')));
-  }
-
-  const revealEls = document.querySelectorAll('.reveal');
-  const io = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) { entry.target.classList.add('in'); io.unobserve(entry.target); }
+// Categories sidebar: built from each card's data-cats, click to filter
+(function () {
+  var cards = Array.prototype.slice.call(document.querySelectorAll('#pgrid .card'));
+  var counts = {};
+  cards.forEach(function (c) { c.dataset.cats.split('|').forEach(function (k) { counts[k] = (counts[k] || 0) + 1; }); });
+  var names = ['All'].concat(Object.keys(counts).sort());
+  var box = document.getElementById('cats');
+  names.forEach(function (n) {
+    var b = document.createElement('button');
+    b.type = 'button';
+    b.textContent = n + ' (' + (n === 'All' ? cards.length : counts[n]) + ')';
+    if (n === 'All') b.className = 'on';
+    b.addEventListener('click', function () {
+      box.querySelectorAll('button').forEach(function (x) { x.classList.remove('on'); });
+      b.classList.add('on');
+      cards.forEach(function (c) { c.hidden = !(n === 'All' || c.dataset.cats.split('|').indexOf(n) > -1); });
     });
-  }, { threshold: 0.12 });
-  revealEls.forEach(el => io.observe(el));
+    box.appendChild(b);
+  });
+})();
 </script>
-
 </body>
 </html>
