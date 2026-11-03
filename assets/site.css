@@ -234,3 +234,8 @@ footer .socials svg{ width:20px; height:20px; }
 .cv .where{ margin-top:2px; }
 .cv .courses{ margin-top:10px; }
 .cert .name{ font-weight:500; }
+
+/* ---------- about page extras ---------- */
+.about .socials{ margin-top:4px; }
+.about-more{ display:grid; grid-template-columns:minmax(0,1fr) minmax(240px,32%); gap:56px; margin-top:24px; padding-top:8px; border-top:1px solid var(--line); }
+@media (max-width:820px){ .about-more{ grid-template-columns:1fr; gap:8px; } }
