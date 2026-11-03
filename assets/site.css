@@ -227,3 +227,10 @@ footer .socials{ margin:0 0 8px; }
 footer .socials a{ color:var(--muted); }
 footer .socials a:hover{ color:var(--accent); }
 footer .socials svg{ width:20px; height:20px; }
+
+/* ---------- resume page layout ---------- */
+.page.cv{ max-width:920px; }
+.cv h2{ padding-bottom:6px; border-bottom:1px solid var(--line); margin:44px 0 18px; }
+.cv .where{ margin-top:2px; }
+.cv .courses{ margin-top:10px; }
+.cert .name{ font-weight:500; }
