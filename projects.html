@@ -40,14 +40,14 @@
 
   <div>
     <div class="pgrid" id="pgrid">
-      <article class="card" data-cats="Python|Causal Inference|Experimentation">
-        <div class="frame"><img src="assets/img/attributed_vs_incremental_diagram_bp.png" alt="Diagram comparing an ad group to a PSA control group, showing about 30% of attributed conversions were incremental" loading="lazy"></div>
+         <article class="card" data-cats="Python|Experimentation|Statistics">
+        <div class="frame"><img src="assets/img/attributed_vs_incremental.png" alt="Chart comparing an ad group to a PSA control group, showing about 30% of attributed conversions were incremental" loading="lazy"></div>
         <div class="body">
-          <h2>Measuring Incremental Marketing Lift</h2>
-          <p class="hook">Ad platforms credit every conversion after an ad to the ad, overstating what a campaign earned. On a 588,101-user ad holdout, only ~30% of attributed conversions were incremental (+0.77pp lift). In a simulation with a known +2pp effect, the naive comparison overstated lift by 2.5–4.1pp, while IPW and propensity matching recovered it.</p>
-          <div class="tags"><span class="tag">Python</span><span class="tag">Causal Inference</span><span class="tag">A/B Testing</span><span class="tag">IPW / Propensity Matching</span><span class="tag">Simulation</span><span class="tag">statsmodels</span></div>
+          <h2>A/B Test Incremental Conversions</h2>
+          <p class="hook">Ad platforms count every conversion after an ad as caused by it. In a randomized experiment with 588,101 users and only a 4% control group, the ad raised conversion by +0.77pp (95% CI 0.60–0.94pp), so only ~30% of attributed conversions were incremental. A z-test, a bootstrap and logistic regression all agree.</p>
+          <div class="tags"><span class="tag">Python</span><span class="tag">A/B Testing</span><span class="tag">Hypothesis Testing</span><span class="tag">Bootstrap</span><span class="tag">Logistic Regression</span><span class="tag">statsmodels</span></div>
           <div class="actions">
-            <a class="link-btn" href="https://github.com/Tarieret/causal-marketing-lift" target="_blank" rel="noopener">View project &rarr;</a>
+            <a class="link-btn" href="https://github.com/Tarieret/ab-test-incremental-conversions" target="_blank" rel="noopener">View project &rarr;</a>
           </div>
         </div>
       </article>
