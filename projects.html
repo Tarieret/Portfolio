@@ -44,15 +44,9 @@
         <div class="frame"><img src="assets/img/attributed_vs_incremental_diagram_bp.png" alt="Diagram comparing an ad group to a PSA control group, showing about 30% of attributed conversions were incremental" loading="lazy"></div>
         <div class="body">
           <h2>Measuring Incremental Marketing Lift</h2>
-          <p class="framing">Ad platforms count every conversion that follows an ad as caused by it, which overstates what a campaign earned and leads to overspending. The real question is how much was incremental, and whether the method used to estimate it can be trusted.</p>
-          <p class="hook">Measured incremental lift on a real 588,101-user ad holdout, then simulated a known effect to test which causal methods can be trusted.</p>
+          <p class="hook">Ad platforms credit every conversion after an ad to the ad, overstating what a campaign earned. On a 588,101-user ad holdout, only ~30% of attributed conversions were incremental (+0.77pp lift). In a simulation with a known +2pp effect, the naive comparison overstated lift by 2.5–4.1pp, while IPW and propensity matching recovered it.</p>
           <div class="tags"><span class="tag">Python</span><span class="tag">Causal Inference</span><span class="tag">A/B Testing</span><span class="tag">IPW / Propensity Matching</span><span class="tag">Simulation</span><span class="tag">statsmodels</span></div>
-          <details class="more">
-            <summary><span class="more-label">+ Show details</span><span class="less">&minus; Hide details</span></summary>
-            <p>Only ~30% of attributed conversions were incremental (+0.77pp lift) on a public Kaggle ad-vs-PSA dataset. In a simulation with a known +2pp effect, the naive comparison overstated lift by 2.5–4.1pp, while IPW and propensity matching recovered it.</p>
-          </details>
           <div class="actions">
-            <span class="badge">Completed</span>
             <a class="link-btn" href="https://github.com/Tarieret/causal-marketing-lift" target="_blank" rel="noopener">View project &rarr;</a>
           </div>
         </div>
@@ -61,15 +55,9 @@
         <div class="frame"><img src="assets/img/XGBoost_CPI.png" alt="Diagram comparing ARIMA, Prophet and XGBoost RMSE on U.S. CPI, with XGBoost deployed on AWS SageMaker" loading="lazy"></div>
         <div class="body">
           <h2>Economic Time-Series Forecasting on AWS SageMaker</h2>
-          <p class="framing">Inflation forecasts inform rate decisions and capital allocation; a model that's off by even a percentage point on CPI can misdirect portfolio or policy decisions.</p>
-          <p class="hook">Benchmarked XGBoost, ARIMA, and Prophet on U.S. CPI and deployed the best model end-to-end on AWS SageMaker.</p>
+          <p class="hook">A CPI forecast that's off by even a percentage point can misdirect policy or portfolio decisions. I benchmarked XGBoost, ARIMA, and Prophet on U.S. CPI; XGBoost had the lowest RMSE (2.0) after an early LSTM attempt failed on the small, non-stationary series. Deployed end-to-end on AWS SageMaker.</p>
           <div class="tags"><span class="tag">Python</span><span class="tag">XGBoost</span><span class="tag">ARIMA</span><span class="tag">Prophet</span><span class="tag">AWS SageMaker</span><span class="tag">MLOps</span></div>
-          <details class="more">
-            <summary><span class="more-label">+ Show details</span><span class="less">&minus; Hide details</span></summary>
-            <p>XGBoost achieved the lowest RMSE of the three models (2.0), after a mid-project pivot away from LSTM, which couldn't handle CPI's small sample size and non-stationary trend.</p>
-          </details>
           <div class="actions">
-            <span class="badge">Completed</span>
             <a class="link-btn" href="https://github.com/Tarieret/Economic-Time-Series-Forecasting-on-AWS-SageMaker-AI" target="_blank" rel="noopener">View project &rarr;</a>
           </div>
         </div>
@@ -78,15 +66,9 @@
         <div class="frame"><img src="assets/img/rag-demo-trimmed.gif" alt="RAG Research Assistant demo: asking a question and receiving a citation-grounded answer" loading="lazy"></div>
         <div class="body">
           <h2>RAG-Based Research Assistant</h2>
-          <p class="framing">Researchers lose hours manually searching PDFs for relevant findings; a grounded natural-language interface removes that bottleneck while reducing the hallucination risk of a naive LLM wrapper.</p>
-          <p class="hook">Built an end-to-end RAG pipeline for querying peer-reviewed medical research on brain tumor detection.</p>
+          <p class="hook">A question-answering tool for peer-reviewed brain tumor detection research that answers only from retrieved, cited passages, reducing the hallucination risk of a plain LLM. 20 papers indexed into 2,183 chunks, with 2–5 second responses.</p>
           <div class="tags"><span class="tag">Python</span><span class="tag">FastAPI</span><span class="tag">LangChain</span><span class="tag">ChromaDB</span><span class="tag">GPT-4o-mini</span><span class="tag">Streamlit</span></div>
-          <details class="more">
-            <summary><span class="more-label">+ Show details</span><span class="less">&minus; Hide details</span></summary>
-            <p>Answers are grounded in retrieved, cited passages to reduce hallucination. 20 papers, 2,183 indexed chunks, 2–5s response time.</p>
-          </details>
           <div class="actions">
-            <span class="badge">Completed</span>
             <a class="link-btn" href="https://github.com/Tarieret/RAG-Based-Reseach-Assistant" target="_blank" rel="noopener">View project &rarr;</a>
           </div>
         </div>
@@ -95,15 +77,9 @@
         <div class="frame"><img src="assets/img/mcp-human-in-loop-demo.gif" alt="Human-in-the-loop data analyst demo, approval card and query preview" loading="lazy"></div>
         <div class="body">
           <h2>Human-in-the-Loop Data Analyst</h2>
-          <p class="framing">Autonomous text-to-SQL agents are a liability in production: a misread question can silently return a wrong number, or worse, execute an unintended write. This puts a human approval gate at the protocol level, not just the app level.</p>
-          <p class="hook">Built a human-in-the-loop pipeline turning plain-English questions into reviewable, approval-gated SQL.</p>
+          <p class="hook">Text-to-SQL agents can silently return a wrong number or run an unintended write. This pipeline turns plain-English questions into SQL that a human must approve before it runs, enforced through MCP&#39;s require_approval mechanism, with a second check that blocks anything but a SELECT. Zero unapproved executions in testing.</p>
           <div class="tags"><span class="tag">Python</span><span class="tag">DuckDB</span><span class="tag">FastMCP</span><span class="tag">OpenAI Responses API</span><span class="tag">Streamlit</span></div>
-          <details class="more">
-            <summary><span class="more-label">+ Show details</span><span class="less">&minus; Hide details</span></summary>
-            <p>Approval enforced by OpenAI's infrastructure via MCP's require_approval mechanism, not application code. A second safety layer inside the MCP server rejects anything that isn't a bare SELECT. Zero unapproved executions across all test runs.</p>
-          </details>
           <div class="actions">
-            <span class="badge">Completed</span>
             <a class="link-btn" href="https://github.com/Tarieret/Human-in-the-Loop-Data-Analyst" target="_blank" rel="noopener">View project &rarr;</a>
           </div>
         </div>
@@ -112,15 +88,9 @@
         <div class="frame"><img src="assets/img/film-eda-full.gif" alt="TMDB Tableau dashboard demo: filtering by decade and clicking through genres" loading="lazy"></div>
         <div class="body">
           <h2>TMDB Analytics Dashboard</h2>
-          <p class="framing">Streaming and studio decision-makers often conflate popularity with quality; this analysis tests that assumption across 61,000+ films.</p>
-          <p class="hook">Analyzed 61,000+ films from a 1.5M-row TMDB dataset using SQL and Python to test whether popularity predicts quality.</p>
+          <p class="hook">Does popularity predict quality? Across 61,000+ films from a 1.5M-row TMDB dataset, barely: r = 0.086. Drama outrates Action (6.27 vs. 5.95, Welch t-test, p &lt; 0.001), and Documentary and Music rate highest in every decade, shown in an interactive Tableau dashboard.</p>
           <div class="tags"><span class="tag">Python</span><span class="tag">pandas</span><span class="tag">SQLite</span><span class="tag">seaborn</span><span class="tag">Tableau</span><span class="tag">Statistical Testing</span></div>
-          <details class="more">
-            <summary><span class="more-label">+ Show details</span><span class="less">&minus; Hide details</span></summary>
-            <p>Found popularity and rating are nearly uncorrelated (r = 0.086) and Drama significantly outrates Action (6.27 vs. 5.95, Welch t-test, p &lt; 0.001). Documentary and Music rank as the highest-rated genres overall (6.87 and 6.84). Expanded into an interactive Tableau dashboard with a decade filter and click-through genre comparison.</p>
-          </details>
           <div class="actions">
-            <span class="badge">Completed</span>
             <a class="link-btn" href="https://github.com/Tarieret/Film-Industry-EDA" target="_blank" rel="noopener">View project &rarr;</a>
           </div>
         </div>
@@ -129,15 +99,9 @@
         <div class="frame"><img src="assets/img/storefront.jpg" alt="Plant nursery storefront" loading="lazy"></div>
         <div class="body">
           <h2>Houseplant Health Classification</h2>
-          <p class="framing">Catching plant disease early prevents inventory loss for nurseries and retailers; a missed sick plant costs more than a false alarm, so the model was tuned for that tradeoff, not raw accuracy.</p>
-          <p class="hook">Built an end-to-end computer vision pipeline classifying houseplant health via Amazon Rekognition Custom Labels.</p>
+          <p class="hook">Catching sick plants early prevents inventory loss, and a missed sick plant costs more than a false alarm. A computer vision pipeline on Amazon Rekognition Custom Labels, served through AWS Lambda, reached 0.95 accuracy and 1.00 precision / 0.80 recall on the unhealthy class, using a self-photographed dataset.</p>
           <div class="tags"><span class="tag">Python</span><span class="tag">Amazon Rekognition</span><span class="tag">AWS Lambda</span><span class="tag">Boto3</span><span class="tag">Albumentations</span></div>
-          <details class="more">
-            <summary><span class="more-label">+ Show details</span><span class="less">&minus; Hide details</span></summary>
-            <p>Serverless inference through AWS Lambda. 0.95 accuracy, 1.00 precision / 0.80 recall on the unhealthy class, on a self-collected, self-photographed dataset.</p>
-          </details>
           <div class="actions">
-            <span class="badge">Completed</span>
             <a class="link-btn" href="https://github.com/Tarieret/Houseplant-Health-Classification" target="_blank" rel="noopener">View project &rarr;</a>
           </div>
         </div>
