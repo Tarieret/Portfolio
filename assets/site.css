@@ -272,13 +272,11 @@ footer .socials svg{ width:20px; height:20px; }
 
 
 /* ---------- about: contact form ---------- */
-.contact{ display:grid; gap:8px; max-width:480px; }
-.contact-row{ display:grid; grid-template-columns:1fr 1fr; gap:8px; }
+.contact{ display:grid; gap:8px; }
 .contact input, .contact textarea{
   font:inherit; font-size:.9rem; color:var(--fg); background:transparent;
-  border:1.5px solid var(--line); border-radius:3px; padding:6px 10px; resize:vertical;
+  border:0; border-bottom:1.5px solid var(--line); border-radius:0; padding:6px 0; resize:vertical;
 }
 .contact input::placeholder, .contact textarea::placeholder{ color:var(--muted); }
-.contact input:focus, .contact textarea:focus{ outline:none; border-color:var(--accent); }
-.btn-sm{ min-width:0; padding:4px 16px; font-size:.85rem; justify-self:start; cursor:pointer; font-family:inherit; background:transparent; }
-@media (max-width:560px){ .contact-row{ grid-template-columns:1fr; } }
+.contact input:focus, .contact textarea:focus{ outline:none; border-bottom-color:var(--accent); }
+.btn-sm{ min-width:0; margin-top:8px; padding:4px 16px; font-size:.85rem; justify-self:start; cursor:pointer; font-family:inherit; background:transparent; }
