@@ -33,17 +33,6 @@
   </div>
 </nav>
 
-    <section class="contact" id="contact">
-    <div class="label">Get in touch</div>
-    <form action="https://formspree.io/f/xrppjqap" method="POST">
-      <label>Name <input type="text" name="name" required></label>
-      <label>Email <input type="email" name="email" required></label>
-      <label>Message <textarea name="message" rows="5" required></textarea></label>
-      <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
-      <button type="submit" class="btn">Send</button>
-    </form>
-  </section>
-
 <main class="page">
   <h1>About</h1>
   <div class="about">
@@ -76,6 +65,16 @@
       <div class="label">Beyond the data</div>
       <div class="pills"><span class="pill">Cozy Gaming</span><span class="pill">Horror &amp; Anime Fan</span><span class="pill">Foodie</span><span class="pill">Artist</span><span class="pill">Avid Reader</span></div>
     </div>
+          <div class="label" id="contact">Get in touch</div>
+      <form class="contact" action="https://formspree.io/f/xrppjqap" method="POST">
+        <div class="contact-row">
+          <input type="text" name="name" placeholder="Name" aria-label="Name" required>
+          <input type="email" name="email" placeholder="Email" aria-label="Email" required>
+        </div>
+        <textarea name="message" rows="3" placeholder="Message" aria-label="Message" required></textarea>
+        <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+        <button type="submit" class="btn btn-sm">Send</button>
+      </form>
     <div>
       <div class="label">Details</div>
       <ul class="facts">
