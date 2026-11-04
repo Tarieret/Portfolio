@@ -166,7 +166,7 @@ nav{
 .facts{ list-style:none; margin-top:8px; }
 .facts li{ margin-bottom:6px; }
 .facts strong{ font-weight:600; }
-@media (max-width:820px){ .about{ grid-template-columns:1fr; gap:24px; } .portrait{ max-width:240px; order:-1; } }
+@media (max-width:820px){ .about{ grid-template-columns:1fr; gap:24px; } .portrait{ max-width:240px; } .about-side{ order:-1; } }
 
 /* ---------- project cards ---------- */
 .pgrid{ display:grid; grid-template-columns:repeat(2, minmax(0,1fr)); gap:28px 32px; margin-top:32px; }
@@ -271,7 +271,7 @@ footer .socials svg{ width:20px; height:20px; }
 
 
 /* ---------- about: contact form ---------- */
-.contact{ display:grid; gap:8px; }
+.contact{ display:grid; gap:8px; max-width:560px; }
 .contact input, .contact textarea{
   font:inherit; font-size:.9rem; color:var(--fg); background:transparent;
   border:0; border-bottom:1.5px solid var(--line); border-radius:0; padding:6px 0; resize:vertical;
