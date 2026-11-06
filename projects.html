@@ -52,11 +52,11 @@
         </div>
       </article>
       <article class="card" data-cats="Python|Machine Learning|Time Series|AWS">
-        <div class="frame"><img src="assets/img/XGBoost_CPI.png" alt="Diagram comparing ARIMA, Prophet and XGBoost RMSE on U.S. CPI, with XGBoost deployed on AWS SageMaker" loading="lazy"></div>
+        <div class="frame"><img src="assets/img/model_comparison_24m.png" alt="Diagram comparing ARIMA, Prophet and XGBoost RMSE on U.S. CPI, with XGBoost deployed on AWS SageMaker" loading="lazy"></div>
         <div class="body">
-          <h2>Economic Time-Series Forecasting on AWS SageMaker</h2>
-          <p class="hook">A CPI forecast that's off by even a percentage point can misdirect policy or portfolio decisions. I benchmarked XGBoost, ARIMA, and Prophet on U.S. CPI; XGBoost had the lowest RMSE (2.0) after an early LSTM attempt failed on the small, non-stationary series. Deployed end-to-end on AWS SageMaker.</p>
-          <div class="tags"><span class="tag">Python</span><span class="tag">XGBoost</span><span class="tag">ARIMA</span><span class="tag">Prophet</span><span class="tag">AWS SageMaker</span><span class="tag">MLOps</span></div>
+          <h2>CPI Forecasting on AWS SageMaker</h2>
+          <p class="hook">A CPI forecast that's off by even a percentage point can misdirect policy or portfolio decisions. I benchmarked XGBoost, ARIMA, and Prophet against naive and drift baselines on U.S. CPI. Over 24 months a simple drift baseline was hardest to beat, while one month ahead XGBoost and ARIMA performed similarly and both cut the naive forecast's error by about half. I deployed the XGBoost model to an AWS SageMaker endpoint and tested a live prediction.</p>
+          <div class="tags"><span class="tag">Python</span><span class="tag">Time Series</span><span class="tag">XGBoost</span><span class="tag">ARIMA</span><span class="tag">Prophet</span><span class="tag">AWS SageMaker</span><span class="tag">Model Deployment</span></div>
           <div class="actions">
             <a class="link-btn" href="https://github.com/Tarieret/Economic-Time-Series-Forecasting-on-AWS-SageMaker-AI" target="_blank" rel="noopener">View project &rarr;</a>
           </div>
