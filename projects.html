@@ -44,7 +44,7 @@
         <div class="frame"><img src="assets/img/attributed_vs_incremental.png" alt="Chart comparing an ad group to a PSA control group, showing about 30% of attributed conversions were incremental" loading="lazy"></div>
         <div class="body">
           <h2>A/B Test Incremental Conversions</h2>
-         <p class="hook">Ad platforms count every conversion after an ad as caused by it. In a randomized experiment with 588,101 users and only a 4% control group, the ad raised conversion by +0.77pp (95% CI 0.60–0.94pp), so only ~30% of attributed conversions were incremental. A z-test, a bootstrap and logistic regression all agree.</p>
+         <p class="hook"> Ad platforms count every conversion after an ad as caused by it, but this doesnt factor in users that would hvae bought the product without the ad. In a randomized experiment with over 500,000 users, the ad raised conversion by +0.77pp (95% CI 0.60–0.94pp), so only ~30% of attributed conversions were incremental. A z-test, a bootstrap and logistic regression all agree.</p>
           <div class="tags"><span class="tag">Python</span><span class="tag">A/B Testing</span><span class="tag">Hypothesis Testing</span><span class="tag">Bootstrap</span><span class="tag">Logistic Regression</span><span class="tag">statsmodels</span></div>
           <div class="actions">
             <a class="link-btn" href="https://github.com/Tarieret/ab-test-incremental-conversions" target="_blank" rel="noopener">View project &rarr;</a>
@@ -66,7 +66,7 @@
         <div class="frame"><img src="assets/img/rag-demo-trimmed.gif" alt="RAG Research Assistant demo: asking a question and receiving a citation-grounded answer" loading="lazy"></div>
         <div class="body">
           <h2>RAG-Based Research Assistant</h2>
-          <p class="hook">A question-answering tool for peer-reviewed brain tumor detection research that answers only from retrieved, cited passages, reducing the hallucination risk of a plain LLM. 20 papers indexed into 2,183 chunks, with 2–5 second responses.</p>
+          <p class="hook">A question answering tool for peer-reviewed brain tumor detection research that answers only from retrieved, cited passages, reducing the hallucination risk of a plain LLM. 20 papers indexed into 2,183 chunks, with 2–5 second responses.</p>
           <div class="tags"><span class="tag">Python</span><span class="tag">FastAPI</span><span class="tag">LangChain</span><span class="tag">ChromaDB</span><span class="tag">GPT-4o-mini</span><span class="tag">Streamlit</span></div>
           <div class="actions">
             <a class="link-btn" href="https://github.com/Tarieret/RAG-Based-Reseach-Assistant" target="_blank" rel="noopener">View project &rarr;</a>
@@ -77,7 +77,7 @@
         <div class="frame"><img src="assets/img/mcp-human-in-loop-demo.gif" alt="Human-in-the-loop data analyst demo, approval card and query preview" loading="lazy"></div>
         <div class="body">
           <h2>Human-in-the-Loop Data Analyst</h2>
-          <p class="hook">Text-to-SQL agents can silently return a wrong number or run an unintended write. This pipeline turns plain-English questions into SQL that a human must approve before it runs, enforced through MCP&#39;s require_approval mechanism, with a second check that blocks anything but a SELECT. Zero unapproved executions in testing.</p>
+          <p class="hook">Text-to-SQL agents can silently return a wrong number or run an unintended write. This pipeline turns plain English questions into SQL, with a human approval gate before it runs, enforced through MCP&#39;s require_approval mechanism.  It has a second check that blocks anything but a SELECT. Zero unapproved executions in testing.</p>
           <div class="tags"><span class="tag">Python</span><span class="tag">DuckDB</span><span class="tag">FastMCP</span><span class="tag">OpenAI Responses API</span><span class="tag">Streamlit</span></div>
           <div class="actions">
             <a class="link-btn" href="https://github.com/Tarieret/Human-in-the-Loop-Data-Analyst" target="_blank" rel="noopener">View project &rarr;</a>
@@ -88,7 +88,7 @@
         <div class="frame"><img src="assets/img/film-eda-full.gif" alt="TMDB Tableau dashboard demo: filtering by decade and clicking through genres" loading="lazy"></div>
         <div class="body">
           <h2>TMDB Analytics Dashboard</h2>
-          <p class="hook">Does popularity predict quality? Across 61,000+ films from a 1.5M-row TMDB dataset, barely: r = 0.086. Drama outrates Action (6.27 vs. 5.95, Welch t-test, p &lt; 0.001), and Documentary and Music rate highest in every decade, shown in an interactive Tableau dashboard.</p>
+          <p class="hook">Do movie ratings coorelated with popularity? Across 60,000+ films from a 1.5M row TMDB dataset, barely: r = 0.086. Drama outrates Action (6.27 vs. 5.95, Welch t-test, p &lt; 0.001), and Documentary and Music rate highest in every decade, shown in an interactive Tableau dashboard.</p>
           <div class="tags"><span class="tag">Python</span><span class="tag">pandas</span><span class="tag">SQLite</span><span class="tag">seaborn</span><span class="tag">Tableau</span><span class="tag">Statistical Testing</span></div>
           <div class="actions">
             <a class="link-btn" href="https://github.com/Tarieret/Film-Industry-EDA" target="_blank" rel="noopener">View project &rarr;</a>
@@ -99,7 +99,7 @@
         <div class="frame"><img src="assets/img/storefront.jpg" alt="Plant nursery storefront" loading="lazy"></div>
         <div class="body">
           <h2>Houseplant Health Classification</h2>
-          <p class="hook">Catching sick plants early prevents inventory loss, and a missed sick plant costs more than a false alarm. A computer vision pipeline on Amazon Rekognition Custom Labels, served through AWS Lambda, reached 0.95 accuracy and 1.00 precision / 0.80 recall on the unhealthy class, using a self-photographed dataset.</p>
+          <p class="hook">After getting a new potted plant, I wanted to know whether a model could tell when a houseplant is sick. A computer vision pipeline on Amazon Rekognition Custom Labels, served through AWS Lambda, reached 0.95 accuracy and 1.00 precision / 0.80 recall on the unhealthy class, using a self-photographed dataset.</p>
           <div class="tags"><span class="tag">Python</span><span class="tag">Amazon Rekognition</span><span class="tag">AWS Lambda</span><span class="tag">Boto3</span><span class="tag">Albumentations</span></div>
           <div class="actions">
             <a class="link-btn" href="https://github.com/Tarieret/Houseplant-Health-Classification" target="_blank" rel="noopener">View project &rarr;</a>
